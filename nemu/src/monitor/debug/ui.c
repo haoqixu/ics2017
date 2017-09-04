@@ -130,6 +130,24 @@ err:
   return 0;
 }
 
+static int cmd_d(char *args) {
+  int n;
+  WP *wp;
+
+  if (args == NULL || sscanf(args, "%i", &n) != 1) {
+    printf("Invalid watchpoint number: \'%s\'.", args);
+    return 0;
+  }
+  wp = find_wp(n);
+  if (wp == NULL) {
+    printf("Watchpoint %d doesn't exist.\n", n);
+    return 0;
+  }
+  free_wp(wp);
+  printf("Watchpoint %d is deleted.\n", n);
+  return 0;
+}
+
 static int cmd_help(char *args);
 
 static struct {
@@ -145,6 +163,7 @@ static struct {
   { "x", "Examine the contents of memory.", cmd_x },
   { "p", "Print the value of the expression", cmd_p},
   { "w", "Watchpoint", cmd_w},
+  { "d", "Delete watchpoint", cmd_d},
 
   /* TODO: Add more commands */
 
