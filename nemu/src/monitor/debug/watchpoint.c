@@ -71,3 +71,10 @@ WP *find_wp(int n) {
 
   return NULL;
 }
+
+void print_wp() {
+  WP *p; 
+  printf("Num\tExpression\tValue\n");
+  for (p = head; p; p = p->next)
+    printf("%d\t%s\t%u\n", p->NO, p->expr, p->old);
+}

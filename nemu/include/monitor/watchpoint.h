@@ -19,6 +19,7 @@ WP *new_wp();
 void free_wp(WP *);
 bool wp_has_changed();
 WP *find_wp(int);
+void print_wp();
 
 
 #endif

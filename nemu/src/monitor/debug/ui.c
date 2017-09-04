@@ -54,6 +54,8 @@ static int cmd_info(char *args) {
     for (i = R_EAX; i <= R_EDI; i++)
       printf("%s\t0x%08x\n", regsl[i], reg_l(i));
     printf("eip\t0x%08x\n", cpu.eip);
+  } else if (strcmp(subcmd, "w") == 0) {
+    print_wp();
   } else {
     printf("Unknown subcommand: %s\n", subcmd);
   }
