@@ -85,6 +85,24 @@ err:
   return 0;
 }
 
+static int cmd_p(char *args) {
+  bool success;
+  uint32_t result;
+  if (args)
+    result = expr(args, &success);
+  else
+    goto err;
+
+  if (success) {
+    printf("%d\n", result);
+    return 0;
+  }
+
+err:
+  printf("Invalid expression\n");
+  return 0;
+}
+
 static int cmd_help(char *args);
 
 static struct {
@@ -98,6 +116,7 @@ static struct {
   { "si", "Step [N] instruction exactly.", cmd_si },
   { "info", "[r] List registers; [w] List watchpoints.", cmd_info },
   { "x", "Examine the contents of memory.", cmd_x },
+  { "p", "Print the value of the expression", cmd_p},
 
   /* TODO: Add more commands */
 
