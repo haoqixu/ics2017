@@ -43,7 +43,7 @@ void free_wp(WP *wp) {
   }
 }
 
-bool has_changed()
+bool wp_has_changed()
 {
   WP *p;
   uint32_t new;
