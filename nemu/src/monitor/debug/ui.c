@@ -44,6 +44,23 @@ static int cmd_si(char *args) {
   return 0;
 }
 
+static int cmd_info(char *args) {
+  int i;
+  char *subcmd;
+
+  if ((subcmd = strtok(NULL, " ")) == NULL) {
+    printf("Nothing to do.\n");
+  } else if (strcmp(subcmd, "r") == 0) {
+    for (i = R_EAX; i <= R_EDI; i++)
+      printf("%s\t0x%08x\n", regsl[i], reg_l(i));
+    printf("eip\t0x%08x\n", cpu.eip);
+  } else {
+    printf("Unknown subcommand: %s\n", subcmd);
+  }
+
+  return 0;
+}
+
 static int cmd_help(char *args);
 
 static struct {
@@ -55,6 +72,7 @@ static struct {
   { "c", "Continue the execution of the program", cmd_c },
   { "q", "Exit NEMU", cmd_q },
   { "si", "Step [N] instruction exactly.", cmd_si },
+  { "info", "[r] List registers; [w] List watchpoints.", cmd_info },
 
   /* TODO: Add more commands */
 
