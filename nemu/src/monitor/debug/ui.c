@@ -69,7 +69,7 @@ static int cmd_x(char *args) {
   char *arg_n = strtok(NULL, " ");
   char *arg_addr = arg_n + strlen(arg_n) + 1;
 
-  if (arg_addr == NULL
+  if (arg_addr == NULL || *arg_addr == '\0'
       || arg_n == NULL || sscanf(arg_n, "%i", &n) != 1 || n < 1)
     goto err;
 
