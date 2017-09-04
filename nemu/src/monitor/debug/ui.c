@@ -69,14 +69,11 @@ static int cmd_x(char *args) {
   char *arg_n = strtok(NULL, " ");
   char *arg_addr = arg_n + strlen(arg_n) + 1;
 
-  if (arg_n == NULL || sscanf(arg_n, "%i", &n) != 1 || n < 1)
+  if (arg_addr == NULL
+      || arg_n == NULL || sscanf(arg_n, "%i", &n) != 1 || n < 1)
     goto err;
 
-  if (arg_addr == NULL)
-    addr = expr(arg_addr, &success);
-  else
-    goto err;
-
+  addr = expr(arg_addr, &success);
   if (!success)
     goto err;
 
