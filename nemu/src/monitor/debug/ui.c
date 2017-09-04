@@ -61,6 +61,30 @@ static int cmd_info(char *args) {
   return 0;
 }
 
+static int cmd_x(char *args) {
+  int n;
+  vaddr_t addr;
+
+  char *arg_n = strtok(NULL, " ");
+  char *arg_addr = strtok(NULL, " ");
+
+  if (arg_n == NULL || sscanf(arg_n, "%i", &n) != 1 || n < 1)
+    goto err;
+
+  if (arg_addr == NULL || sscanf(arg_addr, "%i", &addr) != 1)
+    goto err;
+
+  while (n--) {
+    printf("0x%08x: 0x%08x\n", addr, vaddr_read(addr, 4));
+    addr += 4;
+  }
+  return 0;
+
+err:
+  printf("Invalid command.\n");
+  return 0;
+}
+
 static int cmd_help(char *args);
 
 static struct {
@@ -73,6 +97,7 @@ static struct {
   { "q", "Exit NEMU", cmd_q },
   { "si", "Step [N] instruction exactly.", cmd_si },
   { "info", "[r] List registers; [w] List watchpoints.", cmd_info },
+  { "x", "Examine the contents of memory.", cmd_x },
 
   /* TODO: Add more commands */
 
