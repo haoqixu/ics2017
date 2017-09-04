@@ -63,15 +63,21 @@ static int cmd_info(char *args) {
 
 static int cmd_x(char *args) {
   int n;
+  bool success;
   vaddr_t addr;
 
   char *arg_n = strtok(NULL, " ");
-  char *arg_addr = strtok(NULL, " ");
+  char *arg_addr = arg_n + strlen(arg_n) + 1;
 
   if (arg_n == NULL || sscanf(arg_n, "%i", &n) != 1 || n < 1)
     goto err;
 
-  if (arg_addr == NULL || sscanf(arg_addr, "%i", &addr) != 1)
+  if (arg_addr == NULL)
+    addr = expr(arg_addr, &success);
+  else
+    goto err;
+
+  if (!success)
     goto err;
 
   while (n--) {
