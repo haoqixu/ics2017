@@ -313,7 +313,7 @@ make_DHelper(push_r) {
 
 make_DHelper(pop_r) {
   decode_op_r(eip, id_dest, false);
-  rtl_pop(&id_dest->val);
+  rtl_pop(&id_dest->val, id_dest->width);
 }
 
 void operand_write(Operand *op, rtlreg_t* src) {

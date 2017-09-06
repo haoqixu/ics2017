@@ -6,7 +6,7 @@ make_EHelper(mov) {
 }
 
 make_EHelper(push) {
-  rtl_push(&id_dest->val);
+  rtl_push(&id_dest->val, id_dest->width);
   print_asm_template1(push);
 }
 
@@ -28,7 +28,13 @@ make_EHelper(popa) {
 }
 
 make_EHelper(leave) {
-  TODO();
+  if (decoding.is_operand_size_16) {
+    reg_w(R_SP) = reg_w(R_BP);
+    rtl_pop(&cpu.ebp, 2);
+  } else {
+    cpu.esp = cpu.ebp;
+    rtl_pop(&cpu.ebp, 4);
+  }
 
   print_asm("leave");
 }
