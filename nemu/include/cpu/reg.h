@@ -32,6 +32,24 @@ typedef struct {
     };
   };
 
+  union {
+    struct {
+      int32_t CF         :1;
+      int32_t padding0   :1;
+      int32_t PF         :1;
+      int32_t padding1   :1;
+      int32_t AF         :1;
+      int32_t padding2   :1;
+      int32_t ZF         :1;
+      int32_t SF         :1;
+      int32_t TF         :1;
+      int32_t IF         :1;
+      int32_t DF         :1;
+      int32_t OF         :1;
+    };
+    rtlreg_t eflags;
+  };
+
   vaddr_t eip;
 
 } CPU_state;
