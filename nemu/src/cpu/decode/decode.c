@@ -303,19 +303,6 @@ make_DHelper(out_a2dx) {
 #endif
 }
 
-make_DHelper(call_rel) {
-  decode_op_I(eip, id_src, true);
-}
-
-make_DHelper(push_r) {
-  decode_op_r(eip, id_dest, true);
-}
-
-make_DHelper(pop_r) {
-  decode_op_r(eip, id_dest, false);
-  rtl_pop(&id_dest->val, id_dest->width);
-}
-
 void operand_write(Operand *op, rtlreg_t* src) {
   if (op->type == OP_TYPE_REG) { rtl_sr(op->reg, op->width, src); }
   else if (op->type == OP_TYPE_MEM) { rtl_sm(&op->addr, op->width, src); }

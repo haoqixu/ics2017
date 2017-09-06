@@ -26,14 +26,7 @@ make_EHelper(jmp_rm) {
 make_EHelper(call) {
   // the target address is calculated at the decode stage
   decoding.is_jmp = 1;
-  if (decoding.is_operand_size_16) {
-    decoding.jmp_eip = (decoding.seq_eip + id_src->val) & 0xffff;
-    rtl_push(&decoding.seq_eip, 2);
-  }
-  else {
-    decoding.jmp_eip = decoding.seq_eip + id_src->val;
-    rtl_push(&decoding.seq_eip, 4);
-  }
+  rtl_push(&decoding.seq_eip, decoding.is_operand_size_16 ? 2 : 4);
 
   print_asm("call %x", decoding.jmp_eip);
 }
@@ -52,7 +45,9 @@ make_EHelper(ret) {
 }
 
 make_EHelper(call_rm) {
-  TODO();
+  decoding.is_jmp = 1;
+  decoding.jmp_eip = id_dest->val;
+  rtl_push(&decoding.seq_eip, decoding.is_operand_size_16 ? 2 : 4);
 
   print_asm("call *%s", id_dest->str);
 }
