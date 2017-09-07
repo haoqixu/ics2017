@@ -137,7 +137,7 @@ static inline void rtl_not(rtlreg_t* dest) {
 static inline void rtl_sext(rtlreg_t* dest, const rtlreg_t* src1, int width) {
   // dest <- signext(src1[(width * 8 - 1) .. 0])
   uint32_t tmp = *src1;
-  uint32_t high_mask = 0xffffffff << (8 * width);
+  uint32_t high_mask = 0xffffffff << (8 * width - 1) << 1;
   if (tmp & (0x1 << (8 * width - 1)))
     tmp |= high_mask;
   else
@@ -183,7 +183,7 @@ static inline void rtl_msb(rtlreg_t* dest, const rtlreg_t* src1, int width) {
 static inline void rtl_update_ZF(const rtlreg_t* result, int width) {
   // eflags.ZF <- is_zero(result[width * 8 - 1 .. 0])
   assert (width == 4 || width == 2 || width == 1);
-  cpu.ZF = (*result & ~(0xffffffff << (8 * width))) == 0;
+  cpu.ZF = (*result & ~(0xffffffff << (8 * width - 1) << 1)) == 0;
 }
 
 static inline void rtl_update_SF(const rtlreg_t* result, int width) {
