@@ -17,7 +17,7 @@ void rtl_setcc(rtlreg_t* dest, uint8_t subcode) {
     case CC_O:  *dest = cpu.OF; break;
     case CC_B:  *dest = cpu.CF; break;
     case CC_E:  *dest = cpu.ZF; break;
-    case CC_BE: *dest = cpu.CF; break;
+    case CC_BE: *dest = cpu.CF || cpu.ZF; break;
     case CC_S:  *dest = cpu.SF; break;
     case CC_L:  *dest = (cpu.SF != cpu.OF); break;
     case CC_LE: *dest = cpu.ZF || (cpu.SF != cpu.OF); break;
