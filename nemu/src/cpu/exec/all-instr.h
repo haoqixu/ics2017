@@ -34,3 +34,17 @@ make_EHelper(jmp);
 make_EHelper(jmp_rm);
 
 make_EHelper(nop);
+
+make_EHelper(add);
+make_EHelper(inc);
+make_EHelper(dec);
+make_EHelper(cmp);
+make_EHelper(neg);
+make_EHelper(not);
+make_EHelper(and);
+make_EHelper(or);
+make_EHelper(xor);
+make_EHelper(sar);
+make_EHelper(shl);
+make_EHelper(shr);
+make_EHelper(test);
