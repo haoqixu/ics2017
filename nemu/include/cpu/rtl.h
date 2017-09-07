@@ -136,13 +136,9 @@ static inline void rtl_not(rtlreg_t* dest) {
 
 static inline void rtl_sext(rtlreg_t* dest, const rtlreg_t* src1, int width) {
   // dest <- signext(src1[(width * 8 - 1) .. 0])
-  uint32_t tmp = *src1;
-  uint32_t high_mask = 0xffffffff << (8 * width - 1) << 1;
-  if (tmp & (0x1 << (8 * width - 1)))
-    tmp |= high_mask;
-  else
-    tmp &= ~high_mask;
-
+  int32_t tmp = (int32_t)*src1;
+  tmp <<= 32 - (8 * width);
+  tmp >>= 32 - (8 * width);
   *dest = tmp;
 }
 
