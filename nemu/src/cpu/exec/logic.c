@@ -89,12 +89,18 @@ make_EHelper(rol) {
   rtl_shl(&t0, &id_dest->val, &id_src->val);
   if (decoding.is_operand_size_16) {
     rtl_addi(&t1, &tzero, 16);
+    rtl_sub(&t1, &t1, &id_src->val);
+    rtl_shr(&t2, &id_dest->val, &t1);
+    //rtl_addi(&t1, &tzero, 0xffffffff);
+    //rtl_shl(&t1, &t1, &id_src->val);
+    //rtl_not(&t1);
+    //rtl_and(&t2, &t2, &t1);
   } else {
     rtl_addi(&t1, &tzero, 32);
+    rtl_sub(&t1, &t1, &id_src->val);
+    rtl_shr(&t2, &id_dest->val, &t1);
   }
-  rtl_sub(&t1, &t1, &id_src->val);
-  rtl_shr(&t2, &id_dest->val, &t1);
-  rtl_or(&t0, &t0, &t1);
+  rtl_or(&t0, &t0, &t2);
   operand_write(id_dest, &t0);
 
   // unnecessary to update CF and OF in NEMU
