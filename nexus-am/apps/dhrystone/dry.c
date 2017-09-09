@@ -356,7 +356,8 @@
 #define Start_Timer() Begin_Time = _uptime()
 #define Stop_Timer()  End_Time   = _uptime()
 
-#define NUMBER_OF_RUNS		500000 /* Default number of runs */
+//#define NUMBER_OF_RUNS		500000 /* Default number of runs */
+#define NUMBER_OF_RUNS		20 /* Default number of runs */
 #define PASS2
 
 #ifdef  NOSTRUCTASSIGN
