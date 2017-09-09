@@ -91,10 +91,6 @@ make_EHelper(rol) {
     rtl_addi(&t1, &tzero, 16);
     rtl_sub(&t1, &t1, &id_src->val);
     rtl_shr(&t2, &id_dest->val, &t1);
-    //rtl_addi(&t1, &tzero, 0xffffffff);
-    //rtl_shl(&t1, &t1, &id_src->val);
-    //rtl_not(&t1);
-    //rtl_and(&t2, &t2, &t1);
   } else {
     rtl_addi(&t1, &tzero, 32);
     rtl_sub(&t1, &t1, &id_src->val);
