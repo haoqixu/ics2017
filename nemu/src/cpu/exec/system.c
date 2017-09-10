@@ -31,7 +31,7 @@ make_EHelper(int) {
   vaddr_t addr;
 
   addr = sizeof(GateDesc) * id_dest->val + cpu.idtr;
-  gd.val = vaddr_read(addr, sizeof(GateDesc) / 8);
+  gd.val = vaddr_read(addr, sizeof(GateDesc));
   decoding.is_jmp = 1;
   decoding.jmp_eip = (gd.offset_15_0 & 0xFFFF)
     & ((gd.offset_31_16 & 0xFFFF) << 16);
