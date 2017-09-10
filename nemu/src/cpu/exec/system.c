@@ -40,6 +40,8 @@ make_EHelper(int) {
   decoding.jmp_eip = (gd.offset_15_0 & 0xFFFF)
     & ((gd.offset_31_16 & 0xFFFF) << 16);
 
+  t0 = cpu.cs;
+  rtl_push(&t0);
   rtl_push(&cpu.eflags);
   rtl_push(&decoding.seq_eip);
 

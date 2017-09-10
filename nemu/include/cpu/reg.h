@@ -55,6 +55,7 @@ typedef struct {
     uint16_t limit;
     uint32_t base;
   } idtr;
+  uint16_t cs;
 
   vaddr_t eip;
 
