@@ -48,6 +48,8 @@ typedef struct {
       int32_t OF         :1;
     };
     rtlreg_t eflags;
+
+    rtlreg_t idtr;
   };
 
   vaddr_t eip;

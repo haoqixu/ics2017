@@ -1,10 +1,11 @@
 #include "cpu/exec.h"
+#include "memory/mmu.h"
 
 void diff_test_skip_qemu();
 void diff_test_skip_nemu();
 
 make_EHelper(lidt) {
-  TODO();
+  cpu.idtr = id_dest->val;
 
   print_asm_template1(lidt);
 }
@@ -26,7 +27,17 @@ make_EHelper(mov_cr2r) {
 }
 
 make_EHelper(int) {
-  TODO();
+  GateDesc gd = {0};
+  vaddr_t addr;
+
+  addr = sizeof(GateDesc) * id_dest->val + cpu.idtr;
+  gd.val = vaddr_read(addr, sizeof(GateDesc) / 8);
+  decoding.is_jmp = 1;
+  decoding.jmp_eip = (gd.offset_15_0 & 0xFFFF)
+    & ((gd.offset_31_16 & 0xFFFF) << 16);
+
+  rtl_push(&cpu.eflags);
+  rtl_push(&decoding.seq_eip);
 
   print_asm("int %s", id_dest->str);
 
