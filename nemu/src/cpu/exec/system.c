@@ -5,7 +5,11 @@ void diff_test_skip_qemu();
 void diff_test_skip_nemu();
 
 make_EHelper(lidt) {
-  cpu.idtr = vaddr_read(id_dest->addr + 2, 4);
+  cpu.idtr.limit = vaddr_read(id_dest->addr, 2);
+  if (decoding.is_operand_size_16)
+    cpu.idtr.base = vaddr_read(id_dest->addr + 2, 3);
+  else
+    cpu.idtr.base = vaddr_read(id_dest->addr + 2, 4);
 
   print_asm_template1(lidt);
 }
@@ -30,7 +34,7 @@ make_EHelper(int) {
   GateDesc gd = {0};
   vaddr_t addr;
 
-  addr = sizeof(GateDesc) * id_dest->val + cpu.idtr;
+  addr = sizeof(GateDesc) * id_dest->val + cpu.idtr.base;
   gd.val = vaddr_read(addr, sizeof(GateDesc));
   decoding.is_jmp = 1;
   decoding.jmp_eip = (gd.offset_15_0 & 0xFFFF)
