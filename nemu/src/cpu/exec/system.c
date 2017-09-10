@@ -31,14 +31,19 @@ make_EHelper(mov_cr2r) {
 }
 
 make_EHelper(int) {
-  GateDesc gd = {0};
+  union {
+    GateDesc gd;
+    struct { uint32_t lo, hi; };
+  } item;
   vaddr_t addr;
 
-  addr = sizeof(GateDesc) * id_dest->val + cpu.idtr.base;
-  gd.val = vaddr_read(addr, sizeof(GateDesc));
+  addr = 8 * id_dest->val + cpu.idtr.base;
+  item.lo = vaddr_read(addr, 4);
+  item.hi = vaddr_read(addr + 4, 4);
+
   decoding.is_jmp = 1;
-  decoding.jmp_eip = (gd.offset_15_0 & 0xFFFF)
-    & ((gd.offset_31_16 & 0xFFFF) << 16);
+  decoding.jmp_eip = (item.gd.offset_15_0 & 0xFFFF)
+    & ((item.gd.offset_31_16 & 0xFFFF) << 16);
 
   t0 = cpu.cs;
   rtl_push(&t0);
