@@ -5,7 +5,7 @@ void diff_test_skip_qemu();
 void diff_test_skip_nemu();
 
 make_EHelper(lidt) {
-  cpu.idtr = id_dest->val;
+  cpu.idtr = vaddr_read(id_dest->addr + 16, 4);
 
   print_asm_template1(lidt);
 }
