@@ -11,6 +11,7 @@ make_EHelper(call);
 make_EHelper(call_rm);
 make_EHelper(ret);
 make_EHelper(push);
+make_EHelper(pusha);
 make_EHelper(pop);
 make_EHelper(sub);
 make_EHelper(xor);
