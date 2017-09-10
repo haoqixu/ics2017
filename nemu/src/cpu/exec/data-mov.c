@@ -64,7 +64,6 @@ make_EHelper(popa) {
     rtl_sr_w(R_SI, &t1);
     rtl_pop(&t1);
     rtl_sr_w(R_BP, &t1);
-    rtl_pop(&t1);
 
     cpu.esp += 4;
 
@@ -83,7 +82,6 @@ make_EHelper(popa) {
     rtl_sr_l(R_ESI, &t1);
     rtl_pop(&t1);
     rtl_sr_l(R_EBP, &t1);
-    rtl_pop(&t1);
 
     cpu.esp += 4;
 
