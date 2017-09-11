@@ -4,6 +4,7 @@ void ramdisk_read(void *buf, off_t offset, size_t len);
 void ramdisk_write(const void *buf, off_t offset, size_t len);
 void fb_write(const void *buf, off_t offset, size_t len);
 void dispinfo_read(void *buf, off_t offset, size_t len);
+size_t events_read(void *buf, size_t len);
 
 typedef struct {
   char *name;
@@ -83,6 +84,7 @@ ssize_t fs_read(int fd, void *buf, size_t len) {
   size = fp->size - fp->open_offset;
   nread = len > size ? size : len;
 
+
   switch (fd) {
   case FD_STDOUT:
   case FD_STDERR:
@@ -91,6 +93,9 @@ ssize_t fs_read(int fd, void *buf, size_t len) {
   case FD_DISPINFO:
     dispinfo_read(buf, fp->open_offset, len);
     break;
+
+  case FD_EVENTS:
+    return events_read(buf, len);
 
   default:
     if (fd < 6 || fd >= NR_FILES)

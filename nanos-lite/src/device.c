@@ -1,5 +1,7 @@
 #include "common.h"
 
+extern int snprintf(char *s, size_t n, const char *format, ...);
+
 #define NAME(key) \
   [_KEY_##key] = #key,
 
@@ -9,7 +11,20 @@ static const char *keyname[256] __attribute__((used)) = {
 };
 
 size_t events_read(void *buf, size_t len) {
-  return 0;
+  int key_code;
+
+  Log("before _read_key");
+  if ((key_code = _read_key()) == _KEY_NONE) {
+    Log("uptime");
+    snprintf(buf, len, "t %d\n", _uptime());
+  } else if (key_code & 0x8000) {
+    key_code ^= 0x8000;
+    snprintf(buf, len, "kd %s\n", keyname[key_code]);
+  } else {
+    snprintf(buf, len, "ku %s\n", keyname[key_code]);
+  }
+  Log("events_read: %s", buf);
+  return strlen(buf) + 1;
 }
 
 static char dispinfo[128] __attribute__((used));
