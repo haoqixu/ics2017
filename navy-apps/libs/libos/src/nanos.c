@@ -37,7 +37,7 @@ void *_sbrk(intptr_t increment){
   if (_syscall_(SYS_brk, 0, 0, 0) == 0) {
     old = prog_brk;
     prog_brk += increment;
-    return (void *)prog_brk;
+    return (void *)old;
   } else {
     return (void *)-1;
   }

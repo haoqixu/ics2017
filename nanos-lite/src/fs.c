@@ -72,8 +72,6 @@ int fs_open(const char *pathname, int flags, int mode) {
   assert(fd != NR_FILES);
   file_table[fd].open_offset = 0;
 
-  Log("open [%d]%s", fd, pathname);
-
   return fd;
 }
 
@@ -91,7 +89,7 @@ ssize_t fs_read(int fd, void *buf, size_t len) {
     return -1;
 
   case FD_DISPINFO:
-    dispinfo_read(buf, fp->open_offset, len);
+    dispinfo_read(buf, fp->open_offset, nread);
     break;
 
   case FD_EVENTS:

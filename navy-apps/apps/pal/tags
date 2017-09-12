@@ -1,0 +1,1502 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACTIONQUEUE	include/battle.h	/^} ACTIONQUEUE;$/;"	t	typeref:struct:tagACTIONQUEUE
+ALLEXPERIENCE	include/global.h	/^} ALLEXPERIENCE, *LPALLEXPERIENCE;$/;"	t	typeref:struct:tagALLEXPERIENCE
+ActionQueue	include/battle.h	/^   ACTIONQUEUE      ActionQueue[MAX_ACTIONQUEUE_ITEMS];$/;"	m	struct:tagBATTLE
+ActionType	include/battle.h	/^   BATTLEACTIONTYPE   ActionType;$/;"	m	struct:tagBATTLEACTION
+Aloss	include/hal.h	/^	uint8_t Rloss, Gloss, Bloss, Aloss;$/;"	m	struct:__anon4
+Amask	include/hal.h	/^	uint32_t Rmask, Gmask, Bmask, Amask;$/;"	m	struct:__anon4
+Ashift	include/hal.h	/^	uint8_t Rshift, Gshift, Bshift, Ashift;$/;"	m	struct:__anon4
+BATTLE	include/battle.h	/^} BATTLE;$/;"	t	typeref:struct:tagBATTLE
+BATTLEACTION	include/battle.h	/^} BATTLEACTION;$/;"	t	typeref:struct:tagBATTLEACTION
+BATTLEACTIONTYPE	include/battle.h	/^} BATTLEACTIONTYPE;$/;"	t	typeref:enum:tagBATTLEACTIONTYPE
+BATTLEENEMY	include/battle.h	/^} BATTLEENEMY;$/;"	t	typeref:struct:tagBATTLEENEMY
+BATTLEFIELD	include/global.h	/^} BATTLEFIELD, *LPBATTLEFIELD;$/;"	t	typeref:struct:tagBATTLEFIELD
+BATTLEMENUSTATE	include/uibattle.h	/^} BATTLEMENUSTATE;$/;"	t	typeref:enum:tagBATTLEMENUSTATE
+BATTLEPHASE	include/battle.h	/^} BATTLEPHASE;$/;"	t	typeref:enum:tabBATTLEPHASE
+BATTLEPLAYER	include/battle.h	/^} BATTLEPLAYER;$/;"	t	typeref:struct:tagBATTLEPLAYER
+BATTLERESULT	include/battle.h	/^} BATTLERESULT;$/;"	t	typeref:enum:tagBATTLERESULT
+BATTLESPEEDMENU_LABEL_1	include/ui.h	81;"	d
+BATTLESPEEDMENU_LABEL_2	include/ui.h	82;"	d
+BATTLESPEEDMENU_LABEL_3	include/ui.h	83;"	d
+BATTLESPEEDMENU_LABEL_4	include/ui.h	84;"	d
+BATTLESPEEDMENU_LABEL_5	include/ui.h	85;"	d
+BATTLEUI	include/uibattle.h	/^} BATTLEUI;$/;"	t	typeref:struct:tagBATTLEUI
+BATTLEUIACTION	include/uibattle.h	/^} BATTLEUIACTION;$/;"	t	typeref:enum:tagBATTLEUIACTION
+BATTLEUISTATE	include/uibattle.h	/^} BATTLEUISTATE;$/;"	t	typeref:enum:tagBATTLEUISTATE
+BATTLEUI_LABEL_AUTO	include/uibattle.h	73;"	d
+BATTLEUI_LABEL_DEFEND	include/uibattle.h	72;"	d
+BATTLEUI_LABEL_FLEE	include/uibattle.h	75;"	d
+BATTLEUI_LABEL_INVENTORY	include/uibattle.h	74;"	d
+BATTLEUI_LABEL_ITEM	include/uibattle.h	71;"	d
+BATTLEUI_LABEL_STATUS	include/uibattle.h	76;"	d
+BATTLEUI_LABEL_THROWITEM	include/uibattle.h	79;"	d
+BATTLEUI_LABEL_USEITEM	include/uibattle.h	78;"	d
+BATTLEUI_MAX_SHOWNUM	include/uibattle.h	85;"	d
+BATTLEWIN_ADDMAGIC_LABEL	include/ui.h	120;"	d
+BATTLEWIN_BEATENEMY_LABEL	include/ui.h	117;"	d
+BATTLEWIN_DOLLAR_LABEL	include/ui.h	118;"	d
+BATTLEWIN_GETEXP_LABEL	include/ui.h	116;"	d
+BATTLEWIN_LEVELUP_LABEL	include/ui.h	119;"	d
+BATTLEWIN_LEVELUP_LABEL_COLOR	include/ui.h	121;"	d
+BATTLE_FPS	include/battle.h	33;"	d
+BATTLE_FRAME_TIME	include/battle.h	34;"	d
+BATTLE_H	include/battle.h	23;"	d
+BATTLE_LABEL_ESCAPEFAIL	include/ui.h	124;"	d
+BITMAPNUM_SPLASH_DOWN	src/main.c	35;"	d	file:
+BITMAPNUM_SPLASH_DOWN	src/main.c	41;"	d	file:
+BITMAPNUM_SPLASH_UP	src/main.c	34;"	d	file:
+BITMAPNUM_SPLASH_UP	src/main.c	40;"	d	file:
+BODYPART	include/global.h	/^} BODYPART;$/;"	t	typeref:enum:tagBODYPART
+BOOL	include/_common.h	/^typedef int                 INT, *LPINT, BOOL, *LPBOOL;$/;"	t
+BOX	include/ui.h	/^} BOX, *LPBOX;$/;"	t	typeref:struct:tagBOX
+BUYMENU_LABEL_CURRENT	include/ui.h	102;"	d
+BYTE	include/_common.h	/^typedef unsigned char       BYTE, *LPBYTE;$/;"	t
+BattleResult	include/battle.h	/^   BATTLERESULT     BattleResult;$/;"	m	struct:tagBATTLE
+BitField	src/misc/yj1.c	/^} BitField;$/;"	t	typeref:struct:_BitField	file:
+BitsPerPixel	include/hal.h	/^	uint8_t BitsPerPixel;$/;"	m	struct:__anon4
+BlockCount	src/misc/yj1.c	/^   unsigned short BlockCount;       \/\/ number of blocks$/;"	m	struct:_YJ_1_FILEHEADER	file:
+Bloss	include/hal.h	/^	uint8_t Rloss, Gloss, Bloss, Aloss;$/;"	m	struct:__anon4
+Bmask	include/hal.h	/^	uint32_t Rmask, Gmask, Bmask, Amask;$/;"	m	struct:__anon4
+Bshift	include/hal.h	/^	uint8_t Rshift, Gshift, Bshift, Ashift;$/;"	m	struct:__anon4
+BytesPerPixel	include/hal.h	/^	uint8_t BytesPerPixel;$/;"	m	struct:__anon4
+CASH_LABEL	include/ui.h	64;"	d
+CHAR	include/_common.h	/^typedef char                CHAR;$/;"	t
+CHECK_HIDDEN_EXP	src/battle/battle.c	843;"	d	file:
+CHECK_HIDDEN_EXP	src/battle/battle.c	895;"	d	file:
+CHUNKNUM_SPRITEUI	include/ui.h	32;"	d
+CONFIRMMENU_LABEL_NO	include/ui.h	61;"	d
+CONFIRMMENU_LABEL_YES	include/ui.h	62;"	d
+CONST	include/_common.h	197;"	d
+CodeCountCodeLengthTable	src/misc/yj1.c	/^   unsigned char CodeCountCodeLengthTable[3];$/;"	m	struct:_YJ_1_BLOCKHEADER	file:
+CodeCountTable	src/misc/yj1.c	/^   unsigned char CodeCountTable[2];$/;"	m	struct:_YJ_1_BLOCKHEADER	file:
+CompressedLength	src/misc/yj1.c	/^   unsigned int   CompressedLength;   \/\/ size after compression$/;"	m	struct:_YJ_1_FILEHEADER	file:
+CompressedLength	src/misc/yj1.c	/^   unsigned short CompressedLength;   \/\/ including the header$/;"	m	struct:_YJ_1_BLOCKHEADER	file:
+DESCTEXT_COLOR	include/ui.h	48;"	d
+DIALOGLOCATION	include/text.h	/^} DIALOGLOCATION;$/;"	t	typeref:enum:tagDIALOGPOSITION
+DO_BYTESWAP	src/global/global.c	26;"	d	file:
+DWORD	include/_common.h	/^typedef unsigned int        DWORD, *LPDWORD;$/;"	t
+Decompress	src/misc/yj1.c	/^Decompress($/;"	f
+ENDGAME_H	include/ending.h	23;"	d
+ENEMY	include/global.h	/^} ENEMY, *LPENEMY;$/;"	t	typeref:struct:tagENEMY
+ENEMYPOS	include/global.h	/^} ENEMYPOS, *LPENEMYPOS;$/;"	t	typeref:struct:tagENEMYPOS
+ENEMYTEAM	include/global.h	/^} ENEMYTEAM, *LPENEMYTEAM;$/;"	t	typeref:struct:tagENEMYTEAM
+EQUIPMENU_BACKGROUND_FBPNUM	include/ui.h	112;"	d
+EVENTOBJECT	include/global.h	/^} EVENTOBJECT, *LPEVENTOBJECT;$/;"	t	typeref:struct:tagEVENTOBJECT
+EXPERIENCE	include/global.h	/^} EXPERIENCE, *LPEXPERIENCE;$/;"	t	typeref:struct:tagEXPERIENCE
+EnemyPos	include/global.h	/^   ENEMYPOS                EnemyPos;$/;"	m	struct:tagGAMEDATA
+Exp	include/global.h	/^   ALLEXPERIENCE    Exp;                     \/\/ experience data$/;"	m	struct:tagSAVEDGAME
+Exp	include/global.h	/^   ALLEXPERIENCE    Exp;                 \/\/ experience status$/;"	m	struct:tagGLOBALVARS
+F2int	include/FLOAT.h	/^static inline int F2int(FLOAT a) {$/;"	f
+FALSE	include/_common.h	199;"	d
+FIGHTERSTATE	include/battle.h	/^} FIGHTERSTATE;$/;"	t	typeref:enum:tagFIGHTERSTATE
+FIGHT_H	include/fight.h	23;"	d
+FILES	include/global.h	/^} FILES, *LPFILES;$/;"	t	typeref:struct:tagFILES
+FLOAT	include/FLOAT.h	/^typedef int FLOAT;$/;"	t
+FONT	src/ui/font.c	/^} FONT, *LPFONT;$/;"	t	typeref:struct:tagFont	file:
+FONT_COLOR_CYAN	src/ui/text.c	32;"	d	file:
+FONT_COLOR_CYAN_ALT	src/ui/text.c	33;"	d	file:
+FONT_COLOR_DEFAULT	src/ui/text.c	29;"	d	file:
+FONT_COLOR_RED	src/ui/text.c	31;"	d	file:
+FONT_COLOR_YELLOW	src/ui/text.c	30;"	d	file:
+FONT_H	include/font.h	23;"	d
+FPS	include/game.h	27;"	d
+FRAME_TIME	include/game.h	28;"	d
+F_div_F	src/FLOAT/FLOAT.c	/^FLOAT F_div_F(FLOAT a, FLOAT b) {$/;"	f
+F_div_int	include/FLOAT.h	/^static inline FLOAT F_div_int(FLOAT a, int b) {$/;"	f
+F_mul_F	src/FLOAT/FLOAT.c	/^FLOAT F_mul_F(FLOAT a, FLOAT b) {$/;"	f
+F_mul_int	include/FLOAT.h	/^static inline FLOAT F_mul_int(FLOAT a, int b) {$/;"	f
+Fabs	src/FLOAT/FLOAT.c	/^FLOAT Fabs(FLOAT a) {$/;"	f
+Fpow	src/FLOAT/FLOAT.c	/^FLOAT Fpow(FLOAT x, FLOAT y) {$/;"	f
+Fsqrt	src/FLOAT/FLOAT.c	/^FLOAT Fsqrt(FLOAT x) {$/;"	f
+GAMEDATA	include/global.h	/^} GAMEDATA, *LPGAMEDATA;$/;"	t	typeref:struct:tagGAMEDATA
+GAMEMENU_LABEL_INVENTORY	include/ui.h	71;"	d
+GAMEMENU_LABEL_MAGIC	include/ui.h	70;"	d
+GAMEMENU_LABEL_STATUS	include/ui.h	69;"	d
+GAMEMENU_LABEL_SYSTEM	include/ui.h	72;"	d
+GAME_H	include/game.h	23;"	d
+GETOPT_H	include/getopt.h	33;"	d
+GLOBALVARS	include/global.h	/^} GLOBALVARS, *LPGLOBALVARS;$/;"	t	typeref:struct:tagGLOBALVARS
+GLOBAL_H	include/global.h	23;"	d
+Gloss	include/hal.h	/^	uint8_t Rloss, Gloss, Bloss, Aloss;$/;"	m	struct:__anon4
+Gmask	include/hal.h	/^	uint32_t Rmask, Gmask, Bmask, Amask;$/;"	m	struct:__anon4
+Gshift	include/hal.h	/^	uint8_t Rshift, Gshift, Bshift, Ashift;$/;"	m	struct:__anon4
+H	src/hal/hal.c	9;"	d	file:
+HZ	include/hal.h	7;"	d
+HuffmanTreeLength	src/misc/yj1.c	/^   unsigned char HuffmanTreeLength; \/\/ length of huffman tree$/;"	m	struct:_YJ_1_FILEHEADER	file:
+INPUT_H	include/input.h	23;"	d
+INT	include/_common.h	/^typedef int                 INT, *LPINT, BOOL, *LPBOOL;$/;"	t
+INVENTORY	include/global.h	/^} INVENTORY, *LPINVENTORY;$/;"	t	typeref:struct:tagINVENTORY
+INVMENU_LABEL_EQUIP	include/ui.h	88;"	d
+INVMENU_LABEL_USE	include/ui.h	87;"	d
+ITEMFLAG	include/global.h	/^} ITEMFLAG;$/;"	t	typeref:enum:tagITEMFLAG
+ITEMMENU_H	include/itemmenu.h	23;"	d
+ITEMUSEMENU_COLOR_STATLABEL	include/ui.h	114;"	d
+K_DOWN	include/hal.h	70;"	d
+K_ESCAPE	include/hal.h	73;"	d
+K_LEFT	include/hal.h	71;"	d
+K_PAGEDOWN	include/hal.h	77;"	d
+K_PAGEUP	include/hal.h	76;"	d
+K_RETURN	include/hal.h	74;"	d
+K_RIGHT	include/hal.h	72;"	d
+K_SPACE	include/hal.h	75;"	d
+K_UP	include/hal.h	69;"	d
+K_a	include/hal.h	79;"	d
+K_d	include/hal.h	80;"	d
+K_e	include/hal.h	81;"	d
+K_f	include/hal.h	85;"	d
+K_p	include/hal.h	86;"	d
+K_q	include/hal.h	83;"	d
+K_r	include/hal.h	78;"	d
+K_s	include/hal.h	84;"	d
+K_w	include/hal.h	82;"	d
+LEVELUPEXP	include/global.h	/^typedef WORD LEVELUPEXP, *LPLEVELUPEXP;$/;"	t
+LEVELUPMAGIC	include/global.h	/^} LEVELUPMAGIC, *LPLEVELUPMAGIC;$/;"	t	typeref:struct:tagLEVELUPMAGIC
+LEVELUPMAGIC_ALL	include/global.h	/^} LEVELUPMAGIC_ALL, *LPLEVELUPMAGIC_ALL;$/;"	t	typeref:struct:tagLEVELUPMAGIC_ALL
+LOADMENU_LABEL_SLOT_FIRST	include/ui.h	59;"	d
+LOADRESFLAG	include/res.h	/^} LOADRESFLAG, *LPLOADRESFLAG;$/;"	t	typeref:enum:tagLOADRESFLAG
+LOAD_DATA	src/global/global.c	32;"	d	file:
+LOG_ALERT	include/util.h	96;"	d
+LOG_CRIT	include/util.h	97;"	d
+LOG_DEBUG	include/util.h	102;"	d
+LOG_EMERG	include/util.h	95;"	d
+LOG_ERR	include/util.h	98;"	d
+LOG_INFO	include/util.h	101;"	d
+LOG_LAST_PRIORITY	include/util.h	103;"	d
+LOG_NOTICE	include/util.h	100;"	d
+LOG_WARNING	include/util.h	99;"	d
+LONG	include/_common.h	/^typedef long                LONG;$/;"	t
+LPALLEXPERIENCE	include/global.h	/^} ALLEXPERIENCE, *LPALLEXPERIENCE;$/;"	t	typeref:struct:tagALLEXPERIENCE
+LPBATTLEFIELD	include/global.h	/^} BATTLEFIELD, *LPBATTLEFIELD;$/;"	t	typeref:struct:tagBATTLEFIELD
+LPBITMAPRLE	include/palcommon.h	/^typedef LPBYTE      LPSPRITE, LPBITMAPRLE;$/;"	t
+LPBOOL	include/_common.h	/^typedef int                 INT, *LPINT, BOOL, *LPBOOL;$/;"	t
+LPBOX	include/ui.h	/^} BOX, *LPBOX;$/;"	t	typeref:struct:tagBOX
+LPBYTE	include/_common.h	/^typedef unsigned char       BYTE, *LPBYTE;$/;"	t
+LPCBITMAPRLE	include/palcommon.h	/^typedef LPCBYTE     LPCSPRITE, LPCBITMAPRLE;$/;"	t
+LPCBYTE	include/_common.h	/^typedef CONST BYTE         *LPCBYTE;$/;"	t
+LPCBYTE	include/_common.h	/^typedef const BYTE *LPCBYTE;$/;"	t
+LPCPALMAP	include/map.h	/^typedef const PALMAP *LPCPALMAP;$/;"	t
+LPCSPRITE	include/palcommon.h	/^typedef LPCBYTE     LPCSPRITE, LPCBITMAPRLE;$/;"	t
+LPCSTR	include/_common.h	/^typedef const CHAR         *LPCSTR;$/;"	t
+LPCVOID	include/_common.h	/^typedef const void         *LPCVOID;$/;"	t
+LPDWORD	include/_common.h	/^typedef unsigned int        DWORD, *LPDWORD;$/;"	t
+LPENEMY	include/global.h	/^} ENEMY, *LPENEMY;$/;"	t	typeref:struct:tagENEMY
+LPENEMYPOS	include/global.h	/^} ENEMYPOS, *LPENEMYPOS;$/;"	t	typeref:struct:tagENEMYPOS
+LPENEMYTEAM	include/global.h	/^} ENEMYTEAM, *LPENEMYTEAM;$/;"	t	typeref:struct:tagENEMYTEAM
+LPEVENTOBJECT	include/global.h	/^} EVENTOBJECT, *LPEVENTOBJECT;$/;"	t	typeref:struct:tagEVENTOBJECT
+LPEXPERIENCE	include/global.h	/^} EXPERIENCE, *LPEXPERIENCE;$/;"	t	typeref:struct:tagEXPERIENCE
+LPFILES	include/global.h	/^} FILES, *LPFILES;$/;"	t	typeref:struct:tagFILES
+LPFLOAT	include/_common.h	/^typedef FLOAT               *LPFLOAT;$/;"	t
+LPFONT	src/ui/font.c	/^} FONT, *LPFONT;$/;"	t	typeref:struct:tagFont	file:
+LPGAMEDATA	include/global.h	/^} GAMEDATA, *LPGAMEDATA;$/;"	t	typeref:struct:tagGAMEDATA
+LPGLOBALVARS	include/global.h	/^} GLOBALVARS, *LPGLOBALVARS;$/;"	t	typeref:struct:tagGLOBALVARS
+LPINT	include/_common.h	/^typedef int                 INT, *LPINT, BOOL, *LPBOOL;$/;"	t
+LPINVENTORY	include/global.h	/^} INVENTORY, *LPINVENTORY;$/;"	t	typeref:struct:tagINVENTORY
+LPITEMCHANGED_CALLBACK	include/ui.h	/^typedef VOID (*LPITEMCHANGED_CALLBACK)(WORD);$/;"	t
+LPLEVELUPEXP	include/global.h	/^typedef WORD LEVELUPEXP, *LPLEVELUPEXP;$/;"	t
+LPLEVELUPMAGIC	include/global.h	/^} LEVELUPMAGIC, *LPLEVELUPMAGIC;$/;"	t	typeref:struct:tagLEVELUPMAGIC
+LPLEVELUPMAGIC_ALL	include/global.h	/^} LEVELUPMAGIC_ALL, *LPLEVELUPMAGIC_ALL;$/;"	t	typeref:struct:tagLEVELUPMAGIC_ALL
+LPLOADRESFLAG	include/res.h	/^} LOADRESFLAG, *LPLOADRESFLAG;$/;"	t	typeref:enum:tagLOADRESFLAG
+LPMAGIC	include/global.h	/^} MAGIC, *LPMAGIC;$/;"	t	typeref:struct:tagMAGIC
+LPMENUITEM	include/ui.h	/^} MENUITEM, *LPMENUITEM;$/;"	t	typeref:struct:tagMENUITEM
+LPOBJECT	include/global.h	/^} OBJECT, *LPOBJECT;$/;"	t	typeref:union:tagOBJECT
+LPOBJECTDESC	include/ui.h	/^} OBJECTDESC, *LPOBJECTDESC;$/;"	t	typeref:struct:tagOBJECTDESC
+LPOBJECTSTATE	include/global.h	/^} OBJECTSTATE, *LPOBJECTSTATE;$/;"	t	typeref:enum:tagOBJECTSTATE
+LPPALDIRECTION	include/palcommon.h	/^} PALDIRECTION, *LPPALDIRECTION;$/;"	t	typeref:enum:tagPALDIRECTION
+LPPALMAP	include/map.h	/^} PALMAP, *LPPALMAP;$/;"	t	typeref:struct:tagPALMAP
+LPPARTY	include/global.h	/^} PARTY, *LPPARTY;$/;"	t	typeref:struct:tagPARTY
+LPPLAYERROLES	include/global.h	/^} PLAYERROLES, *LPPLAYERROLES;$/;"	t	typeref:struct:tagPLAYERROLES
+LPPOISONSTATUS	include/global.h	/^} POISONSTATUS, *LPPOISONSTATUS;$/;"	t	typeref:struct:tagPOISONSTATUS
+LPRESOURCES	src/global/res.c	/^} RESOURCES, *LPRESOURCES;$/;"	t	typeref:struct:tagRESOURCES	file:
+LPSAVEDGAME	include/global.h	/^} SAVEDGAME, *LPSAVEDGAME;$/;"	t	typeref:struct:tagSAVEDGAME
+LPSCENE	include/global.h	/^} SCENE, *LPSCENE;$/;"	t	typeref:struct:tagSCENE
+LPSCRIPTENTRY	include/global.h	/^} SCRIPTENTRY, *LPSCRIPTENTRY;$/;"	t	typeref:struct:tagSCRIPTENTRY
+LPSPRITE	include/palcommon.h	/^typedef LPBYTE      LPSPRITE, LPBITMAPRLE;$/;"	t
+LPSTORE	include/global.h	/^} STORE, *LPSTORE;$/;"	t	typeref:struct:tagSTORE
+LPSTR	include/_common.h	/^typedef CHAR               *LPSTR;$/;"	t
+LPTEXTLIB	src/ui/text.c	/^} TEXTLIB, *LPTEXTLIB;$/;"	t	typeref:struct:tagTEXTLIB	file:
+LPTRAIL	include/global.h	/^} TRAIL, *LPTRAIL;$/;"	t	typeref:struct:tagTRAIL
+LPVOID	include/_common.h	/^typedef void               *LPVOID;$/;"	t
+LPWORD	include/_common.h	/^typedef unsigned short      WORD, *LPWORD;$/;"	t
+LZSSOffsetCodeLengthTable	src/misc/yj1.c	/^   unsigned char LZSSOffsetCodeLengthTable[4];$/;"	m	struct:_YJ_1_BLOCKHEADER	file:
+LZSSRepeatCodeLengthTable	src/misc/yj1.c	/^   unsigned char LZSSRepeatCodeLengthTable[3];$/;"	m	struct:_YJ_1_BLOCKHEADER	file:
+LZSSRepeatTable	src/misc/yj1.c	/^   unsigned short LZSSRepeatTable[4];$/;"	m	struct:_YJ_1_BLOCKHEADER	file:
+Log	include/common.h	12;"	d
+MAGIC	include/global.h	/^} MAGIC, *LPMAGIC;$/;"	t	typeref:struct:tagMAGIC
+MAGICFLAG	include/global.h	/^} MAGICFLAG;$/;"	t	typeref:enum:tagMAGICFLAG
+MAGICITEM	src/ui/magicmenu.c	/^static struct MAGICITEM$/;"	s	file:
+MAGICMENU_H	include/magicmenu.h	23;"	d
+MAGIC_TYPE	include/global.h	/^} MAGIC_TYPE;$/;"	t	typeref:enum:tagMAGIC_TYPE
+MAINMENU_BACKGROUND_FBPNUM	include/ui.h	51;"	d
+MAINMENU_BACKGROUND_FBPNUM	include/ui.h	53;"	d
+MAINMENU_LABEL_LOADGAME	include/ui.h	57;"	d
+MAINMENU_LABEL_NEWGAME	include/ui.h	56;"	d
+MAIN_H	include/main.h	23;"	d
+MAX_ACTIONQUEUE_ITEMS	include/battle.h	146;"	d
+MAX_BATTLE_ACTIONS	include/battle.h	128;"	d
+MAX_DEADZONE	src/device/input.c	34;"	d	file:
+MAX_ENEMIES_IN_TEAM	include/global.h	62;"	d
+MAX_EVENT_OBJECTS	include/global.h	78;"	d
+MAX_INVENTORY	include/global.h	53;"	d
+MAX_KILLED_ENEMIES	include/battle.h	129;"	d
+MAX_LEVELS	include/global.h	84;"	d
+MAX_OBJECTS	include/global.h	74;"	d
+MAX_PLAYABLE_PLAYER_ROLES	include/global.h	50;"	d
+MAX_PLAYERS_IN_PARTY	include/global.h	44;"	d
+MAX_PLAYER_EQUIPMENTS	include/global.h	65;"	d
+MAX_PLAYER_MAGICS	include/global.h	68;"	d
+MAX_PLAYER_ROLES	include/global.h	47;"	d
+MAX_POISONS	include/global.h	81;"	d
+MAX_SCENES	include/global.h	71;"	d
+MAX_SPRITE_TO_DRAW	src/scene/scene.c	27;"	d	file:
+MAX_STORE_ITEM	include/global.h	56;"	d
+MENUITEM	include/ui.h	/^} MENUITEM, *LPMENUITEM;$/;"	t	typeref:struct:tagMENUITEM
+MENUITEM_COLOR	include/ui.h	34;"	d
+MENUITEM_COLOR_CONFIRMED	include/ui.h	36;"	d
+MENUITEM_COLOR_EQUIPPEDITEM	include/ui.h	46;"	d
+MENUITEM_COLOR_INACTIVE	include/ui.h	35;"	d
+MENUITEM_COLOR_SELECTED	include/ui.h	41;"	d
+MENUITEM_COLOR_SELECTED_FIRST	include/ui.h	38;"	d
+MENUITEM_COLOR_SELECTED_INACTIVE	include/ui.h	37;"	d
+MENUITEM_COLOR_SELECTED_TOTALNUM	include/ui.h	39;"	d
+MENUITEM_VALUE_CANCELLED	include/ui.h	150;"	d
+MIDI_CheckLoop	src/unuse/midi.c	/^MIDI_CheckLoop($/;"	f
+MIDI_Play	src/unuse/midi.c	/^MIDI_Play($/;"	f
+MIN_DEADZONE	src/device/input.c	33;"	d	file:
+MenuState	include/uibattle.h	/^   BATTLEMENUSTATE  MenuState;$/;"	m	struct:tagBATTLEUI
+NAME	Makefile	/^NAME = pal$/;"	m
+NR_KEYS	src/hal/hal.c	6;"	d	file:
+NUMALIGN	include/ui.h	/^} NUMALIGN;$/;"	t	typeref:enum:tagNUMALIGN
+NUMCOLOR	include/ui.h	/^} NUMCOLOR;$/;"	t	typeref:enum:tagNUMCOLOR
+NUM_MAGIC_ELEMENTAL	include/global.h	59;"	d
+NUM_RIX_TITLE	src/main.c	38;"	d	file:
+NUM_RIX_TITLE	src/main.c	44;"	d	file:
+OBJECT	include/global.h	/^} OBJECT, *LPOBJECT;$/;"	t	typeref:union:tagOBJECT
+OBJECTDESC	include/ui.h	/^} OBJECTDESC, *LPOBJECTDESC;$/;"	t	typeref:struct:tagOBJECTDESC
+OBJECTSTATE	include/global.h	/^} OBJECTSTATE, *LPOBJECTSTATE;$/;"	t	typeref:enum:tagOBJECTSTATE
+OBJECT_ENEMY	include/global.h	/^} OBJECT_ENEMY;$/;"	t	typeref:struct:tagOBJECT_ENEMY
+OBJECT_ITEM	include/global.h	/^} OBJECT_ITEM;$/;"	t	typeref:struct:tagOBJECT_ITEM
+OBJECT_MAGIC	include/global.h	/^} OBJECT_MAGIC;$/;"	t	typeref:struct:tagOBJECT_MAGIC
+OBJECT_PLAYER	include/global.h	/^} OBJECT_PLAYER;$/;"	t	typeref:struct:tagOBJECT_PLAYER
+OBJECT_POISON	include/global.h	/^} OBJECT_POISON;$/;"	t	typeref:struct:tagOBJECT_POISON
+PALDIRECTION	include/palcommon.h	/^} PALDIRECTION, *LPPALDIRECTION;$/;"	t	typeref:enum:tagPALDIRECTION
+PALETTE_H	include/palette.h	23;"	d
+PALINPUTSTATE	include/input.h	/^} PALINPUTSTATE;$/;"	t	typeref:struct:tagPALINPUTSTATE
+PALKEY	include/input.h	/^enum PALKEY$/;"	g
+PALMAP	include/map.h	/^} PALMAP, *LPPALMAP;$/;"	t	typeref:struct:tagPALMAP
+PAL_ADDITIONAL_WORD_FIRST	include/text.h	33;"	d
+PAL_ALLOW_KEYREPEAT	include/_common.h	145;"	d
+PAL_AddItemToInventory	src/global/global.c	/^PAL_AddItemToInventory($/;"	f
+PAL_AddMagic	src/global/global.c	/^PAL_AddMagic($/;"	f
+PAL_AddPoisonForPlayer	src/global/global.c	/^PAL_AddPoisonForPlayer($/;"	f
+PAL_AddSpriteToDraw	src/scene/scene.c	/^PAL_AddSpriteToDraw($/;"	f	file:
+PAL_AdditionalCredits	src/game/script.c	/^PAL_AdditionalCredits($/;"	f	file:
+PAL_ApplyWave	src/scene/scene.c	/^PAL_ApplyWave($/;"	f
+PAL_BattleBackupScene	src/battle/battle.c	/^PAL_BattleBackupScene($/;"	f
+PAL_BattleBackupStat	src/battle/fight.c	/^PAL_BattleBackupStat($/;"	f	file:
+PAL_BattleCommitAction	src/battle/fight.c	/^PAL_BattleCommitAction($/;"	f
+PAL_BattleDelay	src/battle/fight.c	/^PAL_BattleDelay($/;"	f
+PAL_BattleDisplayStatChange	src/battle/fight.c	/^PAL_BattleDisplayStatChange($/;"	f	file:
+PAL_BattleEnemyEscape	src/battle/battle.c	/^PAL_BattleEnemyEscape($/;"	f
+PAL_BattleEnemyPerformAction	src/battle/fight.c	/^PAL_BattleEnemyPerformAction($/;"	f
+PAL_BattleEnemySelectTargetIndex	src/battle/fight.c	/^PAL_BattleEnemySelectTargetIndex($/;"	f	file:
+PAL_BattleFadeScene	src/battle/battle.c	/^PAL_BattleFadeScene($/;"	f
+PAL_BattleMain	src/battle/battle.c	/^PAL_BattleMain($/;"	f	file:
+PAL_BattleMakeScene	src/battle/battle.c	/^PAL_BattleMakeScene($/;"	f
+PAL_BattlePlayerCheckReady	src/battle/fight.c	/^PAL_BattlePlayerCheckReady($/;"	f
+PAL_BattlePlayerEscape	src/battle/battle.c	/^PAL_BattlePlayerEscape($/;"	f
+PAL_BattlePlayerPerformAction	src/battle/fight.c	/^PAL_BattlePlayerPerformAction($/;"	f
+PAL_BattlePlayerValidateAction	src/battle/fight.c	/^PAL_BattlePlayerValidateAction($/;"	f	file:
+PAL_BattlePostActionCheck	src/battle/fight.c	/^PAL_BattlePostActionCheck($/;"	f	file:
+PAL_BattleSelectAutoTarget	src/battle/fight.c	/^PAL_BattleSelectAutoTarget($/;"	f
+PAL_BattleShowEnemyMagicAnim	src/battle/fight.c	/^PAL_BattleShowEnemyMagicAnim($/;"	f	file:
+PAL_BattleShowPlayerAttackAnim	src/battle/fight.c	/^PAL_BattleShowPlayerAttackAnim($/;"	f	file:
+PAL_BattleShowPlayerDefMagicAnim	src/battle/fight.c	/^PAL_BattleShowPlayerDefMagicAnim($/;"	f	file:
+PAL_BattleShowPlayerOffMagicAnim	src/battle/fight.c	/^PAL_BattleShowPlayerOffMagicAnim($/;"	f	file:
+PAL_BattleShowPlayerPreMagicAnim	src/battle/fight.c	/^PAL_BattleShowPlayerPreMagicAnim($/;"	f
+PAL_BattleShowPlayerSummonMagicAnim	src/battle/fight.c	/^PAL_BattleShowPlayerSummonMagicAnim($/;"	f	file:
+PAL_BattleShowPlayerUseItemAnim	src/battle/fight.c	/^PAL_BattleShowPlayerUseItemAnim($/;"	f	file:
+PAL_BattleShowPostMagicAnim	src/battle/fight.c	/^PAL_BattleShowPostMagicAnim($/;"	f	file:
+PAL_BattleSimulateMagic	src/battle/fight.c	/^PAL_BattleSimulateMagic($/;"	f
+PAL_BattleSpeedMenu	src/ui/uigame.c	/^PAL_BattleSpeedMenu($/;"	f	file:
+PAL_BattleStartFrame	src/battle/fight.c	/^PAL_BattleStartFrame($/;"	f
+PAL_BattleStealFromEnemy	src/battle/fight.c	/^PAL_BattleStealFromEnemy($/;"	f
+PAL_BattleUIDrawMiscMenu	src/ui/uibattle.c	/^PAL_BattleUIDrawMiscMenu($/;"	f	file:
+PAL_BattleUIIsActionValid	src/ui/uibattle.c	/^PAL_BattleUIIsActionValid($/;"	f	file:
+PAL_BattleUIMiscItemSubMenuUpdate	src/ui/uibattle.c	/^PAL_BattleUIMiscItemSubMenuUpdate($/;"	f	file:
+PAL_BattleUIMiscMenuUpdate	src/ui/uibattle.c	/^PAL_BattleUIMiscMenuUpdate($/;"	f	file:
+PAL_BattleUIPickAutoMagic	src/ui/uibattle.c	/^PAL_BattleUIPickAutoMagic($/;"	f	file:
+PAL_BattleUIPlayerReady	src/ui/uibattle.c	/^PAL_BattleUIPlayerReady($/;"	f
+PAL_BattleUIShowNum	src/ui/uibattle.c	/^PAL_BattleUIShowNum($/;"	f
+PAL_BattleUIShowText	src/ui/uibattle.c	/^PAL_BattleUIShowText($/;"	f
+PAL_BattleUIThrowItem	src/ui/uibattle.c	/^PAL_BattleUIThrowItem($/;"	f	file:
+PAL_BattleUIUpdate	src/ui/uibattle.c	/^PAL_BattleUIUpdate($/;"	f
+PAL_BattleUIUseItem	src/ui/uibattle.c	/^PAL_BattleUIUseItem($/;"	f	file:
+PAL_BattleUpdateFighters	src/battle/fight.c	/^PAL_BattleUpdateFighters($/;"	f
+PAL_BattleWon	src/battle/battle.c	/^PAL_BattleWon($/;"	f	file:
+PAL_BuyMenu	src/ui/uigame.c	/^PAL_BuyMenu($/;"	f
+PAL_BuyMenu_OnItemChange	src/ui/uigame.c	/^PAL_BuyMenu_OnItemChange($/;"	f	file:
+PAL_CHANNELS	include/sound.h	32;"	d
+PAL_CalcBaseDamage	src/battle/fight.c	/^PAL_CalcBaseDamage($/;"	f	file:
+PAL_CalcCoverTiles	src/scene/scene.c	/^PAL_CalcCoverTiles($/;"	f	file:
+PAL_CalcMagicDamage	src/battle/fight.c	/^PAL_CalcMagicDamage($/;"	f	file:
+PAL_CalcPhysicalAttackDamage	src/battle/fight.c	/^PAL_CalcPhysicalAttackDamage($/;"	f
+PAL_CheckObstacle	src/scene/scene.c	/^PAL_CheckObstacle($/;"	f
+PAL_ClearAllPlayerStatus	src/global/global.c	/^PAL_ClearAllPlayerStatus($/;"	f
+PAL_ClearDialog	src/ui/text.c	/^PAL_ClearDialog($/;"	f
+PAL_ClearKeyState	src/device/input.c	/^PAL_ClearKeyState($/;"	f
+PAL_ColorFade	src/device/palette.c	/^PAL_ColorFade($/;"	f
+PAL_CompressInventory	src/global/global.c	/^PAL_CompressInventory($/;"	f
+PAL_ConfirmMenu	src/ui/uigame.c	/^PAL_ConfirmMenu($/;"	f
+PAL_CreateBox	src/ui/ui.c	/^PAL_CreateBox($/;"	f
+PAL_CreateSingleLineBox	src/ui/ui.c	/^PAL_CreateSingleLineBox($/;"	f
+PAL_CurePoisonByKind	src/global/global.c	/^PAL_CurePoisonByKind($/;"	f
+PAL_CurePoisonByLevel	src/global/global.c	/^PAL_CurePoisonByLevel($/;"	f
+PAL_DOALLOCATE	src/global/global.c	220;"	d	file:
+PAL_DOALLOCATE	src/global/global.c	262;"	d	file:
+PAL_DeleteBox	src/ui/ui.c	/^PAL_DeleteBox($/;"	f
+PAL_DialogIsPlayingRNG	src/ui/text.c	/^PAL_DialogIsPlayingRNG($/;"	f
+PAL_DialogSetDelayTime	src/ui/text.c	/^PAL_DialogSetDelayTime($/;"	f
+PAL_DialogWaitForKey	src/ui/text.c	/^PAL_DialogWaitForKey($/;"	f	file:
+PAL_DrawASCIICharOnSurface	src/ui/font.c	/^PAL_DrawASCIICharOnSurface($/;"	f
+PAL_DrawCharOnSurface	src/ui/font.c	/^PAL_DrawCharOnSurface($/;"	f
+PAL_DrawNumber	src/ui/ui.c	/^PAL_DrawNumber($/;"	f
+PAL_DrawOpeningMenuBackground	src/ui/uigame.c	/^PAL_DrawOpeningMenuBackground($/;"	f
+PAL_DrawText	src/ui/text.c	/^PAL_DrawText($/;"	f
+PAL_EndDialog	src/ui/text.c	/^PAL_EndDialog($/;"	f
+PAL_EndingAnimation	src/misc/ending.c	/^PAL_EndingAnimation($/;"	f
+PAL_EndingScreen	src/misc/ending.c	/^PAL_EndingScreen($/;"	f
+PAL_EndingSetEffectSprite	src/misc/ending.c	/^PAL_EndingSetEffectSprite($/;"	f
+PAL_EquipItemMenu	src/ui/uigame.c	/^PAL_EquipItemMenu($/;"	f
+PAL_FBPBlitToSurface	src/global/palcommon.c	/^PAL_FBPBlitToSurface($/;"	f
+PAL_FadeIn	src/device/palette.c	/^PAL_FadeIn($/;"	f
+PAL_FadeOut	src/device/palette.c	/^PAL_FadeOut($/;"	f
+PAL_FadeToRed	src/device/palette.c	/^PAL_FadeToRed($/;"	f
+PAL_FreeBattleSprites	src/battle/battle.c	/^PAL_FreeBattleSprites($/;"	f	file:
+PAL_FreeEventObjectSprites	src/global/res.c	/^PAL_FreeEventObjectSprites($/;"	f	file:
+PAL_FreeFont	src/ui/font.c	/^PAL_FreeFont($/;"	f
+PAL_FreeGlobals	src/global/global.c	/^PAL_FreeGlobals($/;"	f
+PAL_FreeMap	src/scene/map.c	/^PAL_FreeMap($/;"	f
+PAL_FreeObjectDesc	src/ui/ui.c	/^PAL_FreeObjectDesc($/;"	f
+PAL_FreePlayerSprites	src/global/res.c	/^PAL_FreePlayerSprites($/;"	f	file:
+PAL_FreeResources	src/global/res.c	/^PAL_FreeResources($/;"	f
+PAL_FreeText	src/ui/text.c	/^PAL_FreeText($/;"	f
+PAL_FreeUI	src/ui/ui.c	/^PAL_FreeUI($/;"	f
+PAL_GameEquipItem	src/game/play.c	/^PAL_GameEquipItem($/;"	f
+PAL_GameMain	src/game/game.c	/^PAL_GameMain($/;"	f
+PAL_GameStart	src/game/game.c	/^PAL_GameStart($/;"	f	file:
+PAL_GameUpdate	src/game/play.c	/^PAL_GameUpdate($/;"	f
+PAL_GameUseItem	src/game/play.c	/^PAL_GameUseItem($/;"	f
+PAL_GetCurrentMap	src/global/res.c	/^PAL_GetCurrentMap($/;"	f
+PAL_GetEnemyDexterity	src/battle/fight.c	/^PAL_GetEnemyDexterity($/;"	f	file:
+PAL_GetEventObjectSprite	src/global/res.c	/^PAL_GetEventObjectSprite($/;"	f
+PAL_GetItemAmount	src/global/global.c	/^PAL_GetItemAmount($/;"	f
+PAL_GetMsg	src/ui/text.c	/^PAL_GetMsg($/;"	f
+PAL_GetObjectDesc	src/ui/ui.c	/^PAL_GetObjectDesc($/;"	f
+PAL_GetPalette	src/device/palette.c	/^PAL_GetPalette($/;"	f
+PAL_GetPlayerActualDexterity	src/battle/fight.c	/^PAL_GetPlayerActualDexterity($/;"	f	file:
+PAL_GetPlayerAttackStrength	src/global/global.c	/^PAL_GetPlayerAttackStrength($/;"	f
+PAL_GetPlayerBattleSprite	src/global/global.c	/^PAL_GetPlayerBattleSprite($/;"	f
+PAL_GetPlayerCooperativeMagic	src/global/global.c	/^PAL_GetPlayerCooperativeMagic($/;"	f
+PAL_GetPlayerDefense	src/global/global.c	/^PAL_GetPlayerDefense($/;"	f
+PAL_GetPlayerDexterity	src/global/global.c	/^PAL_GetPlayerDexterity($/;"	f
+PAL_GetPlayerElementalResistance	src/global/global.c	/^PAL_GetPlayerElementalResistance($/;"	f
+PAL_GetPlayerFleeRate	src/global/global.c	/^PAL_GetPlayerFleeRate($/;"	f
+PAL_GetPlayerMagicStrength	src/global/global.c	/^PAL_GetPlayerMagicStrength($/;"	f
+PAL_GetPlayerPoisonResistance	src/global/global.c	/^PAL_GetPlayerPoisonResistance($/;"	f
+PAL_GetPlayerSprite	src/global/res.c	/^PAL_GetPlayerSprite($/;"	f
+PAL_GetTimeChargingSpeed	src/battle/fight.c	/^PAL_GetTimeChargingSpeed($/;"	f
+PAL_GetWord	src/ui/text.c	/^PAL_GetWord($/;"	f
+PAL_HAS_CD	include/_common.h	146;"	d
+PAL_HAS_JOYSTICKS	include/_common.h	103;"	d
+PAL_HAS_JOYSTICKS	include/_common.h	110;"	d
+PAL_HAS_MOUSE	include/_common.h	104;"	d
+PAL_HAS_MOUSE	include/_common.h	97;"	d
+PAL_HAS_NATIVEMIDI	include/_common.h	190;"	d
+PAL_HAS_TOUCH	include/_common.h	118;"	d
+PAL_HAS_TOUCH	include/_common.h	124;"	d
+PAL_HAS_TOUCH	include/_common.h	130;"	d
+PAL_InGameMagicMenu	src/ui/uigame.c	/^PAL_InGameMagicMenu($/;"	f
+PAL_InGameMenu	src/ui/uigame.c	/^PAL_InGameMenu($/;"	f
+PAL_InGameMenu_OnItemChange	src/ui/uigame.c	/^PAL_InGameMenu_OnItemChange($/;"	f	file:
+PAL_IncreaseHPMP	src/global/global.c	/^PAL_IncreaseHPMP($/;"	f
+PAL_Init	src/main.c	/^PAL_Init($/;"	f	file:
+PAL_InitFont	src/ui/font.c	/^PAL_InitFont($/;"	f
+PAL_InitGameData	src/global/global.c	/^PAL_InitGameData($/;"	f
+PAL_InitGlobalGameData	src/global/global.c	/^PAL_InitGlobalGameData($/;"	f	file:
+PAL_InitGlobals	src/global/global.c	/^PAL_InitGlobals($/;"	f
+PAL_InitInput	src/device/input.c	/^PAL_InitInput($/;"	f
+PAL_InitResources	src/global/res.c	/^PAL_InitResources($/;"	f
+PAL_InitText	src/ui/text.c	/^PAL_InitText($/;"	f
+PAL_InitUI	src/ui/ui.c	/^PAL_InitUI($/;"	f
+PAL_InterpretInstruction	src/game/script.c	/^PAL_InterpretInstruction($/;"	f	file:
+PAL_InventoryMenu	src/ui/uigame.c	/^PAL_InventoryMenu($/;"	f	file:
+PAL_IsInDialog	src/ui/text.c	/^PAL_IsInDialog($/;"	f
+PAL_IsPlayerDying	src/battle/fight.c	/^PAL_IsPlayerDying($/;"	f	file:
+PAL_IsPlayerPoisonedByKind	src/global/global.c	/^PAL_IsPlayerPoisonedByKind($/;"	f
+PAL_IsPlayerPoisonedByLevel	src/global/global.c	/^PAL_IsPlayerPoisonedByLevel($/;"	f
+PAL_ItemSelectMenu	src/ui/itemmenu.c	/^PAL_ItemSelectMenu($/;"	f
+PAL_ItemSelectMenuInit	src/ui/itemmenu.c	/^PAL_ItemSelectMenuInit($/;"	f
+PAL_ItemSelectMenuUpdate	src/ui/itemmenu.c	/^PAL_ItemSelectMenuUpdate($/;"	f
+PAL_ItemUseMenu	src/ui/uigame.c	/^PAL_ItemUseMenu($/;"	f
+PAL_KeyPressHandler	src/device/input.c	/^PAL_KeyPressHandler($/;"	f
+PAL_KeyReleaseHandler	src/device/input.c	/^PAL_KeyReleaseHandler($/;"	f
+PAL_LARGE	include/_common.h	229;"	d
+PAL_LARGE	include/_common.h	231;"	d
+PAL_LARGE	include/_common.h	30;"	d
+PAL_LoadBattleBackground	src/battle/battle.c	/^PAL_LoadBattleBackground($/;"	f	file:
+PAL_LoadBattleSprites	src/battle/battle.c	/^PAL_LoadBattleSprites($/;"	f
+PAL_LoadDefaultGame	src/global/global.c	/^PAL_LoadDefaultGame($/;"	f	file:
+PAL_LoadGame	src/global/global.c	/^PAL_LoadGame($/;"	f	file:
+PAL_LoadMap	src/scene/map.c	/^PAL_LoadMap($/;"	f
+PAL_LoadObjectDesc	src/ui/ui.c	/^PAL_LoadObjectDesc($/;"	f
+PAL_LoadResources	src/global/res.c	/^PAL_LoadResources($/;"	f
+PAL_MIDI_H	include/midi.h	23;"	d
+PAL_MKFDecompressChunk	src/global/palcommon.c	/^PAL_MKFDecompressChunk($/;"	f
+PAL_MKFGetChunkCount	src/global/palcommon.c	/^PAL_MKFGetChunkCount($/;"	f
+PAL_MKFGetChunkSize	src/global/palcommon.c	/^PAL_MKFGetChunkSize($/;"	f
+PAL_MKFGetDecompressedSize	src/global/palcommon.c	/^PAL_MKFGetDecompressedSize($/;"	f
+PAL_MKFReadChunk	src/global/palcommon.c	/^PAL_MKFReadChunk($/;"	f
+PAL_MagicSelectionMenu	src/ui/magicmenu.c	/^PAL_MagicSelectionMenu($/;"	f
+PAL_MagicSelectionMenuInit	src/ui/magicmenu.c	/^PAL_MagicSelectionMenuInit($/;"	f
+PAL_MagicSelectionMenuUpdate	src/ui/magicmenu.c	/^PAL_MagicSelectionMenuUpdate($/;"	f
+PAL_MakeScene	src/scene/scene.c	/^PAL_MakeScene($/;"	f
+PAL_MapBlitToSurface	src/scene/map.c	/^PAL_MapBlitToSurface($/;"	f
+PAL_MapGetTileBitmap	src/scene/map.c	/^PAL_MapGetTileBitmap($/;"	f
+PAL_MapGetTileHeight	src/scene/map.c	/^PAL_MapGetTileHeight($/;"	f
+PAL_MapTileIsBlocked	src/scene/map.c	/^PAL_MapTileIsBlocked($/;"	f
+PAL_MonsterChasePlayer	src/game/script.c	/^PAL_MonsterChasePlayer($/;"	f	file:
+PAL_NPCWalkOneStep	src/scene/scene.c	/^PAL_NPCWalkOneStep($/;"	f
+PAL_NPCWalkTo	src/game/script.c	/^PAL_NPCWalkTo($/;"	f	file:
+PAL_OpeningMenu	src/ui/uigame.c	/^PAL_OpeningMenu($/;"	f
+PAL_POS	include/palcommon.h	/^typedef DWORD           PAL_POS;$/;"	t
+PAL_POS_TO_XYH	include/map.h	128;"	d
+PAL_PREFIX	include/_common.h	105;"	d
+PAL_PREFIX	include/_common.h	111;"	d
+PAL_PREFIX	include/_common.h	116;"	d
+PAL_PREFIX	include/_common.h	122;"	d
+PAL_PREFIX	include/_common.h	128;"	d
+PAL_PREFIX	include/_common.h	153;"	d
+PAL_PREFIX	include/_common.h	28;"	d
+PAL_PREFIX	include/_common.h	98;"	d
+PAL_PaletteFade	src/device/palette.c	/^PAL_PaletteFade($/;"	f
+PAL_PartyRideEventObject	src/game/script.c	/^PAL_PartyRideEventObject($/;"	f	file:
+PAL_PartyWalkTo	src/game/script.c	/^PAL_PartyWalkTo($/;"	f	file:
+PAL_PlayMUS	src/unuse/sound.c	/^PAL_PlayMUS($/;"	f
+PAL_PlayerCanAttackAll	src/global/global.c	/^PAL_PlayerCanAttackAll($/;"	f
+PAL_PlayerInfoBox	src/ui/uibattle.c	/^PAL_PlayerInfoBox($/;"	f
+PAL_PlayerLevelUp	src/global/global.c	/^PAL_PlayerLevelUp($/;"	f
+PAL_PlayerStatus	src/ui/uigame.c	/^PAL_PlayerStatus($/;"	f
+PAL_PollEvent	src/hal/hal.c	/^PAL_PollEvent($/;"	f
+PAL_ProcessEvent	src/device/input.c	/^PAL_ProcessEvent($/;"	f
+PAL_RLEBlitMonoColor	src/global/palcommon.c	/^PAL_RLEBlitMonoColor($/;"	f
+PAL_RLEBlitToSurface	src/global/palcommon.c	/^PAL_RLEBlitToSurface($/;"	f
+PAL_RLEBlitWithColorShift	src/global/palcommon.c	/^PAL_RLEBlitWithColorShift($/;"	f
+PAL_RLEGetHeight	src/global/palcommon.c	/^PAL_RLEGetHeight($/;"	f
+PAL_RLEGetWidth	src/global/palcommon.c	/^PAL_RLEGetWidth($/;"	f
+PAL_RNGBlitToSurface	src/misc/rngplay.c	/^PAL_RNGBlitToSurface($/;"	f	file:
+PAL_RNGPlay	src/misc/rngplay.c	/^PAL_RNGPlay($/;"	f
+PAL_RNGReadFrame	src/misc/rngplay.c	/^PAL_RNGReadFrame($/;"	f	file:
+PAL_ReadGlobalGameData	src/global/global.c	/^PAL_ReadGlobalGameData($/;"	f	file:
+PAL_ReadMenu	src/ui/ui.c	/^PAL_ReadMenu($/;"	f
+PAL_RemoveEquipmentEffect	src/global/global.c	/^PAL_RemoveEquipmentEffect($/;"	f
+PAL_RemoveMagic	src/global/global.c	/^PAL_RemoveMagic($/;"	f
+PAL_RemovePlayerStatus	src/global/global.c	/^PAL_RemovePlayerStatus($/;"	f
+PAL_RunAutoScript	src/game/script.c	/^PAL_RunAutoScript($/;"	f
+PAL_RunTriggerScript	src/game/script.c	/^PAL_RunTriggerScript($/;"	f
+PAL_SAMPLE_RATE	include/sound.h	28;"	d
+PAL_SAVE_PREFIX	include/_common.h	106;"	d
+PAL_SAVE_PREFIX	include/_common.h	112;"	d
+PAL_SAVE_PREFIX	include/_common.h	117;"	d
+PAL_SAVE_PREFIX	include/_common.h	123;"	d
+PAL_SAVE_PREFIX	include/_common.h	129;"	d
+PAL_SAVE_PREFIX	include/_common.h	156;"	d
+PAL_SAVE_PREFIX	include/_common.h	29;"	d
+PAL_SAVE_PREFIX	include/_common.h	99;"	d
+PAL_SaveGame	src/global/global.c	/^PAL_SaveGame($/;"	f
+PAL_SaveSlotMenu	src/ui/uigame.c	/^PAL_SaveSlotMenu($/;"	f
+PAL_SceneDrawSprites	src/scene/scene.c	/^PAL_SceneDrawSprites($/;"	f	file:
+PAL_SceneFade	src/device/palette.c	/^PAL_SceneFade($/;"	f
+PAL_ScrollFBP	src/misc/ending.c	/^PAL_ScrollFBP($/;"	f
+PAL_Search	src/game/play.c	/^PAL_Search($/;"	f
+PAL_SellMenu	src/ui/uigame.c	/^PAL_SellMenu($/;"	f
+PAL_SellMenu_OnItemChange	src/ui/uigame.c	/^PAL_SellMenu_OnItemChange($/;"	f	file:
+PAL_SetLoadFlags	src/global/res.c	/^PAL_SetLoadFlags($/;"	f
+PAL_SetPalette	src/device/palette.c	/^PAL_SetPalette($/;"	f
+PAL_SetPlayerStatus	src/global/global.c	/^PAL_SetPlayerStatus($/;"	f
+PAL_ShowCash	src/ui/uigame.c	/^PAL_ShowCash($/;"	f
+PAL_ShowDialogText	src/ui/text.c	/^PAL_ShowDialogText($/;"	f
+PAL_ShowFBP	src/misc/ending.c	/^PAL_ShowFBP($/;"	f
+PAL_Shutdown	src/main.c	/^PAL_Shutdown($/;"	f
+PAL_ShutdownInput	src/device/input.c	/^PAL_ShutdownInput($/;"	f
+PAL_SplashScreen	src/main.c	/^PAL_SplashScreen($/;"	f
+PAL_SpriteGetFrame	src/global/palcommon.c	/^PAL_SpriteGetFrame($/;"	f
+PAL_SpriteGetNumFrames	src/global/palcommon.c	/^PAL_SpriteGetNumFrames($/;"	f
+PAL_StartBattle	src/battle/battle.c	/^PAL_StartBattle($/;"	f
+PAL_StartDialog	src/ui/text.c	/^PAL_StartDialog($/;"	f
+PAL_StartFrame	src/game/play.c	/^PAL_StartFrame($/;"	f
+PAL_SwitchMenu	src/ui/uigame.c	/^PAL_SwitchMenu($/;"	f
+PAL_SystemMenu	src/ui/uigame.c	/^PAL_SystemMenu($/;"	f	file:
+PAL_SystemMenu_OnItemChange	src/ui/uigame.c	/^PAL_SystemMenu_OnItemChange($/;"	f	file:
+PAL_TrademarkScreen	src/main.c	/^PAL_TrademarkScreen($/;"	f
+PAL_UpdateEquipments	src/global/global.c	/^PAL_UpdateEquipments($/;"	f
+PAL_UpdateParty	src/scene/scene.c	/^PAL_UpdateParty($/;"	f
+PAL_UpdatePartyGestures	src/scene/scene.c	/^PAL_UpdatePartyGestures($/;"	f
+PAL_UpdateTimeChargingUnit	src/battle/fight.c	/^PAL_UpdateTimeChargingUnit($/;"	f
+PAL_WaitForKey	src/game/play.c	/^PAL_WaitForKey($/;"	f
+PAL_X	include/palcommon.h	38;"	d
+PAL_XY	include/palcommon.h	37;"	d
+PAL_XYH_TO_POS	include/map.h	122;"	d
+PAL_Y	include/palcommon.h	39;"	d
+PARTY	include/global.h	/^} PARTY, *LPPARTY;$/;"	t	typeref:struct:tagPARTY
+PLAYERROLES	include/global.h	/^} PLAYERROLES, *LPPLAYERROLES;$/;"	t	typeref:struct:tagPLAYERROLES
+PLAYERS	include/global.h	/^typedef WORD PLAYERS[MAX_PLAYER_ROLES];$/;"	t
+PLAY_H	include/play.h	23;"	d
+POISONSTATUS	include/global.h	/^} POISONSTATUS, *LPPOISONSTATUS;$/;"	t	typeref:struct:tagPOISONSTATUS
+PSPExitCallback	include/main_PSP.h	/^int PSPExitCallback(int arg1, int arg2, void *common)$/;"	f
+PSPRegisterCallbackThread	include/main_PSP.h	/^int PSPRegisterCallbackThread(SceSize args, void *argp)$/;"	f
+PSPSetupCallbacks	include/main_PSP.h	/^int PSPSetupCallbacks(void)$/;"	f
+PSPSuspendCallback	include/main_PSP.h	/^int PSPSuspendCallback(int arg1, int pwrflags, void *common)$/;"	f
+PSP_HEAP_MEMSIZE	include/main_PSP.h	/^PSP_HEAP_SIZE_KB(PSP_HEAP_MEMSIZE);$/;"	v
+PSP_HEAP_MEMSIZE	include/main_PSP.h	31;"	d
+PSP_THREAD_ATTR_USER	include/main_PSP.h	/^PSP_MAIN_THREAD_ATTR(PSP_THREAD_ATTR_USER);$/;"	v
+PUCHAR	include/_common.h	/^typedef unsigned char       UCHAR, *PUCHAR;$/;"	t
+PUINT	include/_common.h	/^typedef unsigned int        UINT, *PUINT, UINT32, *PUINT32;$/;"	t
+PUINT32	include/_common.h	/^typedef unsigned int        UINT, *PUINT, UINT32, *PUINT32;$/;"	t
+PULONG	include/_common.h	/^typedef unsigned long       ULONG, *PULONG;$/;"	t
+PUSHORT	include/_common.h	/^typedef unsigned short      USHORT, *PUSHORT;$/;"	t
+PYJ_1_BLOCKHEADER	src/misc/yj1.c	/^} YJ_1_BLOCKHEADER, *PYJ_1_BLOCKHEADER;$/;"	t	typeref:struct:_YJ_1_BLOCKHEADER	file:
+PYJ_1_FILEHEADER	src/misc/yj1.c	/^} YJ_1_FILEHEADER, *PYJ_1_FILEHEADER;$/;"	t	typeref:struct:_YJ_1_FILEHEADER	file:
+Phase	include/battle.h	/^   BATTLEPHASE      Phase;$/;"	m	struct:tagBATTLE
+PlayerRoles	include/global.h	/^   PLAYERROLES             PlayerRoles;$/;"	m	struct:tagGAMEDATA
+PlayerRoles	include/global.h	/^   PLAYERROLES      PlayerRoles;$/;"	m	struct:tagSAVEDGAME
+RESOURCES	src/global/res.c	/^} RESOURCES, *LPRESOURCES;$/;"	t	typeref:struct:tagRESOURCES	file:
+RES_H	include/res.h	23;"	d
+RIX_FillBuffer	src/unuse/rixplay.c	/^RIX_FillBuffer($/;"	f
+RIX_Init	src/unuse/rixplay.c	/^RIX_Init($/;"	f
+RIX_NUM_OPENINGMENU	include/ui.h	55;"	d
+RIX_PLAY_H	include/rixplay.h	23;"	d
+RIX_Play	src/unuse/rixplay.c	/^RIX_Play($/;"	f
+RIX_Shutdown	src/unuse/rixplay.c	/^RIX_Shutdown($/;"	f
+RNGPLAY_H	include/rngplay.h	23;"	d
+RandomFloat	src/misc/util.c	/^RandomFloat($/;"	f
+RandomLong	src/misc/util.c	/^RandomLong($/;"	f
+Rloss	include/hal.h	/^	uint8_t Rloss, Gloss, Bloss, Aloss;$/;"	m	struct:__anon4
+Rmask	include/hal.h	/^	uint32_t Rmask, Gmask, Bmask, Amask;$/;"	m	struct:__anon4
+Rshift	include/hal.h	/^	uint8_t Rshift, Gshift, Bshift, Ashift;$/;"	m	struct:__anon4
+SAVEDGAME	include/global.h	/^} SAVEDGAME, *LPSAVEDGAME;$/;"	t	typeref:struct:tagSAVEDGAME
+SCENE	include/global.h	/^} SCENE, *LPSCENE;$/;"	t	typeref:struct:tagSCENE
+SCRIPTENTRY	include/global.h	/^} SCRIPTENTRY, *LPSCRIPTENTRY;$/;"	t	typeref:struct:tagSCRIPTENTRY
+SCRIPT_H	include/script.h	23;"	d
+SDLK_KP0	include/_common.h	70;"	d
+SDLK_KP1	include/_common.h	61;"	d
+SDLK_KP2	include/_common.h	62;"	d
+SDLK_KP3	include/_common.h	63;"	d
+SDLK_KP4	include/_common.h	64;"	d
+SDLK_KP5	include/_common.h	65;"	d
+SDLK_KP6	include/_common.h	66;"	d
+SDLK_KP7	include/_common.h	67;"	d
+SDLK_KP8	include/_common.h	68;"	d
+SDLK_KP9	include/_common.h	69;"	d
+SDL_BlitSurface	src/hal/hal.c	/^void SDL_BlitSurface(SDL_Surface *src, SDL_Rect *srcrect, $/;"	f
+SDL_Color	include/hal.h	/^} SDL_Color;$/;"	t	typeref:struct:__anon2
+SDL_CreateRGBSurface	src/hal/hal.c	/^SDL_Surface* SDL_CreateRGBSurface(uint32_t flags, int width, int height, int depth,$/;"	f
+SDL_Delay	src/hal/hal.c	/^void SDL_Delay(uint32_t ms) {$/;"	f
+SDL_Event	include/hal.h	/^} SDL_Event;$/;"	t	typeref:union:__anon6
+SDL_FULLSCREEN	include/hal.h	13;"	d
+SDL_FillRect	src/hal/hal.c	/^void SDL_FillRect(SDL_Surface *dst, SDL_Rect *dstrect, uint32_t color) {$/;"	f
+SDL_FreeSurface	src/hal/hal.c	/^void SDL_FreeSurface(SDL_Surface *s) {$/;"	f
+SDL_GetError	src/unuse/sdl.c	/^char *SDL_GetError(void) {$/;"	f
+SDL_GetTicks	src/hal/hal.c	/^uint32_t SDL_GetTicks() {$/;"	f
+SDL_HWSURFACE	include/_common.h	72;"	d
+SDL_HWSURFACE	include/hal.h	60;"	d
+SDL_INIT_AUDIO	include/hal.h	15;"	d
+SDL_INIT_CDROM	include/_common.h	162;"	d
+SDL_INIT_JOYSTICK	include/_common.h	95;"	d
+SDL_INIT_JOYSTICK	include/_common.h	96;"	d
+SDL_INIT_JOYSTICK	include/hal.h	17;"	d
+SDL_INIT_NOPARACHUTE	include/hal.h	16;"	d
+SDL_INIT_VIDEO	include/hal.h	14;"	d
+SDL_Init	src/unuse/sdl.c	/^int SDL_Init(uint32_t flags) {$/;"	f
+SDL_LOGPAL	include/hal.h	62;"	d
+SDL_LockSurface	src/unuse/sdl.c	/^int SDL_LockSurface(SDL_Surface *surface) {$/;"	f
+SDL_MUSTLOCK	include/hal.h	11;"	d
+SDL_PHYSPAL	include/hal.h	61;"	d
+SDL_Palette	include/hal.h	/^} SDL_Palette;$/;"	t	typeref:struct:__anon3
+SDL_PixelFormat	include/hal.h	/^} SDL_PixelFormat;$/;"	t	typeref:struct:__anon4
+SDL_PollEvent	src/unuse/sdl.c	/^int SDL_PollEvent(SDL_Event *event) {$/;"	f
+SDL_Quit	src/unuse/sdl.c	/^void SDL_Quit(void) {$/;"	f
+SDL_RESIZABLE	include/hal.h	12;"	d
+SDL_Rect	include/hal.h	/^} SDL_Rect;$/;"	t	typeref:struct:__anon1
+SDL_SWSURFACE	include/hal.h	63;"	d
+SDL_SaveBMP	src/unuse/sdl.c	/^int SDL_SaveBMP(SDL_Surface *surface, const char *file) {$/;"	f
+SDL_SetPalette	src/hal/hal.c	/^void SDL_SetPalette(SDL_Surface *s, int flags, SDL_Color *colors, $/;"	f
+SDL_SetVideoMode	src/hal/hal.c	/^SDL_Surface* SDL_SetVideoMode(int width, int height, int bpp, uint32_t flags) {$/;"	f
+SDL_ShowCursor	src/unuse/sdl.c	/^int SDL_ShowCursor(int toggle) {$/;"	f
+SDL_SoftStretch	src/device/video.c	60;"	d	file:
+SDL_SoftStretch	src/hal/hal.c	/^void SDL_SoftStretch(SDL_Surface *src, SDL_Rect *srcrect, $/;"	f
+SDL_Surface	include/hal.h	/^} SDL_Surface;$/;"	t	typeref:struct:__anon5
+SDL_UnlockSurface	src/unuse/sdl.c	/^void SDL_UnlockSurface(SDL_Surface *surface) {$/;"	f
+SDL_UpdateRect	src/hal/hal.c	/^void SDL_UpdateRect(SDL_Surface *screen, int x, int y, int w, int h) {$/;"	f
+SDL_VERSION_ATLEAST	include/hal.h	10;"	d
+SDL_WM_SetCaption	src/device/video.c	/^SDL_WM_SetCaption($/;"	f
+SDL_WM_SetCaption	src/unuse/sdl.c	/^void SDL_WM_SetCaption(const char *title, const char *icon) {$/;"	f
+SDL_WaitUntil	src/hal/hal.c	/^void SDL_WaitUntil(uint32_t tick) {$/;"	f
+SELLMENU_LABEL_PRICE	include/ui.h	103;"	d
+SHORT	include/_common.h	/^typedef short               SHORT;$/;"	t
+SHOWNUM	include/uibattle.h	/^} SHOWNUM;$/;"	t	typeref:struct:tagSHOWNUM
+SOUND_CloseAudio	src/unuse/sound.c	/^SOUND_CloseAudio($/;"	f
+SOUND_H	include/sound.h	23;"	d
+SOUND_OpenAudio	src/unuse/sound.c	/^SOUND_OpenAudio($/;"	f
+SOUND_Play	include/sound.h	77;"	d
+SOUND_Play	include/sound.h	79;"	d
+SOUND_PlayCDA	src/unuse/sound.c	/^SOUND_PlayCDA($/;"	f
+SOUND_PlayChannel	src/unuse/sound.c	/^SOUND_PlayChannel($/;"	f
+SPRITENUM_ARROW	include/ui.h	122;"	d
+SPRITENUM_BATTLEICON_ATTACK	include/uibattle.h	60;"	d
+SPRITENUM_BATTLEICON_COOPMAGIC	include/uibattle.h	62;"	d
+SPRITENUM_BATTLEICON_MAGIC	include/uibattle.h	61;"	d
+SPRITENUM_BATTLEICON_MISCMENU	include/uibattle.h	63;"	d
+SPRITENUM_BATTLE_ARROW_CURRENTPLAYER	include/uibattle.h	65;"	d
+SPRITENUM_BATTLE_ARROW_CURRENTPLAYER_RED	include/uibattle.h	66;"	d
+SPRITENUM_BATTLE_ARROW_SELECTEDPLAYER	include/uibattle.h	68;"	d
+SPRITENUM_BATTLE_ARROW_SELECTEDPLAYER_RED	include/uibattle.h	69;"	d
+SPRITENUM_CURSOR	include/ui.h	108;"	d
+SPRITENUM_CURSOR_YELLOW	include/ui.h	107;"	d
+SPRITENUM_ITEMBOX	include/ui.h	106;"	d
+SPRITENUM_PLAYERFACE_FIRST	include/ui.h	110;"	d
+SPRITENUM_PLAYERINFOBOX	include/ui.h	109;"	d
+SPRITENUM_SLASH	include/ui.h	105;"	d
+SPRITENUM_SPLASH_CRANE	src/main.c	37;"	d	file:
+SPRITENUM_SPLASH_CRANE	src/main.c	43;"	d	file:
+SPRITENUM_SPLASH_TITLE	src/main.c	36;"	d	file:
+SPRITENUM_SPLASH_TITLE	src/main.c	42;"	d	file:
+SPRITE_TO_DRAW	src/scene/scene.c	/^} SPRITE_TO_DRAW;$/;"	t	typeref:struct:tagSPRITE_TO_DRAW	file:
+SRCS	Makefile	/^SRCS = $(shell find src\/ -name "*.c")$/;"	m
+STATUS	include/global.h	/^} STATUS;$/;"	t	typeref:enum:tagSTATUS
+STATUS_BACKGROUND_FBPNUM	include/ui.h	90;"	d
+STATUS_COLOR_EQUIPMENT	include/ui.h	100;"	d
+STATUS_LABEL_ATTACKPOWER	include/ui.h	95;"	d
+STATUS_LABEL_DEXTERITY	include/ui.h	98;"	d
+STATUS_LABEL_EXP	include/ui.h	91;"	d
+STATUS_LABEL_FLEERATE	include/ui.h	99;"	d
+STATUS_LABEL_HP	include/ui.h	93;"	d
+STATUS_LABEL_LEVEL	include/ui.h	92;"	d
+STATUS_LABEL_MAGICPOWER	include/ui.h	96;"	d
+STATUS_LABEL_MP	include/ui.h	94;"	d
+STATUS_LABEL_RESISTANCE	include/ui.h	97;"	d
+STAT_LIMIT	src/global/global.c	1877;"	d	file:
+STAT_LIMIT	src/global/global.c	1885;"	d	file:
+STORE	include/global.h	/^} STORE, *LPSTORE;$/;"	t	typeref:struct:tagSTORE
+SUMMON	include/battle.h	/^} SUMMON;$/;"	t	typeref:struct:tagSUMMON
+SWAP16	include/_common.h	77;"	d
+SWAP16	include/_common.h	80;"	d
+SWAP32	include/_common.h	78;"	d
+SWAP32	include/_common.h	81;"	d
+SWITCHMENU_LABEL_DISABLE	include/ui.h	66;"	d
+SWITCHMENU_LABEL_ENABLE	include/ui.h	67;"	d
+SYSMENU_LABEL_BATTLEMODE	include/ui.h	79;"	d
+SYSMENU_LABEL_LOAD	include/ui.h	75;"	d
+SYSMENU_LABEL_MUSIC	include/ui.h	76;"	d
+SYSMENU_LABEL_QUIT	include/ui.h	78;"	d
+SYSMENU_LABEL_SAVE	include/ui.h	74;"	d
+SYSMENU_LABEL_SOUND	include/ui.h	77;"	d
+Signature	src/misc/yj1.c	/^   unsigned int   Signature;          \/\/ 'YJ_1'$/;"	m	struct:_YJ_1_FILEHEADER	file:
+TEXTLIB	src/ui/text.c	/^} TEXTLIB, *LPTEXTLIB;$/;"	t	typeref:struct:tagTEXTLIB	file:
+TIMEMETER_COLOR_DEFAULT	include/uibattle.h	81;"	d
+TIMEMETER_COLOR_HASTE	include/uibattle.h	83;"	d
+TIMEMETER_COLOR_SLOW	include/uibattle.h	82;"	d
+TRAIL	include/global.h	/^} TRAIL, *LPTRAIL;$/;"	t	typeref:struct:tagTRAIL
+TRIGGERMODE	include/global.h	/^} TRIGGERMODE;$/;"	t	typeref:enum:tagTRIGGERMODE
+TRUE	include/_common.h	202;"	d
+TerminateOnError	src/misc/util.c	/^TerminateOnError($/;"	f
+Tiles	include/map.h	/^   DWORD          Tiles[128][64][2];$/;"	m	struct:tagPALMAP
+Tree	src/misc/yj1.c	/^} Tree;$/;"	t	typeref:struct:_Tree	file:
+TreeNode	src/misc/yj1.c	/^} TreeNode;$/;"	t	typeref:struct:_TreeNode	file:
+TreeNodeList	src/misc/yj1.c	/^} TreeNodeList;$/;"	t	typeref:struct:_TreeNodeList	file:
+UCHAR	include/_common.h	/^typedef unsigned char       UCHAR, *PUCHAR;$/;"	t
+UI	include/battle.h	/^   BATTLEUI         UI;$/;"	m	struct:tagBATTLE
+UIBATTLE_H	include/uibattle.h	23;"	d
+UIGAME_H	include/uigame.h	23;"	d
+UINT	include/_common.h	/^typedef unsigned int        UINT, *PUINT, UINT32, *PUINT32;$/;"	t
+UINT32	include/_common.h	/^typedef unsigned int        UINT, *PUINT, UINT32, *PUINT32;$/;"	t
+UI_H	include/ui.h	23;"	d
+ULONG	include/_common.h	/^typedef unsigned long       ULONG, *PULONG;$/;"	t
+USHORT	include/_common.h	/^typedef unsigned short      USHORT, *PUSHORT;$/;"	t
+UTIL_CloseFile	src/misc/util.c	/^UTIL_CloseFile($/;"	f
+UTIL_CloseLog	include/util.h	127;"	d
+UTIL_CloseLog	src/misc/util.c	/^UTIL_CloseLog($/;"	f
+UTIL_Delay	src/misc/util.c	/^UTIL_Delay($/;"	f
+UTIL_H	include/util.h	24;"	d
+UTIL_OpenFile	src/misc/util.c	/^UTIL_OpenFile($/;"	f
+UTIL_OpenLog	include/util.h	126;"	d
+UTIL_OpenLog	src/misc/util.c	/^UTIL_OpenLog($/;"	f
+UTIL_OpenRequiredFile	src/misc/util.c	/^UTIL_OpenRequiredFile($/;"	f
+UTIL_WriteLog	include/util.h	/^__forceinline VOID UTIL_WriteLog(int i, const char *p, ...) {}$/;"	f
+UTIL_WriteLog	include/util.h	131;"	d
+UTIL_WriteLog	src/misc/util.c	/^UTIL_WriteLog($/;"	f
+UTIL_calloc	src/misc/util.c	/^UTIL_calloc($/;"	f
+UTIL_malloc	src/misc/util.c	/^UTIL_malloc($/;"	f
+UncompressedLength	src/misc/yj1.c	/^   unsigned int   UncompressedLength; \/\/ size before compression$/;"	m	struct:_YJ_1_FILEHEADER	file:
+UncompressedLength	src/misc/yj1.c	/^   unsigned short UncompressedLength; \/\/ maximum 0x4000$/;"	m	struct:_YJ_1_BLOCKHEADER	file:
+Unknown	src/misc/yj1.c	/^   unsigned char Unknown;$/;"	m	struct:_YJ_1_FILEHEADER	file:
+VIDEO_BackupScreen	src/device/video.c	/^VIDEO_BackupScreen($/;"	f
+VIDEO_FadeScreen	src/device/video.c	/^VIDEO_FadeScreen($/;"	f
+VIDEO_GetPalette	src/device/video.c	/^VIDEO_GetPalette($/;"	f
+VIDEO_H	include/video.h	23;"	d
+VIDEO_Init_GEKKO	src/device/video.c	/^VIDEO_Init_GEKKO($/;"	f
+VIDEO_Resize	src/device/video.c	/^VIDEO_Resize($/;"	f
+VIDEO_RestoreScreen	src/device/video.c	/^VIDEO_RestoreScreen($/;"	f
+VIDEO_SaveScreenshot	src/device/video.c	/^VIDEO_SaveScreenshot($/;"	f
+VIDEO_SetPalette	src/device/video.c	/^VIDEO_SetPalette($/;"	f
+VIDEO_ShakeScreen	src/device/video.c	/^VIDEO_ShakeScreen($/;"	f
+VIDEO_Shutdown	src/device/video.c	/^VIDEO_Shutdown($/;"	f
+VIDEO_SwitchScreen	src/device/video.c	/^VIDEO_SwitchScreen($/;"	f
+VIDEO_ToggleFullscreen	src/device/video.c	/^VIDEO_ToggleFullscreen($/;"	f
+VIDEO_ToggleScaleScreen	src/device/video.c	/^VIDEO_ToggleScaleScreen($/;"	f
+VIDEO_UpdateScreen	src/device/video.c	/^VIDEO_UpdateScreen($/;"	f
+VMEM_ADDR	src/hal/hal.c	/^static intptr_t VMEM_ADDR = (intptr_t)&vmem[0];$/;"	v	file:
+VOID	include/_common.h	204;"	d
+W	src/hal/hal.c	8;"	d	file:
+WORD	include/_common.h	/^typedef unsigned short      WORD, *LPWORD;$/;"	t
+WORD_LENGTH	src/ui/text.c	27;"	d	file:
+YJ_1_BLOCKHEADER	src/misc/yj1.c	/^} YJ_1_BLOCKHEADER, *PYJ_1_BLOCKHEADER;$/;"	t	typeref:struct:_YJ_1_BLOCKHEADER	file:
+YJ_1_FILEHEADER	src/misc/yj1.c	/^} YJ_1_FILEHEADER, *PYJ_1_FILEHEADER;$/;"	t	typeref:struct:_YJ_1_FILEHEADER	file:
+_BitField	src/misc/yj1.c	/^typedef struct _BitField$/;"	s	file:
+_COMMON_H	include/_common.h	22;"	d
+_LPCBYTE_DEFINED	include/_common.h	185;"	d
+_MAP_H	include/map.h	23;"	d
+_PALUTILS_H	include/palcommon.h	23;"	d
+_PATH_LOG	include/util.h	94;"	d
+_SCENE_H	include/scene.h	23;"	d
+_TEXT_H	include/text.h	23;"	d
+_Tree	src/misc/yj1.c	/^typedef struct _Tree$/;"	s	file:
+_TreeNode	src/misc/yj1.c	/^typedef struct _TreeNode$/;"	s	file:
+_TreeNodeList	src/misc/yj1.c	/^typedef struct _TreeNodeList$/;"	s	file:
+_WIN32	include/_common.h	94;"	d
+_YJ_1_BLOCKHEADER	src/misc/yj1.c	/^typedef struct _YJ_1_BLOCKHEADER$/;"	s	file:
+_YJ_1_FILEHEADER	src/misc/yj1.c	/^typedef struct _YJ_1_FILEHEADER$/;"	s	file:
+__COMMON_H__	include/common.h	2;"	d
+__FLOAT_H__	include/FLOAT.h	2;"	d
+__HAL_H__	include/hal.h	2;"	d
+action	include/battle.h	/^   BATTLEACTION       action;               \/\/ action to perform$/;"	m	struct:tagBATTLEPLAYER
+adjust_tree	src/misc/yj1.c	/^static void adjust_tree(Tree tree, unsigned short value)$/;"	f	file:
+alpha	include/hal.h	/^	uint8_t alpha;$/;"	m	struct:__anon4
+b	include/hal.h	/^	uint8_t r, g, b, unused;$/;"	m	struct:__anon2
+b0	src/misc/yj1.c	/^   unsigned char   b0:   1;$/;"	m	struct:_BitField	file:
+b1	src/misc/yj1.c	/^   unsigned char   b1:   1;$/;"	m	struct:_BitField	file:
+b2	src/misc/yj1.c	/^   unsigned char   b2:   1;$/;"	m	struct:_BitField	file:
+b3	src/misc/yj1.c	/^   unsigned char   b3:   1;$/;"	m	struct:_BitField	file:
+b4	src/misc/yj1.c	/^   unsigned char   b4:   1;$/;"	m	struct:_BitField	file:
+b5	src/misc/yj1.c	/^   unsigned char   b5:   1;$/;"	m	struct:_BitField	file:
+b6	src/misc/yj1.c	/^   unsigned char   b6:   1;$/;"	m	struct:_BitField	file:
+b7	src/misc/yj1.c	/^   unsigned char   b7:   1;$/;"	m	struct:_BitField	file:
+bBattleSpeed	include/global.h	/^   BYTE             bBattleSpeed;        \/\/ Battle Speed (1 = Fastest, 5 = Slowest)$/;"	m	struct:tagGLOBALVARS
+bCurrentFontColor	src/ui/text.c	/^   BYTE            bCurrentFontColor;$/;"	m	struct:tagTEXTLIB	file:
+bCurrentSaveSlot	include/global.h	/^   BYTE             bCurrentSaveSlot;    \/\/ current save slot (1-5)$/;"	m	struct:tagGLOBALVARS
+bDialogPosition	src/ui/text.c	/^   BYTE            bDialogPosition;$/;"	m	struct:tagTEXTLIB	file:
+bIcon	src/ui/text.c	/^   BYTE            bIcon;$/;"	m	struct:tagTEXTLIB	file:
+bLoadFlags	src/global/res.c	/^   BYTE             bLoadFlags;$/;"	m	struct:tagRESOURCES	file:
+bScaleScreen	src/device/video.c	/^   static BOOL bScaleScreen = FALSE;$/;"	v	file:
+bScaleScreen	src/device/video.c	/^   static BOOL bScaleScreen = TRUE;$/;"	v	file:
+big5font	include/big5font.h	/^unsigned char big5font[] = {$/;"	v
+bit	src/misc/yj1.c	/^static void bit(void* data, unsigned int pos, int set)$/;"	f	file:
+bool	include/common.h	/^typedef uint8_t bool;$/;"	t
+bt	src/misc/yj1.c	/^static int bt(const void* data, unsigned int pos)$/;"	f	file:
+bufDialogIcons	src/ui/text.c	/^   BYTE            bufDialogIcons[282];$/;"	m	struct:tagTEXTLIB	file:
+build_tree	src/misc/yj1.c	/^static int build_tree(Tree *tree)$/;"	f	file:
+calloc	include/_common.h	54;"	d
+clip_rect	include/hal.h	/^	SDL_Rect clip_rect;$/;"	m	struct:__anon5
+color	include/uibattle.h	/^   NUMCOLOR         color;$/;"	m	struct:tagSHOWNUM
+colorkey	include/hal.h	/^	uint32_t colorkey;$/;"	m	struct:__anon4
+colors	include/hal.h	/^	SDL_Color *colors;$/;"	m	struct:__anon3
+data1	src/misc/yj1.c	/^static unsigned char data1[0x100] =$/;"	v	file:
+data2	src/misc/yj1.c	/^static unsigned char data2[0x10] =$/;"	v	file:
+dir	include/input.h	/^   PALDIRECTION           dir, prevdir;$/;"	m	struct:tagPALINPUTSTATE
+dwCash	include/global.h	/^   DWORD            dwCash;                  \/\/ amount of cash$/;"	m	struct:tagSAVEDGAME
+dwCash	include/global.h	/^   DWORD            dwCash;              \/\/ amount of cash$/;"	m	struct:tagGLOBALVARS
+dwFrameNum	include/global.h	/^   DWORD            dwFrameNum;$/;"	m	struct:tagGLOBALVARS
+dwKeyPress	include/input.h	/^   DWORD                  dwKeyPress;$/;"	m	struct:tagPALINPUTSTATE
+dwMsgShowTime	include/uibattle.h	/^   DWORD            dwMsgShowTime;        \/\/ the end time of showing the message$/;"	m	struct:tagBATTLEUI
+dwTime	include/uibattle.h	/^   DWORD            dwTime;$/;"	m	struct:tagSHOWNUM
+e	include/battle.h	/^   ENEMY              e;                      \/\/ detailed data of this enemy$/;"	m	struct:tagBATTLEENEMY
+enemy	include/global.h	/^   OBJECT_ENEMY      enemy;$/;"	m	union:tagOBJECT
+f	include/global.h	/^   FILES            f;$/;"	m	struct:tagGLOBALVARS
+f2F	src/FLOAT/FLOAT.c	/^FLOAT f2F(float a) {$/;"	f
+fAutoAttack	include/uibattle.h	/^   BOOL             fAutoAttack;          \/\/ TRUE if auto attack$/;"	m	struct:tagBATTLEUI
+fAutoBattle	include/global.h	/^   BOOL             fAutoBattle;         \/\/ TRUE if auto-battle$/;"	m	struct:tagGLOBALVARS
+fDefending	include/battle.h	/^   BOOL               fDefending;           \/\/ TRUE if player is defending$/;"	m	struct:tagBATTLEPLAYER
+fDualMove	include/battle.h	/^   BOOL               fDualMove;$/;"	m	struct:tagBATTLEENEMY
+fEnabled	include/ui.h	/^   BOOL          fEnabled;$/;"	m	struct:tagMENUITEM
+fEnabled	src/ui/magicmenu.c	/^   BOOL         fEnabled;$/;"	m	struct:MAGICITEM	file:
+fEnemyCleared	include/battle.h	/^   BOOL             fEnemyCleared;        \/\/ TRUE if enemies are cleared$/;"	m	struct:tagBATTLE
+fEnemyMoving	include/battle.h	/^   BOOL             fEnemyMoving;         \/\/ TRUE if enemy is moving$/;"	m	struct:tagBATTLE
+fEnteringScene	include/global.h	/^   BOOL             fEnteringScene;      \/\/ TRUE if entering a new scene$/;"	m	struct:tagGLOBALVARS
+fFirstMoveDone	include/battle.h	/^   BOOL               fFirstMoveDone;$/;"	m	struct:tagBATTLEENEMY
+fFlee	include/battle.h	/^   BOOL             fFlee;                \/\/ TRUE if player pressed Flee$/;"	m	struct:tagBATTLE
+fForce	include/battle.h	/^   BOOL             fForce;               \/\/ TRUE if player pressed Force$/;"	m	struct:tagBATTLE
+fGameStart	include/global.h	/^   BOOL             fGameStart;          \/\/ TRUE if the has just started$/;"	m	struct:tagGLOBALVARS
+fInBattle	include/global.h	/^   BOOL             fInBattle;           \/\/ TRUE if in battle$/;"	m	struct:tagGLOBALVARS
+fIsBig5	src/ui/font.c	/^BOOL fIsBig5 = FALSE;$/;"	v
+fIsBoss	include/battle.h	/^   BOOL             fIsBoss;              \/\/ TRUE if boss fight$/;"	m	struct:tagBATTLE
+fIsEnemy	include/battle.h	/^   BOOL       fIsEnemy;$/;"	m	struct:tagACTIONQUEUE
+fNeedToFadeIn	include/global.h	/^   BOOL             fNeedToFadeIn;       \/\/ TRUE if need to fade in when drawing scene$/;"	m	struct:tagGLOBALVARS
+fNightPalette	include/global.h	/^   BOOL             fNightPalette;       \/\/ TRUE if use the darker night palette$/;"	m	struct:tagGLOBALVARS
+fPlayingRNG	src/ui/text.c	/^   BOOL            fPlayingRNG;$/;"	m	struct:tagTEXTLIB	file:
+fRepeat	include/battle.h	/^   BOOL             fRepeat;              \/\/ TRUE if player pressed Repeat$/;"	m	struct:tagBATTLE
+fTurnStart	include/battle.h	/^   BOOL               fTurnStart;$/;"	m	struct:tagBATTLEENEMY
+fUserSkip	src/ui/text.c	/^   BOOL            fUserSkip;$/;"	m	struct:tagTEXTLIB	file:
+false	include/common.h	10;"	d
+fb	src/hal/hal.c	/^static uint32_t fb[W * H];$/;"	v	file:
+flRemainingTime	include/battle.h	/^   FLOAT              flRemainingTime;  \/\/ remaining waiting time before the action start$/;"	m	struct:tagBATTLEACTION
+flTimeChargingUnit	include/battle.h	/^   FLOAT            flTimeChargingUnit;   \/\/ the base waiting time unit$/;"	m	struct:tagBATTLE
+flTimeMeter	include/battle.h	/^   FLOAT              flTimeMeter;            \/\/ time-charging meter (0 = empty, 100 = full).$/;"	m	struct:tagBATTLEENEMY
+flTimeMeter	include/battle.h	/^   FLOAT              flTimeMeter;          \/\/ time-charging meter (0 = empty, 100 = full).$/;"	m	struct:tagBATTLEPLAYER
+flTimeSpeedModifier	include/battle.h	/^   FLOAT              flTimeSpeedModifier;$/;"	m	struct:tagBATTLEPLAYER
+flags	include/hal.h	/^	uint32_t flags;$/;"	m	struct:__anon5
+fopen	include/_common.h	138;"	d
+format	include/hal.h	/^	SDL_PixelFormat *format;$/;"	m	struct:__anon5
+fpBALL	include/global.h	/^   FILE            *fpBALL;     \/\/ item bitmaps$/;"	m	struct:tagFILES
+fpDATA	include/global.h	/^   FILE            *fpDATA;     \/\/ misc data$/;"	m	struct:tagFILES
+fpF	include/global.h	/^   FILE            *fpF;        \/\/ player sprites during battle$/;"	m	struct:tagFILES
+fpFBP	include/global.h	/^   FILE            *fpFBP;      \/\/ battlefield background images$/;"	m	struct:tagFILES
+fpFIRE	include/global.h	/^   FILE            *fpFIRE;     \/\/ fire effect sprites$/;"	m	struct:tagFILES
+fpMGO	include/global.h	/^   FILE            *fpMGO;      \/\/ sprites in scenes$/;"	m	struct:tagFILES
+fpRGM	include/global.h	/^   FILE            *fpRGM;      \/\/ character face bitmaps$/;"	m	struct:tagFILES
+fpSSS	include/global.h	/^   FILE            *fpSSS;      \/\/ script data$/;"	m	struct:tagFILES
+free	include/_common.h	55;"	d
+g	include/global.h	/^   GAMEDATA         g;$/;"	m	struct:tagGLOBALVARS
+g	include/hal.h	/^	uint8_t r, g, b, unused;$/;"	m	struct:__anon2
+g_Battle	src/battle/battle.c	/^BATTLE          g_Battle;$/;"	v
+g_InputState	src/device/input.c	/^volatile PALINPUTSTATE   g_InputState;$/;"	v
+g_TextLib	src/ui/text.c	/^static TEXTLIB         g_TextLib;$/;"	v	file:
+g_bRenderPaused	src/device/video.c	/^volatile BOOL g_bRenderPaused = FALSE;$/;"	v
+g_fNoDesc	src/ui/itemmenu.c	/^static BOOL    g_fNoDesc = FALSE;$/;"	v	file:
+g_fNoMusic	src/unuse/sound.c	/^BOOL         g_fNoMusic = FALSE;$/;"	v
+g_fNoSound	src/unuse/sound.c	/^BOOL         g_fNoSound = FALSE;$/;"	v
+g_fScriptSuccess	src/game/script.c	/^BOOL            g_fScriptSuccess = TRUE;$/;"	v
+g_fUpdatedInBattle	src/ui/text.c	/^BOOL      g_fUpdatedInBattle      = FALSE;$/;"	v
+g_fUseJoystick	src/device/input.c	/^BOOL                     g_fUseJoystick = TRUE;$/;"	v
+g_fUseMidi	src/unuse/sound.c	/^BOOL         g_fUseMidi = FALSE;$/;"	v
+g_iCurEquipPart	src/game/script.c	/^static int      g_iCurEquipPart = -1;$/;"	v	file:
+g_iCurMiscMenuItem	src/ui/uibattle.c	/^static int g_iCurMiscMenuItem = 0;$/;"	v	file:
+g_iCurSubMenuItem	src/ui/uibattle.c	/^static int g_iCurSubMenuItem = 0;$/;"	v	file:
+g_iCurrChannel	src/unuse/sound.c	/^int          g_iCurrChannel = 0;$/;"	v
+g_iCurrentItem	src/ui/magicmenu.c	/^static int     g_iCurrentItem = 0;$/;"	v	file:
+g_iNumInventory	src/ui/itemmenu.c	/^static int     g_iNumInventory = 0;$/;"	v	file:
+g_iNumMagic	src/ui/magicmenu.c	/^static int     g_iNumMagic = 0;$/;"	v	file:
+g_iVolume	src/unuse/sound.c	/^INT          g_iVolume  = SDL_MIX_MAXVOLUME * 0.1;$/;"	v
+g_nSpriteToDraw	src/scene/scene.c	/^static int               g_nSpriteToDraw;$/;"	v	file:
+g_pJoy	src/device/input.c	/^static SDL_Joystick     *g_pJoy = NULL;$/;"	v	file:
+g_rgPlayerPos	src/battle/battle.c	/^g_rgPlayerPos[3][3][2] = {$/;"	v
+g_rgSpriteToDraw	src/scene/scene.c	/^static SPRITE_TO_DRAW    g_rgSpriteToDraw[MAX_SPRITE_TO_DRAW];$/;"	v	file:
+g_rgszAdditionalWords	src/ui/text.c	/^static const char g_rgszAdditionalWords[][WORD_LENGTH + 1] = {$/;"	v	file:
+g_uiLastBackKeyTime	src/device/input.c	/^unsigned int g_uiLastBackKeyTime = 0;$/;"	v
+g_wCurEffectSprite	src/misc/ending.c	/^static WORD g_wCurEffectSprite = 0;$/;"	v	file:
+g_wInitialHeight	src/device/video.c	/^static WORD               g_wInitialHeight   = 400;$/;"	v	file:
+g_wInitialWidth	src/device/video.c	/^static WORD               g_wInitialWidth    = 640;$/;"	v	file:
+g_wItemFlags	src/ui/itemmenu.c	/^static WORD    g_wItemFlags = 0;$/;"	v	file:
+g_wPlayerMP	src/ui/magicmenu.c	/^static WORD    g_wPlayerMP = 0;$/;"	v	file:
+g_wShakeLevel	src/device/video.c	/^static WORD               g_wShakeLevel      = 0;$/;"	v	file:
+g_wShakeTime	src/device/video.c	/^static WORD               g_wShakeTime       = 0;$/;"	v	file:
+gbfont	include/gbfont.h	/^unsigned char gbfont[] = {$/;"	v
+get_bits	src/misc/yj1.c	/^get_bits($/;"	f	file:
+get_count	src/misc/yj1.c	/^get_count($/;"	f	file:
+get_loop	src/misc/yj1.c	/^get_loop($/;"	f	file:
+getopt	include/getopt.h	45;"	d
+glSeed	src/misc/util.c	/^static int glSeed = 0;$/;"	v	file:
+gpBackKeyMessage	src/device/video.c	/^static SDL_Texture       *gpBackKeyMessage   = NULL;$/;"	v	file:
+gpFont	src/ui/font.c	/^static LPFONT gpFont = NULL;$/;"	v	file:
+gpGlobals	src/global/global.c	/^LPGLOBALVARS gpGlobals = NULL;$/;"	v
+gpRenderer	src/device/video.c	/^static SDL_Renderer      *gpRenderer         = NULL;$/;"	v	file:
+gpResources	src/global/res.c	/^static LPRESOURCES gpResources = NULL;$/;"	v	file:
+gpScreen	src/device/video.c	/^SDL_Surface              *gpScreen           = NULL;$/;"	v
+gpScreenBak	src/device/video.c	/^SDL_Surface              *gpScreenBak        = NULL;$/;"	v
+gpScreenReal	src/device/video.c	/^static SDL_Surface       *gpScreenReal       = NULL;$/;"	v	file:
+gpSpriteUI	src/ui/ui.c	/^LPSPRITE      gpSpriteUI = NULL;$/;"	v
+gpTexture	src/device/video.c	/^static SDL_Texture       *gpTexture          = NULL;$/;"	v	file:
+gpTouchOverlay	src/device/video.c	/^static SDL_Texture       *gpTouchOverlay     = NULL;$/;"	v	file:
+gpWindow	src/device/video.c	/^SDL_Window               *gpWindow           = NULL;$/;"	v
+h	include/hal.h	/^	int w, h;$/;"	m	struct:__anon5
+h	include/hal.h	/^	uint16_t w, h;$/;"	m	struct:__anon1
+hal_init	src/hal/hal.c	/^void hal_init() {$/;"	f
+iBlow	include/battle.h	/^   int              iBlow;$/;"	m	struct:tagBATTLE
+iCashGained	include/battle.h	/^   INT              iCashGained;          \/\/ total cash gained$/;"	m	struct:tagBATTLE
+iColorShift	include/battle.h	/^   INT                iColorShift;$/;"	m	struct:tagBATTLEENEMY
+iColorShift	include/battle.h	/^   INT                iColorShift;$/;"	m	struct:tagBATTLEPLAYER
+iCurAction	include/battle.h	/^   int              iCurAction;$/;"	m	struct:tagBATTLE
+iCurInvMenuItem	include/global.h	/^   int              iCurInvMenuItem;     \/\/ current inventory menu item number$/;"	m	struct:tagGLOBALVARS
+iCurMainMenuItem	include/global.h	/^   int              iCurMainMenuItem;    \/\/ current main menu item number$/;"	m	struct:tagGLOBALVARS
+iCurPlayingRNG	include/global.h	/^   int              iCurPlayingRNG;      \/\/ current playing RNG animation$/;"	m	struct:tagGLOBALVARS
+iCurSystemMenuItem	include/global.h	/^   int              iCurSystemMenuItem;  \/\/ current system menu item number$/;"	m	struct:tagGLOBALVARS
+iDelayTime	src/ui/text.c	/^   int             iDelayTime;$/;"	m	struct:tagTEXTLIB	file:
+iExpGained	include/battle.h	/^   INT              iExpGained;           \/\/ total experience value gained$/;"	m	struct:tagBATTLE
+iHidingTime	include/battle.h	/^   INT              iHidingTime;          \/\/ Time of hiding$/;"	m	struct:tagBATTLE
+iLayer	src/scene/scene.c	/^   int              iLayer;        \/\/ logical layer$/;"	m	struct:tagSPRITE_TO_DRAW	file:
+iMapNum	include/map.h	/^   INT            iMapNum;$/;"	m	struct:tagPALMAP
+iSummonFrame	include/battle.h	/^   INT              iSummonFrame;         \/\/ current frame of the summoned god$/;"	m	struct:tagBATTLE
+int2F	include/FLOAT.h	/^static inline FLOAT int2F(int a) {$/;"	f
+is_gb	src/ui/font.c	/^static BOOL is_gb(unsigned char b1, unsigned char b2)$/;"	f	file:
+iso_font	include/ascii.h	/^unsigned char iso_font[] =$/;"	v
+item	include/global.h	/^   OBJECT_ITEM       item;$/;"	m	union:tagOBJECT
+kBattleActionAttack	include/battle.h	/^   kBattleActionAttack,        \/\/ physical attack$/;"	e	enum:tagBATTLEACTIONTYPE
+kBattleActionAttackMate	include/battle.h	/^   kBattleActionAttackMate,    \/\/ attack teammate (confused only)$/;"	e	enum:tagBATTLEACTIONTYPE
+kBattleActionCoopMagic	include/battle.h	/^   kBattleActionCoopMagic,     \/\/ use cooperative magic$/;"	e	enum:tagBATTLEACTIONTYPE
+kBattleActionDefend	include/battle.h	/^   kBattleActionDefend,        \/\/ defend$/;"	e	enum:tagBATTLEACTIONTYPE
+kBattleActionFlee	include/battle.h	/^   kBattleActionFlee,          \/\/ flee from the battle$/;"	e	enum:tagBATTLEACTIONTYPE
+kBattleActionMagic	include/battle.h	/^   kBattleActionMagic,         \/\/ use magic$/;"	e	enum:tagBATTLEACTIONTYPE
+kBattleActionPass	include/battle.h	/^   kBattleActionPass,          \/\/ do nothing$/;"	e	enum:tagBATTLEACTIONTYPE
+kBattleActionThrowItem	include/battle.h	/^   kBattleActionThrowItem,     \/\/ throw item onto enemy$/;"	e	enum:tagBATTLEACTIONTYPE
+kBattleActionUseItem	include/battle.h	/^   kBattleActionUseItem,       \/\/ use item$/;"	e	enum:tagBATTLEACTIONTYPE
+kBattleMenuMagicSelect	include/uibattle.h	/^   kBattleMenuMagicSelect,$/;"	e	enum:tagBATTLEMENUSTATE
+kBattleMenuMain	include/uibattle.h	/^   kBattleMenuMain,$/;"	e	enum:tagBATTLEMENUSTATE
+kBattleMenuMisc	include/uibattle.h	/^   kBattleMenuMisc,$/;"	e	enum:tagBATTLEMENUSTATE
+kBattleMenuMiscItemSubMenu	include/uibattle.h	/^   kBattleMenuMiscItemSubMenu,$/;"	e	enum:tagBATTLEMENUSTATE
+kBattleMenuThrowItemSelect	include/uibattle.h	/^   kBattleMenuThrowItemSelect,$/;"	e	enum:tagBATTLEMENUSTATE
+kBattleMenuUseItemSelect	include/uibattle.h	/^   kBattleMenuUseItemSelect,$/;"	e	enum:tagBATTLEMENUSTATE
+kBattlePhasePerformAction	include/battle.h	/^   kBattlePhasePerformAction$/;"	e	enum:tabBATTLEPHASE
+kBattlePhaseSelectAction	include/battle.h	/^   kBattlePhaseSelectAction,$/;"	e	enum:tabBATTLEPHASE
+kBattleResultFleed	include/battle.h	/^   kBattleResultFleed      = 0xFFFF, \/\/ player fleed from the battle$/;"	e	enum:tagBATTLERESULT
+kBattleResultLost	include/battle.h	/^   kBattleResultLost       = 1,      \/\/ player lost the battle$/;"	e	enum:tagBATTLERESULT
+kBattleResultOnGoing	include/battle.h	/^   kBattleResultOnGoing    = 1000,   \/\/ the battle is ongoing$/;"	e	enum:tagBATTLERESULT
+kBattleResultPause	include/battle.h	/^   kBattleResultPause      = 1002,   \/\/ battle pause$/;"	e	enum:tagBATTLERESULT
+kBattleResultPreBattle	include/battle.h	/^   kBattleResultPreBattle  = 1001,   \/\/ running pre-battle scripts$/;"	e	enum:tagBATTLERESULT
+kBattleResultTerminated	include/battle.h	/^   kBattleResultTerminated = 0,      \/\/ battle terminated with scripts$/;"	e	enum:tagBATTLERESULT
+kBattleResultWon	include/battle.h	/^   kBattleResultWon        = 3,      \/\/ player won the battle$/;"	e	enum:tagBATTLERESULT
+kBattleUIActionAttack	include/uibattle.h	/^   kBattleUIActionAttack,$/;"	e	enum:tagBATTLEUIACTION
+kBattleUIActionCoopMagic	include/uibattle.h	/^   kBattleUIActionCoopMagic,$/;"	e	enum:tagBATTLEUIACTION
+kBattleUIActionMagic	include/uibattle.h	/^   kBattleUIActionMagic,$/;"	e	enum:tagBATTLEUIACTION
+kBattleUIActionMisc	include/uibattle.h	/^   kBattleUIActionMisc,$/;"	e	enum:tagBATTLEUIACTION
+kBattleUISelectMove	include/uibattle.h	/^   kBattleUISelectMove,$/;"	e	enum:tagBATTLEUISTATE
+kBattleUISelectTargetEnemy	include/uibattle.h	/^   kBattleUISelectTargetEnemy,$/;"	e	enum:tagBATTLEUISTATE
+kBattleUISelectTargetEnemyAll	include/uibattle.h	/^   kBattleUISelectTargetEnemyAll,$/;"	e	enum:tagBATTLEUISTATE
+kBattleUISelectTargetPlayer	include/uibattle.h	/^   kBattleUISelectTargetPlayer,$/;"	e	enum:tagBATTLEUISTATE
+kBattleUISelectTargetPlayerAll	include/uibattle.h	/^   kBattleUISelectTargetPlayerAll,$/;"	e	enum:tagBATTLEUISTATE
+kBattleUIWait	include/uibattle.h	/^   kBattleUIWait,$/;"	e	enum:tagBATTLEUISTATE
+kBodyPartBody	include/global.h	/^   kBodyPartBody,$/;"	e	enum:tagBODYPART
+kBodyPartExtra	include/global.h	/^   kBodyPartExtra,$/;"	e	enum:tagBODYPART
+kBodyPartFeet	include/global.h	/^   kBodyPartFeet,$/;"	e	enum:tagBODYPART
+kBodyPartHand	include/global.h	/^   kBodyPartHand,$/;"	e	enum:tagBODYPART
+kBodyPartHead	include/global.h	/^   kBodyPartHead     = 0,$/;"	e	enum:tagBODYPART
+kBodyPartShoulder	include/global.h	/^   kBodyPartShoulder,$/;"	e	enum:tagBODYPART
+kBodyPartWear	include/global.h	/^   kBodyPartWear,$/;"	e	enum:tagBODYPART
+kDialogCenter	include/text.h	/^   kDialogCenter,$/;"	e	enum:tagDIALOGPOSITION
+kDialogCenterWindow	include/text.h	/^   kDialogCenterWindow$/;"	e	enum:tagDIALOGPOSITION
+kDialogLower	include/text.h	/^   kDialogLower,$/;"	e	enum:tagDIALOGPOSITION
+kDialogUpper	include/text.h	/^   kDialogUpper       = 0,$/;"	e	enum:tagDIALOGPOSITION
+kDirEast	include/palcommon.h	/^   kDirEast,$/;"	e	enum:tagPALDIRECTION
+kDirNorth	include/palcommon.h	/^   kDirNorth,$/;"	e	enum:tagPALDIRECTION
+kDirSouth	include/palcommon.h	/^   kDirSouth = 0,$/;"	e	enum:tagPALDIRECTION
+kDirUnknown	include/palcommon.h	/^   kDirUnknown$/;"	e	enum:tagPALDIRECTION
+kDirWest	include/palcommon.h	/^   kDirWest,$/;"	e	enum:tagPALDIRECTION
+kFighterAct	include/battle.h	/^   kFighterAct,   \/\/ doing the actual move$/;"	e	enum:tagFIGHTERSTATE
+kFighterCom	include/battle.h	/^   kFighterCom,   \/\/ accepting command$/;"	e	enum:tagFIGHTERSTATE
+kFighterWait	include/battle.h	/^   kFighterWait,  \/\/ waiting time$/;"	e	enum:tagFIGHTERSTATE
+kItemFlagApplyToAll	include/global.h	/^   kItemFlagApplyToAll      = (1 << 4),$/;"	e	enum:tagITEMFLAG
+kItemFlagConsuming	include/global.h	/^   kItemFlagConsuming       = (1 << 3),$/;"	e	enum:tagITEMFLAG
+kItemFlagEquipable	include/global.h	/^   kItemFlagEquipable       = (1 << 1),$/;"	e	enum:tagITEMFLAG
+kItemFlagEquipableByPlayerRole_First	include/global.h	/^   kItemFlagEquipableByPlayerRole_First  = (1 << 6)$/;"	e	enum:tagITEMFLAG
+kItemFlagSellable	include/global.h	/^   kItemFlagSellable        = (1 << 5),$/;"	e	enum:tagITEMFLAG
+kItemFlagThrowable	include/global.h	/^   kItemFlagThrowable       = (1 << 2),$/;"	e	enum:tagITEMFLAG
+kItemFlagUsable	include/global.h	/^   kItemFlagUsable          = (1 << 0),$/;"	e	enum:tagITEMFLAG
+kKeyAuto	include/input.h	/^   kKeyAuto        = (1 << 9),$/;"	e	enum:PALKEY
+kKeyDefend	include/input.h	/^   kKeyDefend      = (1 << 10),$/;"	e	enum:PALKEY
+kKeyDown	include/input.h	/^   kKeyDown        = (1 << 2),$/;"	e	enum:PALKEY
+kKeyFlee	include/input.h	/^   kKeyFlee        = (1 << 13),$/;"	e	enum:PALKEY
+kKeyForce	include/input.h	/^   kKeyForce       = (1 << 15),$/;"	e	enum:PALKEY
+kKeyLeft	include/input.h	/^   kKeyLeft        = (1 << 3),$/;"	e	enum:PALKEY
+kKeyMenu	include/input.h	/^   kKeyMenu        = (1 << 0),$/;"	e	enum:PALKEY
+kKeyPgDn	include/input.h	/^   kKeyPgDn        = (1 << 7),$/;"	e	enum:PALKEY
+kKeyPgUp	include/input.h	/^   kKeyPgUp        = (1 << 6),$/;"	e	enum:PALKEY
+kKeyRepeat	include/input.h	/^   kKeyRepeat      = (1 << 8),$/;"	e	enum:PALKEY
+kKeyRight	include/input.h	/^   kKeyRight       = (1 << 5),$/;"	e	enum:PALKEY
+kKeySearch	include/input.h	/^   kKeySearch      = (1 << 1),$/;"	e	enum:PALKEY
+kKeyStatus	include/input.h	/^   kKeyStatus      = (1 << 14),$/;"	e	enum:PALKEY
+kKeyThrowItem	include/input.h	/^   kKeyThrowItem   = (1 << 12),$/;"	e	enum:PALKEY
+kKeyUp	include/input.h	/^   kKeyUp          = (1 << 4),$/;"	e	enum:PALKEY
+kKeyUseItem	include/input.h	/^   kKeyUseItem     = (1 << 11),$/;"	e	enum:PALKEY
+kLoadPlayerSprite	include/res.h	/^   kLoadPlayerSprite   = (1 << 1),    \/\/ load player sprites$/;"	e	enum:tagLOADRESFLAG
+kLoadScene	include/res.h	/^   kLoadScene          = (1 << 0),    \/\/ load a scene$/;"	e	enum:tagLOADRESFLAG
+kMagicFlagApplyToAll	include/global.h	/^   kMagicFlagApplyToAll                 = (1 << 4),$/;"	e	enum:tagMAGICFLAG
+kMagicFlagUsableInBattle	include/global.h	/^   kMagicFlagUsableInBattle             = (1 << 1),$/;"	e	enum:tagMAGICFLAG
+kMagicFlagUsableOutsideBattle	include/global.h	/^   kMagicFlagUsableOutsideBattle        = (1 << 0),$/;"	e	enum:tagMAGICFLAG
+kMagicFlagUsableToEnemy	include/global.h	/^   kMagicFlagUsableToEnemy              = (1 << 3),$/;"	e	enum:tagMAGICFLAG
+kMagicTypeApplyToParty	include/global.h	/^   kMagicTypeApplyToParty     = 5,  \/\/ the magic is used on the whole party$/;"	e	enum:tagMAGIC_TYPE
+kMagicTypeApplyToPlayer	include/global.h	/^   kMagicTypeApplyToPlayer    = 4,  \/\/ the magic is used on one player$/;"	e	enum:tagMAGIC_TYPE
+kMagicTypeAttackAll	include/global.h	/^   kMagicTypeAttackAll        = 1,  \/\/ draw the effect on each of the enemies$/;"	e	enum:tagMAGIC_TYPE
+kMagicTypeAttackField	include/global.h	/^   kMagicTypeAttackField      = 3,  \/\/ draw the effect on the battle field$/;"	e	enum:tagMAGIC_TYPE
+kMagicTypeAttackWhole	include/global.h	/^   kMagicTypeAttackWhole      = 2,  \/\/ draw the effect on the whole enemy team$/;"	e	enum:tagMAGIC_TYPE
+kMagicTypeNormal	include/global.h	/^   kMagicTypeNormal           = 0,$/;"	e	enum:tagMAGIC_TYPE
+kMagicTypeSummon	include/global.h	/^   kMagicTypeSummon           = 9,  \/\/ summon$/;"	e	enum:tagMAGIC_TYPE
+kMagicTypeTrance	include/global.h	/^   kMagicTypeTrance           = 8,  \/\/ trance the player$/;"	e	enum:tagMAGIC_TYPE
+kNumAlignLeft	include/ui.h	/^   kNumAlignLeft,$/;"	e	enum:tagNUMALIGN
+kNumAlignMid	include/ui.h	/^   kNumAlignMid,$/;"	e	enum:tagNUMALIGN
+kNumAlignRight	include/ui.h	/^   kNumAlignRight$/;"	e	enum:tagNUMALIGN
+kNumColorBlue	include/ui.h	/^   kNumColorBlue,$/;"	e	enum:tagNUMCOLOR
+kNumColorCyan	include/ui.h	/^   kNumColorCyan$/;"	e	enum:tagNUMCOLOR
+kNumColorYellow	include/ui.h	/^   kNumColorYellow,$/;"	e	enum:tagNUMCOLOR
+kObjStateBlocker	include/global.h	/^   kObjStateBlocker              = 2$/;"	e	enum:tagOBJECTSTATE
+kObjStateHidden	include/global.h	/^   kObjStateHidden               = 0,$/;"	e	enum:tagOBJECTSTATE
+kObjStateNormal	include/global.h	/^   kObjStateNormal               = 1,$/;"	e	enum:tagOBJECTSTATE
+kStatusAll	include/global.h	/^   kStatusAll$/;"	e	enum:tagSTATUS
+kStatusBravery	include/global.h	/^   kStatusBravery,       \/\/ more power for physical attacks$/;"	e	enum:tagSTATUS
+kStatusConfused	include/global.h	/^   kStatusConfused = 0,  \/\/ attack friends randomly$/;"	e	enum:tagSTATUS
+kStatusDualAttack	include/global.h	/^   kStatusDualAttack,    \/\/ dual attack$/;"	e	enum:tagSTATUS
+kStatusHaste	include/global.h	/^   kStatusHaste,         \/\/ faster$/;"	e	enum:tagSTATUS
+kStatusParalyzed	include/global.h	/^   kStatusParalyzed,     \/\/ paralyzed$/;"	e	enum:tagSTATUS
+kStatusParalyzed	include/global.h	106;"	d
+kStatusProtect	include/global.h	/^   kStatusProtect,       \/\/ more defense value$/;"	e	enum:tagSTATUS
+kStatusPuppet	include/global.h	/^   kStatusPuppet,        \/\/ for dead players only, continue attacking$/;"	e	enum:tagSTATUS
+kStatusSilence	include/global.h	/^   kStatusSilence,       \/\/ cannot use magic$/;"	e	enum:tagSTATUS
+kStatusSleep	include/global.h	/^   kStatusSleep,         \/\/ not allowed to move$/;"	e	enum:tagSTATUS
+kTriggerNone	include/global.h	/^   kTriggerNone                  = 0,$/;"	e	enum:tagTRIGGERMODE
+kTriggerSearchFar	include/global.h	/^   kTriggerSearchFar             = 3,$/;"	e	enum:tagTRIGGERMODE
+kTriggerSearchNear	include/global.h	/^   kTriggerSearchNear            = 1,$/;"	e	enum:tagTRIGGERMODE
+kTriggerSearchNormal	include/global.h	/^   kTriggerSearchNormal          = 2,$/;"	e	enum:tagTRIGGERMODE
+kTriggerTouchFar	include/global.h	/^   kTriggerTouchFar              = 6,$/;"	e	enum:tagTRIGGERMODE
+kTriggerTouchFarther	include/global.h	/^   kTriggerTouchFarther          = 7,$/;"	e	enum:tagTRIGGERMODE
+kTriggerTouchFarthest	include/global.h	/^   kTriggerTouchFarthest         = 8$/;"	e	enum:tagTRIGGERMODE
+kTriggerTouchNear	include/global.h	/^   kTriggerTouchNear             = 4,$/;"	e	enum:tagTRIGGERMODE
+kTriggerTouchNormal	include/global.h	/^   kTriggerTouchNormal           = 5,$/;"	e	enum:tagTRIGGERMODE
+key_state	src/hal/hal.c	/^static int key_state[128];$/;"	v	file:
+leaf	src/misc/yj1.c	/^   unsigned char   leaf;$/;"	m	struct:_TreeNode	file:
+left	src/misc/yj1.c	/^   struct _TreeNode *left;$/;"	m	struct:_TreeNode	typeref:struct:_TreeNode::_TreeNode	file:
+left	src/misc/yj1.c	/^   struct _TreeNode*   left;$/;"	m	struct:_TreeNode	typeref:struct:_TreeNode::_TreeNode	file:
+level	src/misc/yj1.c	/^   unsigned short  level;$/;"	m	struct:_TreeNode	file:
+list	src/misc/yj1.c	/^   TreeNode**   list;$/;"	m	struct:_Tree	file:
+lpBackground	include/battle.h	/^   SDL_Surface     *lpBackground;$/;"	m	struct:tagBATTLE
+lpBufChar	src/ui/font.c	/^   LPWORD           lpBufChar;$/;"	m	struct:tagFont	file:
+lpBufGlyph	src/ui/font.c	/^   LPBYTE           lpBufGlyph;$/;"	m	struct:tagFont	file:
+lpDesc	include/ui.h	/^   LPSTR                       lpDesc;$/;"	m	struct:tagOBJECTDESC
+lpEffectSprite	include/battle.h	/^   LPBYTE           lpEffectSprite;$/;"	m	struct:tagBATTLE
+lpMap	src/global/res.c	/^   LPPALMAP         lpMap;                                      \/\/ current loaded map$/;"	m	struct:tagRESOURCES	file:
+lpMsgBuf	src/ui/text.c	/^   LPBYTE          lpMsgBuf;$/;"	m	struct:tagTEXTLIB	file:
+lpMsgOffset	src/ui/text.c	/^   LPDWORD         lpMsgOffset;$/;"	m	struct:tagTEXTLIB	file:
+lpObjectDesc	include/global.h	/^   LPOBJECTDESC     lpObjectDesc;$/;"	m	struct:tagGLOBALVARS
+lpSavedArea	include/ui.h	/^   SDL_Surface   *lpSavedArea;$/;"	m	struct:tagBOX
+lpSceneBuf	include/battle.h	/^   SDL_Surface     *lpSceneBuf;$/;"	m	struct:tagBATTLE
+lpSprite	include/battle.h	/^   LPSPRITE           lpSprite;$/;"	m	struct:tagBATTLEENEMY
+lpSprite	include/battle.h	/^   LPSPRITE           lpSprite;$/;"	m	struct:tagBATTLEPLAYER
+lpSprite	include/battle.h	/^   LPSPRITE           lpSprite;$/;"	m	struct:tagSUMMON
+lpSpriteFrame	src/scene/scene.c	/^   LPCBITMAPRLE     lpSpriteFrame; \/\/ pointer to the frame bitmap$/;"	m	struct:tagSPRITE_TO_DRAW	file:
+lpSummonSprite	include/battle.h	/^   LPSPRITE         lpSummonSprite;       \/\/ sprite of summoned god$/;"	m	struct:tagBATTLE
+lpWordBuf	src/ui/text.c	/^   LPBYTE          lpWordBuf;$/;"	m	struct:tagTEXTLIB	file:
+lppEventObjectSprites	src/global/res.c	/^   LPSPRITE        *lppEventObjectSprites;                      \/\/ event object sprites$/;"	m	struct:tagRESOURCES	file:
+lprgBattleField	include/global.h	/^   LPBATTLEFIELD           lprgBattleField;$/;"	m	struct:tagGAMEDATA
+lprgEnemy	include/global.h	/^   LPENEMY                 lprgEnemy;$/;"	m	struct:tagGAMEDATA
+lprgEnemyTeam	include/global.h	/^   LPENEMYTEAM             lprgEnemyTeam;$/;"	m	struct:tagGAMEDATA
+lprgEventObject	include/global.h	/^   LPEVENTOBJECT           lprgEventObject;$/;"	m	struct:tagGAMEDATA
+lprgLevelUpMagic	include/global.h	/^   LPLEVELUPMAGIC_ALL      lprgLevelUpMagic;$/;"	m	struct:tagGAMEDATA
+lprgMagic	include/global.h	/^   LPMAGIC                 lprgMagic;$/;"	m	struct:tagGAMEDATA
+lprgScriptEntry	include/global.h	/^   LPSCRIPTENTRY           lprgScriptEntry;$/;"	m	struct:tagGAMEDATA
+lprgStore	include/global.h	/^   LPSTORE                 lprgStore;$/;"	m	struct:tagGAMEDATA
+lrand	src/misc/util.c	/^lrand($/;"	f	file:
+lsrand	src/misc/util.c	/^lsrand($/;"	f	file:
+m	include/global.h	/^   LEVELUPMAGIC       m[MAX_PLAYABLE_PLAYER_ROLES];$/;"	m	struct:tagLEVELUPMAGIC_ALL
+magic	include/global.h	/^   OBJECT_MAGIC      magic;$/;"	m	union:tagOBJECT
+main	src/pal-main.c	/^main(void) {$/;"	f
+main_loop	src/main.c	/^main_loop() {$/;"	f
+malloc	include/_common.h	53;"	d
+max	include/_common.h	85;"	d
+min	include/_common.h	89;"	d
+nAmount	include/global.h	/^   USHORT        nAmount;           \/\/ amount of this item$/;"	m	struct:tagINVENTORY
+nAmountInUse	include/global.h	/^   USHORT        nAmountInUse;      \/\/ in-use amount of this item$/;"	m	struct:tagINVENTORY
+nBattleField	include/global.h	/^   int                     nBattleField;$/;"	m	struct:tagGAMEDATA
+nChar	src/ui/font.c	/^   INT              nChar;$/;"	m	struct:tagFont	file:
+nCurrentDialogLine	src/ui/text.c	/^   int             nCurrentDialogLine;$/;"	m	struct:tagTEXTLIB	file:
+nEnemy	include/global.h	/^   int                     nEnemy;$/;"	m	struct:tagGAMEDATA
+nEnemyTeam	include/global.h	/^   int                     nEnemyTeam;$/;"	m	struct:tagGAMEDATA
+nEventObject	include/global.h	/^   int                     nEventObject;$/;"	m	struct:tagGAMEDATA
+nEventObject	src/global/res.c	/^   int              nEventObject;                               \/\/ number of event objects$/;"	m	struct:tagRESOURCES	file:
+nFollower	include/global.h	/^   USHORT           nFollower;$/;"	m	struct:tagGLOBALVARS
+nFollower	include/global.h	/^   WORD             nFollower;$/;"	m	struct:tagSAVEDGAME
+nLevelUpMagic	include/global.h	/^   int                     nLevelUpMagic;$/;"	m	struct:tagGAMEDATA
+nMagic	include/global.h	/^   int                     nMagic;$/;"	m	struct:tagGAMEDATA
+nMsgs	src/ui/text.c	/^   int             nMsgs;$/;"	m	struct:tagTEXTLIB	file:
+nPartyMember	include/global.h	/^   WORD             nPartyMember;            \/\/ number of members in party$/;"	m	struct:tagSAVEDGAME
+nScriptEntry	include/global.h	/^   int                     nScriptEntry;$/;"	m	struct:tagGAMEDATA
+nScriptIdleFrame	include/global.h	/^   USHORT       nScriptIdleFrame;    \/\/ count of idle frames, used by trigger script$/;"	m	struct:tagEVENTOBJECT
+nSpriteFrames	include/global.h	/^   USHORT       nSpriteFrames;       \/\/ total number of frames of the sprite$/;"	m	struct:tagEVENTOBJECT
+nSpriteFramesAuto	include/global.h	/^   USHORT       nSpriteFramesAuto;   \/\/ total number of frames of the sprite, used by auto script$/;"	m	struct:tagEVENTOBJECT
+nStealItem	include/global.h	/^   USHORT      nStealItem;          \/\/ total amount of the items which can be stolen$/;"	m	struct:tagENEMY
+nStore	include/global.h	/^   int                     nStore;$/;"	m	struct:tagGAMEDATA
+nWords	src/ui/text.c	/^   int             nWords;$/;"	m	struct:tagTEXTLIB	file:
+ncolors	include/hal.h	/^	int ncolors;$/;"	m	struct:__anon3
+next	include/ui.h	/^   struct tagOBJECTDESC       *next;$/;"	m	struct:tagOBJECTDESC	typeref:struct:tagOBJECTDESC::tagOBJECTDESC
+next	src/misc/yj1.c	/^   struct _TreeNodeList *next;$/;"	m	struct:_TreeNodeList	typeref:struct:_TreeNodeList::_TreeNodeList	file:
+node	src/misc/yj1.c	/^   TreeNode *node;$/;"	m	struct:_TreeNodeList	file:
+node	src/misc/yj1.c	/^   TreeNode*   node;$/;"	m	struct:_Tree	file:
+optarg	include/getopt.h	44;"	d
+opterr	include/getopt.h	40;"	d
+optind	include/getopt.h	41;"	d
+optopt	include/getopt.h	42;"	d
+optreset	include/getopt.h	43;"	d
+pLogFile	src/misc/util.c	/^static FILE *pLogFile = NULL;$/;"	v	file:
+pTileSprite	include/map.h	/^   LPSPRITE       pTileSprite;$/;"	m	struct:tagPALMAP
+palette	include/hal.h	/^	SDL_Palette *palette;$/;"	m	struct:__anon4
+palette	src/hal/hal.c	/^static uint32_t palette[256];$/;"	v	file:
+parent	src/misc/yj1.c	/^   struct _TreeNode *parent;$/;"	m	struct:_TreeNode	typeref:struct:_TreeNode::_TreeNode	file:
+parent	src/misc/yj1.c	/^   struct _TreeNode*   parent;$/;"	m	struct:_TreeNode	typeref:struct:_TreeNode::_TreeNode	file:
+partyoffset	include/global.h	/^   PAL_POS          partyoffset;$/;"	m	struct:tagGLOBALVARS
+pitch	include/hal.h	/^	uint16_t pitch;$/;"	m	struct:__anon5
+pixels	include/hal.h	/^	uint8_t *pixels;$/;"	m	struct:__anon5
+player	include/global.h	/^   OBJECT_PLAYER     player;$/;"	m	union:tagOBJECT
+poison	include/global.h	/^   OBJECT_POISON     poison;$/;"	m	union:tagOBJECT
+pos	include/battle.h	/^   PAL_POS            pos;                    \/\/ current position on the screen$/;"	m	struct:tagBATTLEENEMY
+pos	include/battle.h	/^   PAL_POS            pos;                  \/\/ current position on the screen$/;"	m	struct:tagBATTLEPLAYER
+pos	include/global.h	/^   } pos[MAX_ENEMIES_IN_TEAM][MAX_ENEMIES_IN_TEAM];$/;"	m	struct:tagENEMYPOS	typeref:struct:tagENEMYPOS::__anon7
+pos	include/ui.h	/^   PAL_POS        pos;$/;"	m	struct:tagBOX
+pos	include/ui.h	/^   PAL_POS       pos;$/;"	m	struct:tagMENUITEM
+pos	include/uibattle.h	/^   PAL_POS          pos;$/;"	m	struct:tagSHOWNUM
+pos	src/scene/scene.c	/^   PAL_POS          pos;           \/\/ position on the scene$/;"	m	struct:tagSPRITE_TO_DRAW	file:
+posDialogText	src/ui/text.c	/^   PAL_POS         posDialogText;$/;"	m	struct:tagTEXTLIB	file:
+posDialogTitle	src/ui/text.c	/^   PAL_POS         posDialogTitle;$/;"	m	struct:tagTEXTLIB	file:
+posIcon	src/ui/text.c	/^   PAL_POS         posIcon;$/;"	m	struct:tagTEXTLIB	file:
+posOriginal	include/battle.h	/^   PAL_POS            posOriginal;            \/\/ original position on the screen$/;"	m	struct:tagBATTLEENEMY
+posOriginal	include/battle.h	/^   PAL_POS            posOriginal;          \/\/ original position on the screen$/;"	m	struct:tagBATTLEPLAYER
+posSummon	include/battle.h	/^   PAL_POS          posSummon;$/;"	m	struct:tagBATTLE
+prevdir	include/input.h	/^   PALDIRECTION           dir, prevdir;$/;"	m	struct:tagPALINPUTSTATE
+r	include/hal.h	/^	uint8_t r, g, b, unused;$/;"	m	struct:__anon2
+realloc	include/_common.h	56;"	d
+redraw	src/hal/hal.c	/^static void redraw() {$/;"	f	file:
+refcount	include/hal.h	/^	int refcount;$/;"	m	struct:__anon5
+rgAttackExp	include/global.h	/^   EXPERIENCE        rgAttackExp[MAX_PLAYER_ROLES];$/;"	m	struct:tagALLEXPERIENCE
+rgDefenseExp	include/global.h	/^   EXPERIENCE        rgDefenseExp[MAX_PLAYER_ROLES];$/;"	m	struct:tagALLEXPERIENCE
+rgDexterityExp	include/global.h	/^   EXPERIENCE        rgDexterityExp[MAX_PLAYER_ROLES];$/;"	m	struct:tagALLEXPERIENCE
+rgEnemy	include/battle.h	/^   BATTLEENEMY      rgEnemy[MAX_ENEMIES_IN_TEAM];$/;"	m	struct:tagBATTLE
+rgEquipmentEffect	include/global.h	/^   PLAYERROLES      rgEquipmentEffect[MAX_PLAYER_EQUIPMENTS + 1]; \/\/ equipment effects$/;"	m	struct:tagGLOBALVARS
+rgEventObject	include/global.h	/^   EVENTOBJECT      rgEventObject[MAX_EVENT_OBJECTS];$/;"	m	struct:tagSAVEDGAME
+rgFleeExp	include/global.h	/^   EXPERIENCE        rgFleeExp[MAX_PLAYER_ROLES];$/;"	m	struct:tagALLEXPERIENCE
+rgHealthExp	include/global.h	/^   EXPERIENCE        rgHealthExp[MAX_PLAYER_ROLES];$/;"	m	struct:tagALLEXPERIENCE
+rgInventory	include/global.h	/^   INVENTORY        rgInventory[MAX_INVENTORY];               \/\/ inventory status$/;"	m	struct:tagSAVEDGAME
+rgInventory	include/global.h	/^   INVENTORY        rgInventory[MAX_INVENTORY];  \/\/ inventory status$/;"	m	struct:tagGLOBALVARS
+rgLevelUpExp	include/global.h	/^   LEVELUPEXP              rgLevelUpExp[MAX_LEVELS + 1];$/;"	m	struct:tagGAMEDATA
+rgMagicExp	include/global.h	/^   EXPERIENCE        rgMagicExp[MAX_PLAYER_ROLES];$/;"	m	struct:tagALLEXPERIENCE
+rgMagicItem	src/ui/magicmenu.c	/^} rgMagicItem[MAX_PLAYER_MAGICS];$/;"	v	typeref:struct:MAGICITEM	file:
+rgMagicPowerExp	include/global.h	/^   EXPERIENCE        rgMagicPowerExp[MAX_PLAYER_ROLES];$/;"	m	struct:tagALLEXPERIENCE
+rgObject	include/global.h	/^   OBJECT                  rgObject[MAX_OBJECTS];$/;"	m	struct:tagGAMEDATA
+rgObject	include/global.h	/^   OBJECT           rgObject[MAX_OBJECTS];$/;"	m	struct:tagSAVEDGAME
+rgParty	include/global.h	/^   PARTY            rgParty[MAX_PLAYABLE_PLAYER_ROLES];       \/\/ player party$/;"	m	struct:tagSAVEDGAME
+rgParty	include/global.h	/^   PARTY            rgParty[MAX_PLAYABLE_PLAYER_ROLES]; \/\/ player party$/;"	m	struct:tagGLOBALVARS
+rgPlayer	include/battle.h	/^   BATTLEPLAYER     rgPlayer[MAX_PLAYERS_IN_PARTY];$/;"	m	struct:tagBATTLE
+rgPlayerStatus	include/global.h	/^   WORD             rgPlayerStatus[MAX_PLAYER_ROLES][kStatusAll]; \/\/ player status$/;"	m	struct:tagGLOBALVARS
+rgPoisonStatus	include/global.h	/^   POISONSTATUS     rgPoisonStatus[MAX_POISONS][MAX_PLAYABLE_PLAYER_ROLES]; \/\/ poison status$/;"	m	struct:tagGLOBALVARS
+rgPoisonStatus	include/global.h	/^   POISONSTATUS     rgPoisonStatus[MAX_POISONS][MAX_PLAYABLE_PLAYER_ROLES]; \/\/ poison status$/;"	m	struct:tagSAVEDGAME
+rgPoisons	include/battle.h	/^   POISONSTATUS       rgPoisons[MAX_POISONS]; \/\/ poisons$/;"	m	struct:tagBATTLEENEMY
+rgPrimaryExp	include/global.h	/^   EXPERIENCE        rgPrimaryExp[MAX_PLAYER_ROLES];$/;"	m	struct:tagALLEXPERIENCE
+rgScene	include/global.h	/^   SCENE                   rgScene[MAX_SCENES];$/;"	m	struct:tagGAMEDATA
+rgScene	include/global.h	/^   SCENE            rgScene[MAX_SCENES];$/;"	m	struct:tagSAVEDGAME
+rgShowNum	include/uibattle.h	/^   SHOWNUM          rgShowNum[BATTLEUI_MAX_SHOWNUM];$/;"	m	struct:tagBATTLEUI
+rgTrail	include/global.h	/^   TRAIL            rgTrail[MAX_PLAYABLE_PLAYER_ROLES];       \/\/ player trail$/;"	m	struct:tagSAVEDGAME
+rgTrail	include/global.h	/^   TRAIL            rgTrail[MAX_PLAYABLE_PLAYER_ROLES]; \/\/ player trail$/;"	m	struct:tagGLOBALVARS
+rglpPlayerSprite	src/global/res.c	/^   LPSPRITE         rglpPlayerSprite[MAX_PLAYERS_IN_PARTY + 1]; \/\/ player sprites$/;"	m	struct:tagRESOURCES	file:
+rgsMagicEffect	include/global.h	/^   SHORT              rgsMagicEffect[NUM_MAGIC_ELEMENTAL]; \/\/ effect of attributed magics$/;"	m	struct:tagBATTLEFIELD
+rgwAttackAll	include/global.h	/^   PLAYERS            rgwAttackAll;          \/\/ whether player can attack everyone in a bulk or not$/;"	m	struct:tagPLAYERROLES
+rgwAttackSound	include/global.h	/^   PLAYERS            rgwAttackSound;        \/\/ sound played when player attacks$/;"	m	struct:tagPLAYERROLES
+rgwAttackStrength	include/global.h	/^   PLAYERS            rgwAttackStrength;     \/\/ normal attack strength$/;"	m	struct:tagPLAYERROLES
+rgwAvatar	include/global.h	/^   PLAYERS            rgwAvatar;             \/\/ avatar (shown in status view)$/;"	m	struct:tagPLAYERROLES
+rgwBattleEffectIndex	include/global.h	/^   WORD                    rgwBattleEffectIndex[10][2];$/;"	m	struct:tagGAMEDATA
+rgwCooperativeMagic	include/global.h	/^   PLAYERS            rgwCooperativeMagic;   \/\/ cooperative magic$/;"	m	struct:tagPLAYERROLES
+rgwCoverSound	include/global.h	/^   PLAYERS            rgwCoverSound;         \/\/ sound played when player cover others$/;"	m	struct:tagPLAYERROLES
+rgwCoveredBy	include/global.h	/^   PLAYERS            rgwCoveredBy;          \/\/ who will cover me when I am low of HP or not sane$/;"	m	struct:tagPLAYERROLES
+rgwCriticalSound	include/global.h	/^   PLAYERS            rgwCriticalSound;      \/\/ sound played when player make critical hits$/;"	m	struct:tagPLAYERROLES
+rgwData	include/global.h	/^   WORD              rgwData[7];$/;"	m	union:tagOBJECT
+rgwDeathSound	include/global.h	/^   PLAYERS            rgwDeathSound;         \/\/ sound played when player dies$/;"	m	struct:tagPLAYERROLES
+rgwDefense	include/global.h	/^   PLAYERS            rgwDefense;            \/\/ resistance to all kinds of attacking$/;"	m	struct:tagPLAYERROLES
+rgwDexterity	include/global.h	/^   PLAYERS            rgwDexterity;          \/\/ dexterity$/;"	m	struct:tagPLAYERROLES
+rgwDyingSound	include/global.h	/^   PLAYERS            rgwDyingSound;         \/\/ sound played when player is dying$/;"	m	struct:tagPLAYERROLES
+rgwElementalResistance	include/global.h	/^   WORD               rgwElementalResistance[NUM_MAGIC_ELEMENTAL][MAX_PLAYER_ROLES]; \/\/ resistance to elemental magics$/;"	m	struct:tagPLAYERROLES
+rgwEnemy	include/global.h	/^   WORD        rgwEnemy[MAX_ENEMIES_IN_TEAM];$/;"	m	struct:tagENEMYTEAM
+rgwEquipment	include/global.h	/^   WORD               rgwEquipment[MAX_PLAYER_EQUIPMENTS][MAX_PLAYER_ROLES]; \/\/ equipments$/;"	m	struct:tagPLAYERROLES
+rgwFleeRate	include/global.h	/^   PLAYERS            rgwFleeRate;           \/\/ chance of successful fleeing$/;"	m	struct:tagPLAYERROLES
+rgwHP	include/global.h	/^   PLAYERS            rgwHP;                 \/\/ current HP$/;"	m	struct:tagPLAYERROLES
+rgwItems	include/global.h	/^   WORD          rgwItems[MAX_STORE_ITEM];$/;"	m	struct:tagSTORE
+rgwLevel	include/global.h	/^   PLAYERS            rgwLevel;              \/\/ level$/;"	m	struct:tagPLAYERROLES
+rgwMP	include/global.h	/^   PLAYERS            rgwMP;                 \/\/ current MP$/;"	m	struct:tagPLAYERROLES
+rgwMagic	include/global.h	/^   WORD               rgwMagic[MAX_PLAYER_MAGICS][MAX_PLAYER_ROLES]; \/\/ magics$/;"	m	struct:tagPLAYERROLES
+rgwMagicSound	include/global.h	/^   PLAYERS            rgwMagicSound;         \/\/ sound played when player is casting a magic$/;"	m	struct:tagPLAYERROLES
+rgwMagicStrength	include/global.h	/^   PLAYERS            rgwMagicStrength;      \/\/ magical attack strength$/;"	m	struct:tagPLAYERROLES
+rgwMaxHP	include/global.h	/^   PLAYERS            rgwMaxHP;              \/\/ maximum HP$/;"	m	struct:tagPLAYERROLES
+rgwMaxMP	include/global.h	/^   PLAYERS            rgwMaxMP;              \/\/ maximum MP$/;"	m	struct:tagPLAYERROLES
+rgwName	include/global.h	/^   PLAYERS            rgwName;               \/\/ name of player class (in WORD.DAT)$/;"	m	struct:tagPLAYERROLES
+rgwOperand	include/global.h	/^   WORD          rgwOperand[3];  \/\/ operands$/;"	m	struct:tagSCRIPTENTRY
+rgwPoisonResistance	include/global.h	/^   PLAYERS            rgwPoisonResistance;   \/\/ resistance to poison$/;"	m	struct:tagPLAYERROLES
+rgwReserved2	include/global.h	/^   WORD             rgwReserved2[3];         \/\/ unused$/;"	m	struct:tagSAVEDGAME
+rgwSpriteNum	include/global.h	/^   PLAYERS            rgwSpriteNum;          \/\/ sprite displayed in normal scene (in MGO.MKF)$/;"	m	struct:tagPLAYERROLES
+rgwSpriteNumInBattle	include/global.h	/^   PLAYERS            rgwSpriteNumInBattle;  \/\/ sprite displayed in battle (in F.MKF)$/;"	m	struct:tagPLAYERROLES
+rgwStatus	include/battle.h	/^   WORD               rgwStatus[kStatusAll];  \/\/ status effects$/;"	m	struct:tagBATTLEENEMY
+rgwUnknown1	include/global.h	/^   PLAYERS            rgwUnknown1;           \/\/ FIXME: ???$/;"	m	struct:tagPLAYERROLES
+rgwUnknown2	include/global.h	/^   PLAYERS            rgwUnknown2;           \/\/ FIXME: ???$/;"	m	struct:tagPLAYERROLES
+rgwUnknown3	include/global.h	/^   PLAYERS            rgwUnknown3;           \/\/ FIXME: ???$/;"	m	struct:tagPLAYERROLES
+rgwUnknown4	include/global.h	/^   PLAYERS            rgwUnknown4;           \/\/ FIXME: ???$/;"	m	struct:tagPLAYERROLES
+rgwUnknown5	include/global.h	/^   PLAYERS            rgwUnknown5;           \/\/ FIXME: ???$/;"	m	struct:tagPLAYERROLES
+rgwUnknown6	include/global.h	/^   PLAYERS            rgwUnknown6;           \/\/ FIXME: ???$/;"	m	struct:tagPLAYERROLES
+rgwWalkFrames	include/global.h	/^   PLAYERS            rgwWalkFrames;         \/\/ walk frame (???)$/;"	m	struct:tagPLAYERROLES
+rgwWeaponSound	include/global.h	/^   PLAYERS            rgwWeaponSound;        \/\/ weapon sound (???)$/;"	m	struct:tagPLAYERROLES
+right	src/misc/yj1.c	/^   struct _TreeNode *right;$/;"	m	struct:_TreeNode	typeref:struct:_TreeNode::_TreeNode	file:
+right	src/misc/yj1.c	/^   struct _TreeNode*   right;$/;"	m	struct:_TreeNode	typeref:struct:_TreeNode::_TreeNode	file:
+sBackgroundColorShift	include/battle.h	/^   SHORT            sBackgroundColorShift;$/;"	m	struct:tagBATTLE
+sLayer	include/global.h	/^   SHORT        sLayer;              \/\/ layer value$/;"	m	struct:tagEVENTOBJECT
+sState	include/global.h	/^   SHORT        sState;              \/\/ state of this object$/;"	m	struct:tagEVENTOBJECT
+sTarget	include/battle.h	/^   SHORT              sTarget;     \/\/ -1 for everyone$/;"	m	struct:tagBATTLEACTION
+sTurnOrder	include/battle.h	/^   SHORT              sTurnOrder;           \/\/ turn order$/;"	m	struct:tagBATTLEPLAYER
+sVanishTime	include/global.h	/^   SHORT        sVanishTime;         \/\/ vanish time (?)$/;"	m	struct:tagEVENTOBJECT
+sWaveProgression	include/global.h	/^   SHORT            sWaveProgression;$/;"	m	struct:tagGLOBALVARS
+sdlpal_psp_init	include/main_PSP.h	/^void sdlpal_psp_init(void)$/;"	f
+state	include/battle.h	/^   FIGHTERSTATE       state;                  \/\/ state of this enemy$/;"	m	struct:tagBATTLEENEMY
+state	include/battle.h	/^   FIGHTERSTATE       state;                \/\/ state of this player$/;"	m	struct:tagBATTLEPLAYER
+state	include/uibattle.h	/^   BATTLEUISTATE    state;$/;"	m	struct:tagBATTLEUI
+systime	src/hal/hal.c	/^static uint32_t systime;$/;"	v	file:
+szMsg	include/uibattle.h	/^   CHAR             szMsg[256];           \/\/ message to be shown on the screen$/;"	m	struct:tagBATTLEUI
+szNextMsg	include/uibattle.h	/^   CHAR             szNextMsg[256];       \/\/ next message to be shown on the screen$/;"	m	struct:tagBATTLEUI
+tabBATTLEPHASE	include/battle.h	/^typedef enum tabBATTLEPHASE$/;"	g
+tagACTIONQUEUE	include/battle.h	/^typedef struct tagACTIONQUEUE$/;"	s
+tagALLEXPERIENCE	include/global.h	/^typedef struct tagALLEXPERIENCE$/;"	s
+tagBATTLE	include/battle.h	/^typedef struct tagBATTLE$/;"	s
+tagBATTLEACTION	include/battle.h	/^typedef struct tagBATTLEACTION$/;"	s
+tagBATTLEACTIONTYPE	include/battle.h	/^typedef enum tagBATTLEACTIONTYPE$/;"	g
+tagBATTLEENEMY	include/battle.h	/^typedef struct tagBATTLEENEMY$/;"	s
+tagBATTLEFIELD	include/global.h	/^typedef struct tagBATTLEFIELD$/;"	s
+tagBATTLEMENUSTATE	include/uibattle.h	/^typedef enum tagBATTLEMENUSTATE$/;"	g
+tagBATTLEPLAYER	include/battle.h	/^typedef struct tagBATTLEPLAYER$/;"	s
+tagBATTLERESULT	include/battle.h	/^typedef enum tagBATTLERESULT$/;"	g
+tagBATTLEUI	include/uibattle.h	/^typedef struct tagBATTLEUI$/;"	s
+tagBATTLEUIACTION	include/uibattle.h	/^typedef enum tagBATTLEUIACTION$/;"	g
+tagBATTLEUISTATE	include/uibattle.h	/^typedef enum tagBATTLEUISTATE$/;"	g
+tagBODYPART	include/global.h	/^typedef enum tagBODYPART$/;"	g
+tagBOX	include/ui.h	/^typedef struct tagBOX$/;"	s
+tagDIALOGPOSITION	include/text.h	/^typedef enum tagDIALOGPOSITION$/;"	g
+tagENEMY	include/global.h	/^typedef struct tagENEMY$/;"	s
+tagENEMYPOS	include/global.h	/^typedef struct tagENEMYPOS$/;"	s
+tagENEMYTEAM	include/global.h	/^typedef struct tagENEMYTEAM$/;"	s
+tagEVENTOBJECT	include/global.h	/^typedef struct tagEVENTOBJECT$/;"	s
+tagEXPERIENCE	include/global.h	/^typedef struct tagEXPERIENCE$/;"	s
+tagFIGHTERSTATE	include/battle.h	/^typedef enum tagFIGHTERSTATE$/;"	g
+tagFILES	include/global.h	/^typedef struct tagFILES$/;"	s
+tagFont	src/ui/font.c	/^typedef struct tagFont$/;"	s	file:
+tagGAMEDATA	include/global.h	/^typedef struct tagGAMEDATA$/;"	s
+tagGLOBALVARS	include/global.h	/^typedef struct tagGLOBALVARS$/;"	s
+tagINVENTORY	include/global.h	/^typedef struct tagINVENTORY$/;"	s
+tagITEMFLAG	include/global.h	/^typedef enum tagITEMFLAG$/;"	g
+tagLEVELUPMAGIC	include/global.h	/^typedef struct tagLEVELUPMAGIC$/;"	s
+tagLEVELUPMAGIC_ALL	include/global.h	/^typedef struct tagLEVELUPMAGIC_ALL$/;"	s
+tagLOADRESFLAG	include/res.h	/^typedef enum tagLOADRESFLAG$/;"	g
+tagMAGIC	include/global.h	/^typedef struct tagMAGIC$/;"	s
+tagMAGICFLAG	include/global.h	/^typedef enum tagMAGICFLAG$/;"	g
+tagMAGIC_TYPE	include/global.h	/^typedef enum tagMAGIC_TYPE$/;"	g
+tagMENUITEM	include/ui.h	/^typedef struct tagMENUITEM$/;"	s
+tagNUMALIGN	include/ui.h	/^typedef enum tagNUMALIGN$/;"	g
+tagNUMCOLOR	include/ui.h	/^typedef enum tagNUMCOLOR$/;"	g
+tagOBJECT	include/global.h	/^typedef union tagOBJECT$/;"	u
+tagOBJECTDESC	include/ui.h	/^typedef struct tagOBJECTDESC$/;"	s
+tagOBJECTSTATE	include/global.h	/^typedef enum tagOBJECTSTATE$/;"	g
+tagOBJECT_ENEMY	include/global.h	/^typedef struct tagOBJECT_ENEMY$/;"	s
+tagOBJECT_ITEM	include/global.h	/^typedef struct tagOBJECT_ITEM$/;"	s
+tagOBJECT_MAGIC	include/global.h	/^typedef struct tagOBJECT_MAGIC$/;"	s
+tagOBJECT_PLAYER	include/global.h	/^typedef struct tagOBJECT_PLAYER$/;"	s
+tagOBJECT_POISON	include/global.h	/^typedef struct tagOBJECT_POISON$/;"	s
+tagPALDIRECTION	include/palcommon.h	/^typedef enum tagPALDIRECTION$/;"	g
+tagPALINPUTSTATE	include/input.h	/^typedef struct tagPALINPUTSTATE$/;"	s
+tagPALMAP	include/map.h	/^typedef struct tagPALMAP$/;"	s
+tagPARTY	include/global.h	/^typedef struct tagPARTY$/;"	s
+tagPLAYERROLES	include/global.h	/^typedef struct tagPLAYERROLES$/;"	s
+tagPOISONSTATUS	include/global.h	/^typedef struct tagPOISONSTATUS$/;"	s
+tagRESOURCES	src/global/res.c	/^typedef struct tagRESOURCES$/;"	s	file:
+tagSAVEDGAME	include/global.h	/^typedef struct tagSAVEDGAME$/;"	s
+tagSCENE	include/global.h	/^typedef struct tagSCENE$/;"	s
+tagSCRIPTENTRY	include/global.h	/^typedef struct tagSCRIPTENTRY$/;"	s
+tagSHOWNUM	include/uibattle.h	/^typedef struct tagSHOWNUM$/;"	s
+tagSPRITE_TO_DRAW	src/scene/scene.c	/^typedef struct tagSPRITE_TO_DRAW$/;"	s	file:
+tagSTATUS	include/global.h	/^typedef enum tagSTATUS$/;"	g
+tagSTORE	include/global.h	/^typedef struct tagSTORE$/;"	s
+tagSUMMON	include/battle.h	/^typedef struct tagSUMMON$/;"	s
+tagTEXTLIB	src/ui/text.c	/^typedef struct tagTEXTLIB$/;"	s	file:
+tagTRAIL	include/global.h	/^typedef struct tagTRAIL$/;"	s
+tagTRIGGERMODE	include/global.h	/^typedef enum tagTRIGGERMODE$/;"	g
+trim	src/misc/util.c	/^trim($/;"	f
+true	include/common.h	9;"	d
+type	include/hal.h	/^	uint8_t type;$/;"	m	union:__anon6
+unused	include/hal.h	/^	uint8_t r, g, b, unused;$/;"	m	struct:__anon2
+va	src/misc/util.c	/^va($/;"	f
+value	src/misc/yj1.c	/^   unsigned char   value;$/;"	m	struct:_TreeNode	file:
+value	src/misc/yj1.c	/^   unsigned short      value;$/;"	m	struct:_TreeNode	file:
+viewport	include/global.h	/^   PAL_POS          viewport;            \/\/ viewport coordination$/;"	m	struct:tagGLOBALVARS
+vmem	src/hal/hal.c	/^static uint8_t vmem[W * H];$/;"	v	file:
+vsnprintf	include/_common.h	173;"	d
+w	include/hal.h	/^	int w, h;$/;"	m	struct:__anon5
+w	include/hal.h	/^	uint16_t w, h;$/;"	m	struct:__anon1
+wActWaitFrames	include/global.h	/^   WORD        wActWaitFrames;      \/\/ FIXME: ???$/;"	m	struct:tagENEMY
+wActionID	include/battle.h	/^   WORD               wActionID;   \/\/ item\/magic to use$/;"	m	struct:tagBATTLEACTION
+wActionSound	include/global.h	/^   WORD        wActionSound;        \/\/ FIXME: ???$/;"	m	struct:tagENEMY
+wActionType	include/uibattle.h	/^   WORD             wActionType;          \/\/ type of action to be performed$/;"	m	struct:tagBATTLEUI
+wAttackEquivItem	include/global.h	/^   WORD        wAttackEquivItem;    \/\/ equivalence item of this enemy's normal attack$/;"	m	struct:tagENEMY
+wAttackEquivItemRate	include/global.h	/^   WORD        wAttackEquivItemRate;\/\/ chance for equivalence item$/;"	m	struct:tagENEMY
+wAttackFrames	include/global.h	/^   WORD        wAttackFrames;       \/\/ total number of frames when doing normal attack$/;"	m	struct:tagENEMY
+wAttackSound	include/global.h	/^   WORD        wAttackSound;        \/\/ sound played when this enemy uses normal attack$/;"	m	struct:tagENEMY
+wAttackStrength	include/global.h	/^   WORD        wAttackStrength;     \/\/ normal attack strength$/;"	m	struct:tagENEMY
+wAutoScript	include/global.h	/^   WORD         wAutoScript;         \/\/ Auto script entry$/;"	m	struct:tagEVENTOBJECT
+wBaseDamage	include/global.h	/^   WORD               wBaseDamage;           \/\/ base damage$/;"	m	struct:tagMAGIC
+wBattleSpeed	include/global.h	/^   WORD             wBattleSpeed;            \/\/ battle speed$/;"	m	struct:tagSAVEDGAME
+wBitmap	include/global.h	/^   WORD         wBitmap;         \/\/ bitmap number in BALL.MKF$/;"	m	struct:tagOBJECT_ITEM
+wCallSound	include/global.h	/^   WORD        wCallSound;          \/\/ sound played when entering the battle$/;"	m	struct:tagENEMY
+wCash	include/global.h	/^   WORD        wCash;               \/\/ how many cashes we'll get for beating this enemy$/;"	m	struct:tagENEMY
+wChaseRange	include/global.h	/^   WORD             wChaseRange;$/;"	m	struct:tagGLOBALVARS
+wChaseRange	include/global.h	/^   WORD             wChaseRange;$/;"	m	struct:tagSAVEDGAME
+wChasespeedChangeCycles	include/global.h	/^   WORD             wChasespeedChangeCycles;$/;"	m	struct:tagGLOBALVARS
+wChasespeedChangeCycles	include/global.h	/^   WORD             wChasespeedChangeCycles;$/;"	m	struct:tagSAVEDGAME
+wCollectValue	include/global.h	/^   WORD             wCollectValue;           \/\/ value of "collected" items$/;"	m	struct:tagSAVEDGAME
+wCollectValue	include/global.h	/^   WORD             wCollectValue;       \/\/ value of "collected" items$/;"	m	struct:tagGLOBALVARS
+wCollectValue	include/global.h	/^   WORD        wCollectValue;       \/\/ value for collecting this enemy for items$/;"	m	struct:tagENEMY
+wColor	include/global.h	/^   WORD         wColor;          \/\/ color of avatars$/;"	m	struct:tagOBJECT_POISON
+wCostMP	include/global.h	/^   WORD               wCostMP;               \/\/ MP cost$/;"	m	struct:tagMAGIC
+wCount	include/global.h	/^   WORD         wCount;$/;"	m	struct:tagEXPERIENCE
+wCurPlayerIndex	include/uibattle.h	/^   WORD             wCurPlayerIndex;      \/\/ index of the current player$/;"	m	struct:tagBATTLEUI
+wCurrentFrame	include/battle.h	/^   WORD               wCurrentFrame;          \/\/ current frame number$/;"	m	struct:tagBATTLEENEMY
+wCurrentFrame	include/battle.h	/^   WORD               wCurrentFrame;        \/\/ current frame number$/;"	m	struct:tagBATTLEPLAYER
+wCurrentFrame	include/battle.h	/^   WORD               wCurrentFrame;$/;"	m	struct:tagSUMMON
+wCurrentFrameNum	include/global.h	/^   WORD         wCurrentFrameNum;    \/\/ current frame number$/;"	m	struct:tagEVENTOBJECT
+wDeathSound	include/global.h	/^   WORD        wDeathSound;         \/\/ sound played when this enemy dies$/;"	m	struct:tagENEMY
+wDefense	include/global.h	/^   WORD        wDefense;            \/\/ resistance to all kinds of attacking$/;"	m	struct:tagENEMY
+wDexterity	include/battle.h	/^   WORD       wDexterity;$/;"	m	struct:tagACTIONQUEUE
+wDexterity	include/global.h	/^   WORD        wDexterity;          \/\/ dexterity$/;"	m	struct:tagENEMY
+wDirection	include/global.h	/^   WORD             wDirection;    \/\/ direction$/;"	m	struct:tagTRAIL
+wDirection	include/global.h	/^   WORD         wDirection;          \/\/ direction$/;"	m	struct:tagEVENTOBJECT
+wDualMove	include/global.h	/^   WORD        wDualMove;           \/\/ whether this enemy can do dual move or not$/;"	m	struct:tagENEMY
+wEffect	include/global.h	/^   WORD               wEffect;               \/\/ effect sprite$/;"	m	struct:tagMAGIC
+wEffectTimes	include/global.h	/^   WORD               wEffectTimes;          \/\/ total times of effect$/;"	m	struct:tagMAGIC
+wElemResistance	include/global.h	/^   WORD        wElemResistance[NUM_MAGIC_ELEMENTAL]; \/\/ resistance to elemental magics$/;"	m	struct:tagENEMY
+wElemental	include/global.h	/^   WORD               wElemental;            \/\/ elemental (0 = No Elemental, last = poison)$/;"	m	struct:tagMAGIC
+wEnemyID	include/global.h	/^   WORD         wEnemyID;        \/\/ ID of the enemy, according to DATA.MKF #1.$/;"	m	struct:tagOBJECT_ENEMY
+wEnemyScript	include/global.h	/^   WORD         wEnemyScript;    \/\/ script executed when enemy has this poison (per round)$/;"	m	struct:tagOBJECT_POISON
+wEventObjectIndex	include/global.h	/^   WORD         wEventObjectIndex;  \/\/ event objects in this scene begins from number wEventObjectIndex + 1$/;"	m	struct:tagSCENE
+wExp	include/global.h	/^   WORD         wExp;                \/\/ current experience points$/;"	m	struct:tagEXPERIENCE
+wExp	include/global.h	/^   WORD        wExp;                \/\/ How many EXPs we'll get for beating this enemy$/;"	m	struct:tagENEMY
+wFlags	include/global.h	/^   WORD         wFlags;            \/\/ flags$/;"	m	struct:tagOBJECT_MAGIC
+wFlags	include/global.h	/^   WORD         wFlags;          \/\/ flags$/;"	m	struct:tagOBJECT_ITEM
+wFleeRate	include/global.h	/^   WORD        wFleeRate;           \/\/ chance for successful fleeing$/;"	m	struct:tagENEMY
+wFrame	include/global.h	/^   WORD             wFrame;              \/\/ current frame number$/;"	m	struct:tagPARTY
+wHealth	include/global.h	/^   WORD        wHealth;             \/\/ total HP of the enemy$/;"	m	struct:tagENEMY
+wHeight	include/ui.h	/^   WORD           wWidth, wHeight;$/;"	m	struct:tagBOX
+wHidingTime	include/battle.h	/^   WORD               wHidingTime;          \/\/ remaining hiding time$/;"	m	struct:tagBATTLEPLAYER
+wIdleAnimSpeed	include/global.h	/^   WORD        wIdleAnimSpeed;      \/\/ speed of the animation when idle$/;"	m	struct:tagENEMY
+wIdleFrames	include/global.h	/^   WORD        wIdleFrames;         \/\/ total number of frames when idle$/;"	m	struct:tagENEMY
+wImageOffset	include/global.h	/^   WORD             wImageOffset;        \/\/ FIXME: ???$/;"	m	struct:tagPARTY
+wIndex	include/battle.h	/^   WORD       wIndex;$/;"	m	struct:tagACTIONQUEUE
+wItem	include/global.h	/^   WORD          wItem;             \/\/ item object code$/;"	m	struct:tagINVENTORY
+wKeepEffect	include/global.h	/^   WORD               wKeepEffect;           \/\/ FIXME: ???$/;"	m	struct:tagMAGIC
+wLastUnequippedItem	include/global.h	/^   WORD             wLastUnequippedItem; \/\/ last unequipped item$/;"	m	struct:tagGLOBALVARS
+wLayer	include/global.h	/^   WORD             wLayer;$/;"	m	struct:tagGLOBALVARS
+wLayer	include/global.h	/^   WORD             wLayer;$/;"	m	struct:tagSAVEDGAME
+wLevel	include/global.h	/^   WORD               wLevel;    \/\/ level reached$/;"	m	struct:tagLEVELUPMAGIC
+wLevel	include/global.h	/^   WORD         wLevel;              \/\/ current level$/;"	m	struct:tagEXPERIENCE
+wLevel	include/global.h	/^   WORD        wLevel;              \/\/ this enemy's level$/;"	m	struct:tagENEMY
+wMP	src/ui/magicmenu.c	/^   WORD         wMP;$/;"	m	struct:MAGICITEM	file:
+wMagic	include/global.h	/^   WORD               wMagic;    \/\/ magic learned$/;"	m	struct:tagLEVELUPMAGIC
+wMagic	include/global.h	/^   WORD        wMagic;              \/\/ this enemy's magic number$/;"	m	struct:tagENEMY
+wMagic	src/ui/magicmenu.c	/^   WORD         wMagic;$/;"	m	struct:MAGICITEM	file:
+wMagicFrames	include/global.h	/^   WORD        wMagicFrames;        \/\/ total number of frames when using magics$/;"	m	struct:tagENEMY
+wMagicNumber	include/global.h	/^   WORD         wMagicNumber;      \/\/ magic number, according to DATA.MKF #3$/;"	m	struct:tagOBJECT_MAGIC
+wMagicRate	include/global.h	/^   WORD        wMagicRate;          \/\/ chance for this enemy to use magic$/;"	m	struct:tagENEMY
+wMagicSound	include/global.h	/^   WORD        wMagicSound;         \/\/ sound played when this enemy uses magic$/;"	m	struct:tagENEMY
+wMagicStrength	include/global.h	/^   WORD        wMagicStrength;      \/\/ magical attack strength$/;"	m	struct:tagENEMY
+wMapNum	include/global.h	/^   WORD         wMapNum;         \/\/ number of the map$/;"	m	struct:tagSCENE
+wMaxEnemyIndex	include/battle.h	/^   WORD             wMaxEnemyIndex;$/;"	m	struct:tagBATTLE
+wMaxPartyMemberIndex	include/global.h	/^   WORD             wMaxPartyMemberIndex;\/\/ max index of members in party (0 to MAX_PLAYERS_IN_PARTY - 1)$/;"	m	struct:tagGLOBALVARS
+wMovingPlayerIndex	include/battle.h	/^   WORD             wMovingPlayerIndex;   \/\/ current moving player index$/;"	m	struct:tagBATTLE
+wNextMsgDuration	include/uibattle.h	/^   WORD             wNextMsgDuration;     \/\/ duration of the next message$/;"	m	struct:tagBATTLEUI
+wNum	include/uibattle.h	/^   WORD             wNum;$/;"	m	struct:tagSHOWNUM
+wNumBattleField	include/global.h	/^   WORD             wNumBattleField;         \/\/ battle field number$/;"	m	struct:tagSAVEDGAME
+wNumBattleField	include/global.h	/^   WORD             wNumBattleField;     \/\/ current battle field number$/;"	m	struct:tagGLOBALVARS
+wNumBattleMusic	include/global.h	/^   WORD             wNumBattleMusic;         \/\/ battle music number$/;"	m	struct:tagSAVEDGAME
+wNumBattleMusic	include/global.h	/^   WORD             wNumBattleMusic;     \/\/ current music number in battle$/;"	m	struct:tagGLOBALVARS
+wNumMusic	include/global.h	/^   WORD             wNumMusic;               \/\/ music number$/;"	m	struct:tagSAVEDGAME
+wNumMusic	include/global.h	/^   WORD             wNumMusic;           \/\/ current music number$/;"	m	struct:tagGLOBALVARS
+wNumPalette	include/global.h	/^   WORD             wNumPalette;         \/\/ current palette number$/;"	m	struct:tagGLOBALVARS
+wNumScene	include/global.h	/^   WORD             wNumScene;               \/\/ scene number$/;"	m	struct:tagSAVEDGAME
+wNumScene	include/global.h	/^   WORD             wNumScene;           \/\/ current scene number$/;"	m	struct:tagGLOBALVARS
+wNumWord	include/ui.h	/^   WORD          wNumWord;$/;"	m	struct:tagMENUITEM
+wObjectID	include/battle.h	/^   WORD               wObjectID;              \/\/ Object ID of this enemy$/;"	m	struct:tagBATTLEENEMY
+wObjectID	include/ui.h	/^   WORD                        wObjectID;$/;"	m	struct:tagOBJECTDESC
+wObjectID	include/uibattle.h	/^   WORD             wObjectID;            \/\/ object ID of the item or magic to use$/;"	m	struct:tagBATTLEUI
+wOperation	include/global.h	/^   WORD          wOperation;     \/\/ operation code$/;"	m	struct:tagSCRIPTENTRY
+wPaletteOffset	include/global.h	/^   WORD             wPaletteOffset;$/;"	m	struct:tagSAVEDGAME
+wPartyDirection	include/global.h	/^   WORD             wPartyDirection;         \/\/ party direction$/;"	m	struct:tagSAVEDGAME
+wPartyDirection	include/global.h	/^   WORD             wPartyDirection;     \/\/ direction of the party$/;"	m	struct:tagGLOBALVARS
+wPhysicalResistance	include/global.h	/^   WORD        wPhysicalResistance; \/\/ resistance to physical attack$/;"	m	struct:tagENEMY
+wPlayerRole	include/global.h	/^   WORD             wPlayerRole;         \/\/ player role$/;"	m	struct:tagPARTY
+wPlayerScript	include/global.h	/^   WORD         wPlayerScript;   \/\/ script executed when player has this poison (per round)$/;"	m	struct:tagOBJECT_POISON
+wPoisonID	include/global.h	/^   WORD              wPoisonID;       \/\/ kind of the poison$/;"	m	struct:tagPOISONSTATUS
+wPoisonLevel	include/global.h	/^   WORD         wPoisonLevel;    \/\/ level of the poison$/;"	m	struct:tagOBJECT_POISON
+wPoisonResistance	include/global.h	/^   WORD        wPoisonResistance;   \/\/ resistance to poison$/;"	m	struct:tagENEMY
+wPoisonScript	include/global.h	/^   WORD              wPoisonScript;   \/\/ script entry$/;"	m	struct:tagPOISONSTATUS
+wPrevEnemyTarget	include/uibattle.h	/^   WORD             wPrevEnemyTarget;     \/\/ previous enemy target$/;"	m	struct:tagBATTLEUI
+wPrevHP	include/battle.h	/^   WORD               wPrevHP;              \/\/ HP value prior to action$/;"	m	struct:tagBATTLEENEMY
+wPrevHP	include/battle.h	/^   WORD               wPrevHP;              \/\/ HP value prior to action$/;"	m	struct:tagBATTLEPLAYER
+wPrevMP	include/battle.h	/^   WORD               wPrevMP;              \/\/ MP value prior to action$/;"	m	struct:tagBATTLEPLAYER
+wPrice	include/global.h	/^   WORD         wPrice;          \/\/ price$/;"	m	struct:tagOBJECT_ITEM
+wReserved	include/global.h	/^   WORD         wReserved;       \/\/ always zero$/;"	m	struct:tagOBJECT_POISON
+wReserved	include/global.h	/^   WORD         wReserved;$/;"	m	struct:tagEXPERIENCE
+wReserved	include/global.h	/^   WORD         wReserved[2];    \/\/ always zero$/;"	m	struct:tagOBJECT_PLAYER
+wReserved1	include/global.h	/^   WORD         wReserved1;        \/\/ always zero$/;"	m	struct:tagOBJECT_MAGIC
+wReserved2	include/global.h	/^   WORD         wReserved2;        \/\/ always zero$/;"	m	struct:tagOBJECT_MAGIC
+wResistanceToSorcery	include/global.h	/^   WORD         wResistanceToSorcery;  \/\/ resistance to sorcery and poison (0 min, 10 max)$/;"	m	struct:tagOBJECT_ENEMY
+wSavedTimes	include/global.h	/^   WORD             wSavedTimes;             \/\/ saved times$/;"	m	struct:tagSAVEDGAME
+wScreenWave	include/global.h	/^   WORD               wScreenWave;                      \/\/ level of screen waving$/;"	m	struct:tagBATTLEFIELD
+wScreenWave	include/global.h	/^   WORD             wScreenWave;             \/\/ level of screen waving$/;"	m	struct:tagSAVEDGAME
+wScreenWave	include/global.h	/^   WORD             wScreenWave;         \/\/ level of screen waving$/;"	m	struct:tagGLOBALVARS
+wScriptDesc	include/global.h	/^   WORD         wScriptDesc;       \/\/ description script$/;"	m	struct:tagOBJECT_MAGIC
+wScriptDesc	include/global.h	/^   WORD         wScriptDesc;     \/\/ description script$/;"	m	struct:tagOBJECT_ITEM
+wScriptIdleFrameCountAuto	include/global.h	/^   WORD         wScriptIdleFrameCountAuto;     \/\/ count of idle frames, used by auto script$/;"	m	struct:tagEVENTOBJECT
+wScriptOnBattleEnd	include/battle.h	/^   WORD               wScriptOnBattleEnd;$/;"	m	struct:tagBATTLEENEMY
+wScriptOnBattleEnd	include/global.h	/^   WORD         wScriptOnBattleEnd;    \/\/ script executed when battle ends$/;"	m	struct:tagOBJECT_ENEMY
+wScriptOnDying	include/global.h	/^   WORD         wScriptOnDying;  \/\/ when dying, execute script from here$/;"	m	struct:tagOBJECT_PLAYER
+wScriptOnEnter	include/global.h	/^   WORD         wScriptOnEnter;  \/\/ when entering this scene, execute script from here$/;"	m	struct:tagSCENE
+wScriptOnEquip	include/global.h	/^   WORD         wScriptOnEquip;  \/\/ script executed when equipping this item$/;"	m	struct:tagOBJECT_ITEM
+wScriptOnFriendDeath	include/global.h	/^   WORD         wScriptOnFriendDeath; \/\/ when friends in party dies, execute script from here$/;"	m	struct:tagOBJECT_PLAYER
+wScriptOnReady	include/battle.h	/^   WORD               wScriptOnReady;$/;"	m	struct:tagBATTLEENEMY
+wScriptOnReady	include/global.h	/^   WORD         wScriptOnReady;        \/\/ script executed when the enemy is ready$/;"	m	struct:tagOBJECT_ENEMY
+wScriptOnSuccess	include/global.h	/^   WORD         wScriptOnSuccess;  \/\/ when magic succeed, execute script from here$/;"	m	struct:tagOBJECT_MAGIC
+wScriptOnTeleport	include/global.h	/^   WORD         wScriptOnTeleport;  \/\/ when teleporting out of this scene, execute script from here$/;"	m	struct:tagSCENE
+wScriptOnThrow	include/global.h	/^   WORD         wScriptOnThrow;  \/\/ script executed when throwing this item to enemy$/;"	m	struct:tagOBJECT_ITEM
+wScriptOnTurnStart	include/battle.h	/^   WORD               wScriptOnTurnStart;$/;"	m	struct:tagBATTLEENEMY
+wScriptOnTurnStart	include/global.h	/^   WORD         wScriptOnTurnStart;    \/\/ script executed when turn starts$/;"	m	struct:tagOBJECT_ENEMY
+wScriptOnUse	include/global.h	/^   WORD         wScriptOnUse;      \/\/ when use this magic, execute script from here$/;"	m	struct:tagOBJECT_MAGIC
+wScriptOnUse	include/global.h	/^   WORD         wScriptOnUse;    \/\/ script executed when using this item$/;"	m	struct:tagOBJECT_ITEM
+wSelectedAction	include/uibattle.h	/^   WORD             wSelectedAction;      \/\/ current selected action$/;"	m	struct:tagBATTLEUI
+wSelectedIndex	include/uibattle.h	/^   WORD             wSelectedIndex;       \/\/ current selected index of player or enemy$/;"	m	struct:tagBATTLEUI
+wShake	include/global.h	/^   WORD               wShake;                \/\/ shake screen$/;"	m	struct:tagMAGIC
+wSound	include/global.h	/^   WORD               wSound;                \/\/ sound played when using this magic$/;"	m	struct:tagMAGIC
+wSoundDelay	include/global.h	/^   WORD               wSoundDelay;           \/\/ delay of the SFX$/;"	m	struct:tagMAGIC
+wSpeed	include/global.h	/^   WORD               wSpeed;                \/\/ speed of the effect$/;"	m	struct:tagMAGIC
+wSpriteNum	include/global.h	/^   WORD         wSpriteNum;          \/\/ number of the sprite$/;"	m	struct:tagEVENTOBJECT
+wSpritePtrOffset	include/global.h	/^   WORD         wSpritePtrOffset;    \/\/ FIXME: ???$/;"	m	struct:tagEVENTOBJECT
+wStealItem	include/global.h	/^   WORD        wStealItem;          \/\/ which item we'll get when stealing from this enemy$/;"	m	struct:tagENEMY
+wSummonEffect	include/global.h	/^   WORD               wSummonEffect;         \/\/ summon effect sprite (in F.MKF)$/;"	m	struct:tagMAGIC
+wTriggerMode	include/global.h	/^   WORD         wTriggerMode;        \/\/ trigger mode$/;"	m	struct:tagEVENTOBJECT
+wTriggerScript	include/global.h	/^   WORD         wTriggerScript;      \/\/ Trigger script entry$/;"	m	struct:tagEVENTOBJECT
+wType	include/global.h	/^   WORD               wType;                 \/\/ type of this magic$/;"	m	struct:tagMAGIC
+wUnknown	include/global.h	/^   WORD               wUnknown;              \/\/ FIXME: ???$/;"	m	struct:tagMAGIC
+wValue	include/ui.h	/^   WORD          wValue;$/;"	m	struct:tagMENUITEM
+wViewportX	include/global.h	/^   WORD             wViewportX, wViewportY;  \/\/ viewport location$/;"	m	struct:tagSAVEDGAME
+wViewportY	include/global.h	/^   WORD             wViewportX, wViewportY;  \/\/ viewport location$/;"	m	struct:tagSAVEDGAME
+wWave	include/global.h	/^   WORD               wWave;                 \/\/ wave screen$/;"	m	struct:tagMAGIC
+wWidth	include/ui.h	/^   WORD           wWidth, wHeight;$/;"	m	struct:tagBOX
+wXOffset	include/global.h	/^   WORD               wXOffset;$/;"	m	struct:tagMAGIC
+wYOffset	include/global.h	/^   WORD               wYOffset;$/;"	m	struct:tagMAGIC
+wYPosOffset	include/global.h	/^   WORD        wYPosOffset;$/;"	m	struct:tagENEMY
+weight	src/misc/yj1.c	/^   unsigned int    weight;$/;"	m	struct:_TreeNode	file:
+weight	src/misc/yj1.c	/^   unsigned short      weight;$/;"	m	struct:_TreeNode	file:
+x	include/global.h	/^      WORD      x;$/;"	m	struct:tagENEMYPOS::__anon7
+x	include/global.h	/^   SHORT            x, y;                \/\/ position$/;"	m	struct:tagPARTY
+x	include/global.h	/^   WORD             x, y;          \/\/ position$/;"	m	struct:tagTRAIL
+x	include/global.h	/^   WORD         x;                   \/\/ X coordinate on the map$/;"	m	struct:tagEVENTOBJECT
+x	include/hal.h	/^	int16_t x, y;$/;"	m	struct:__anon1
+y	include/global.h	/^      WORD      y;$/;"	m	struct:tagENEMYPOS::__anon7
+y	include/global.h	/^   SHORT            x, y;                \/\/ position$/;"	m	struct:tagPARTY
+y	include/global.h	/^   WORD             x, y;          \/\/ position$/;"	m	struct:tagTRAIL
+y	include/global.h	/^   WORD         y;                   \/\/ Y coordinate on the map$/;"	m	struct:tagEVENTOBJECT
+y	include/hal.h	/^	int16_t x, y;$/;"	m	struct:__anon1
