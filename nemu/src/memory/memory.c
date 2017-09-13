@@ -1,5 +1,6 @@
 #include "nemu.h"
 #include "device/mmio.h"
+#include "memory/mmu.h"
 
 #define PMEM_SIZE (128 * 1024 * 1024)
 
@@ -28,10 +29,48 @@ void paddr_write(paddr_t addr, int len, uint32_t data) {
     memcpy(guest_to_host(addr), &data, len);
 }
 
+paddr_t page_translate(vaddr_t addr, bool is_write) {
+  PDE pde, *pgdir;
+  PTE pte, *pgtab;
+  paddr_t paddr = addr;
+
+  if (cpu.cr0.paging) {
+    pgdir = (PDE *)(intptr_t)(cpu.cr3.page_directory_base << 12);
+    pde.val = paddr_read((intptr_t)&pgdir[(addr >> 22) & 0x3ff], 4);
+    assert(pde.present);
+    pde.accessed = 1;
+
+    pgtab = (PTE *)(intptr_t)(pde.page_frame << 12);
+    pte.val = paddr_read((intptr_t)&pgtab[(addr >> 12) & 0x3ff], 4);
+    assert(pte.present);
+    pte.accessed = 1;
+    pte.dirty = is_write ? 1 : pte.dirty;
+
+    paddr = (pte.page_frame << 12) | (addr & 0x3ff);
+  }
+
+  return paddr;
+}
+
+#define CROSS_PAGE(addr) \
+  ((((addr) + len) & PAGE_MASK) != ((addr) & PAGE_MASK))
+
 uint32_t vaddr_read(vaddr_t addr, int len) {
-  return paddr_read(addr, len);
+  if (CROSS_PAGE(addr)) {
+    /* data cross the page boundary */
+    assert(0);
+  } else {
+    paddr_t paddr = page_translate(addr, false);
+    return paddr_read(paddr, len);
+  }
 }
 
 void vaddr_write(vaddr_t addr, int len, uint32_t data) {
-  paddr_write(addr, len, data);
+  if (CROSS_PAGE(addr)) {
+    /* data cross the page boundary */
+    assert(0);
+  } else {
+    paddr_t paddr = page_translate(addr, true);
+    paddr_write(paddr, len, data);
+  }
 }
