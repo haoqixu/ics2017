@@ -60,7 +60,6 @@ uint32_t vaddr_read(vaddr_t addr, int len) {
 
   if (CROSS_PAGE(addr)) {
     /* data cross the page boundary */
-    Log("vaddr_read cross page boundary: 0x%x len:%d", addr, len);
     union {
       uint8_t bytes[4];
       uint32_t dword;
