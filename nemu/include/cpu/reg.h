@@ -57,14 +57,8 @@ typedef struct {
   } idtr;
   uint16_t cs;
 
-  union {
-    rtlreg_t cr[4];
-    struct {
-      CR0 cr0;
-      rtlreg_t cr1, cr2;
-      CR3 cr3;
-    };
-  };
+  CR0 cr0;
+  CR3 cr3;
 
   vaddr_t eip;
 
