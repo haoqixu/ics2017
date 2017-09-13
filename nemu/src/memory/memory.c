@@ -56,6 +56,9 @@ paddr_t page_translate(vaddr_t addr, bool is_write) {
   ((((addr) + len - 1) & ~PAGE_MASK) != ((addr) & ~PAGE_MASK))
 
 uint32_t vaddr_read(vaddr_t addr, int len) {
+
+  Log("vaddr_read: 0x%x len:%d", addr, len);
+
   if (CROSS_PAGE(addr)) {
     /* data cross the page boundary */
     assert(0);
