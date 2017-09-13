@@ -35,12 +35,12 @@ paddr_t page_translate(vaddr_t addr, bool is_write) {
   paddr_t paddr = addr;
 
   if (cpu.cr0.protect_enable && cpu.cr0.paging) {
-    pgdir = (PDE *)(intptr_t)(cpu.cr3.page_directory_base << 12);
+    pgdir = (PDE *)(intptr_t)(cpu.cr3.val & ~0x3ff);
     pde.val = paddr_read((intptr_t)&pgdir[(addr >> 22) & 0x3ff], 4);
     assert(pde.present);
     pde.accessed = 1;
 
-    pgtab = (PTE *)(intptr_t)(pde.page_frame << 12);
+    pgtab = (PTE *)(intptr_t)(pde.val & ~0x3ff);
     pte.val = paddr_read((intptr_t)&pgtab[(addr >> 12) & 0x3ff], 4);
     assert(pte.present);
     pte.accessed = 1;
