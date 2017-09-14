@@ -49,8 +49,6 @@ paddr_t page_translate(vaddr_t addr, bool is_write) {
     paddr = (pte.page_frame << 12) | (addr & PAGE_MASK);
   }
 
-  Log("page_translate: va:0x%x, pa:0x%x", addr, paddr);
-
   return paddr;
 }
 
