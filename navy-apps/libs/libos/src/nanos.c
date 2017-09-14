@@ -34,13 +34,13 @@ void *_sbrk(intptr_t increment){
   static void *prog_brk = (void *)&_end;
   void *old;
 
-  if (_syscall_(SYS_brk, 0, 0, 0) == 0) {
-    old = prog_brk;
-    prog_brk += increment;
+
+  old = prog_brk;
+  prog_brk += increment;
+  if (_syscall_(SYS_brk, (intptr_t)prog_brk, 0, 0) == 0) {
     return (void *)old;
-  } else {
-    return (void *)-1;
   }
+  assert(0);
 }
 
 int _read(int fd, void *buf, size_t count) {
