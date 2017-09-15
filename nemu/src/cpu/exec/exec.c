@@ -246,11 +246,11 @@ void exec_wrapper(bool print_flag) {
   uint32_t eip = cpu.eip;
 #endif
   
-  #define TIMER_IRQ 32
+  #define TIMER_IRQ 0x20
   extern void raise_intr(uint8_t NO, vaddr_t ret_addr);
   if (cpu.INTR && cpu.IF) {
     cpu.INTR = false;
-    raise_intr(TIMER_IRQ, cpu.eip);
+    raise_intr(TIMER_IRQ, decoding.seq_eip);
   }
   update_eip();
 

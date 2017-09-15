@@ -22,7 +22,7 @@ void raise_intr(uint8_t NO, vaddr_t ret_addr) {
   rtl_push(&cpu.eflags);
   t0 = cpu.cs;
   rtl_push(&t0);
-  rtl_push(&decoding.seq_eip);
+  rtl_push(&ret_addr);
 
   cpu.IF = 0;
   Log("raise_intr: 0x%x", NO);
