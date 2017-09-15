@@ -31,11 +31,10 @@ _RegSet* schedule(_RegSet *prev) {
 	current->tf = prev;
 
 	// always select pcb[0] as the new process
-	current = &pcb[0];
+  current = (current == &pcb[0] ? &pcb[1] : &pcb[0]);
 
 	// TODO: switch to the new address space,
 	// then return the new context
   _switch(&current->as);
-  Log("schedule: 0x%x", current->tf->eip);
   return current->tf;
 }
