@@ -1,4 +1,5 @@
 #include <x86.h>
+#include <arch.h>
 
 #define PG_ALIGN __attribute((aligned(PGSIZE)))
 
@@ -86,5 +87,17 @@ void _unmap(_Protect *p, void *va) {
 }
 
 _RegSet *_umake(_Protect *p, _Area ustack, _Area kstack, void *entry, char *const argv[], char *const envp[]) {
-  return NULL;
+  struct { _RegSet *tf; } *pcb = ustack.start;
+
+  uint32_t *stack = (uint32_t *)(ustack.end - 4);
+
+  // stack frame of _start()
+  for (int i = 0; i < 3; i++)
+    *stack-- = 0;
+
+  pcb->tf = (void *)(stack - sizeof(_RegSet));
+  pcb->tf->cs = 8;
+  pcb->tf->eip = (uintptr_t)entry;
+
+  return pcb->tf;
 }
