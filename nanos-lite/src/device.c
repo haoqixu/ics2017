@@ -18,6 +18,9 @@ size_t events_read(void *buf, size_t len) {
   } else if (key_code & 0x8000) {
     key_code ^= 0x8000;
     snprintf(buf, len, "kd %s\n", keyname[key_code]);
+    extern void switch_game();
+    if (key_code == _KEY_F12)
+      switch_game();
   } else {
     snprintf(buf, len, "ku %s\n", keyname[key_code]);
   }
