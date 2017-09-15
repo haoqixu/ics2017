@@ -25,7 +25,6 @@ void raise_intr(uint8_t NO, vaddr_t ret_addr) {
   rtl_push(&ret_addr);
 
   cpu.IF = 0;
-  Log("raise_intr: 0x%x", NO);
 }
 
 void dev_raise_intr() {
