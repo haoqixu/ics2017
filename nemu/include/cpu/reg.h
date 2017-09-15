@@ -51,6 +51,8 @@ typedef struct {
     rtlreg_t eflags;
   };
 
+  bool INTR;
+
   struct {
     uint16_t limit;
     uint32_t base;
