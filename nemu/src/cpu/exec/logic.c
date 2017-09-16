@@ -81,7 +81,6 @@ make_EHelper(shrd) {
 
   rtl_or(&t0, &t0, &t2);
   operand_write(id_dest, &t0);
-  Log("shrd 0x%08x = 0x%08x 0x%08x %d", t0, id_dest->val, id_src2->val, id_src->val);
 
   // unnecessary to update CF and OF in NEMU
   rtl_update_ZFSF(&t0, id_dest->width);
@@ -101,8 +100,6 @@ make_EHelper(shld) {
 
   rtl_or(&t0, &t0, &t2);
   operand_write(id_dest, &t0);
-
-  Log("shld 0x%08x = 0x%08x 0x%08x %d", t0, id_dest->val, id_src2->val, id_src->val);
 
   // unnecessary to update CF and OF in NEMU
   rtl_update_ZFSF(&t0, id_dest->width);
