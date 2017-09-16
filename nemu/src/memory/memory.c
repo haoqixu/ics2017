@@ -37,7 +37,7 @@ paddr_t page_translate(vaddr_t addr, bool is_write) {
   if (cpu.cr0.protect_enable && cpu.cr0.paging) {
     pgdir = (PDE *)(intptr_t)(cpu.cr3.page_directory_base << 12);
     pde.val = paddr_read((intptr_t)&pgdir[(addr >> 22) & 0x3ff], 4);
-    Assert(pde.present, "Page dir not valid: va 0x%x", addr);
+    Assert(pde.present, "Page dir not valid: va 0x%x eip: 0x%x", addr, cpu.eip);
     pde.accessed = 1;
 
     pgtab = (PTE *)(intptr_t)(pde.page_frame << 12);
