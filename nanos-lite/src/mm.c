@@ -26,6 +26,7 @@ int mm_brk(uint32_t new_brk) {
       for (va = (current->max_brk+0xfff) & ~0xfff; va < new_brk; va += PGSIZE) {
         pa = (uintptr_t)new_page();
         _map(&current->as, (void *)va, (void *)pa);
+        Log("mm_brk map: va 0x%x pa 0x%x", va, pa);
       }
 
       current->max_brk = va;

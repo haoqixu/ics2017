@@ -66,6 +66,7 @@ ssize_t fs_write(int fd, uint8_t *buf, size_t len) {
 int fs_open(const char *pathname, int flags, int mode) {
   (void)flags; (void)mode; /* UNUSED */
   int fd;
+  Log("fs_open: %s", pathname);
   for (fd = 0; fd < NR_FILES; fd++)
     if (strcmp(pathname, file_table[fd].name) == 0)
       break;

@@ -20,6 +20,7 @@ uintptr_t loader(_Protect *as, const char *filename) {
   for (va = DEFAULT_ENTRY; va < end; va += PGSIZE) {
     pa = new_page();
     _map(as, va, pa);
+    Log("map: va 0x%x pa 0x%x", va, pa);
     fs_read(fd, pa, (end - va) < PGSIZE ? (end - va) : PGSIZE);
   }
 
