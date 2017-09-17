@@ -153,8 +153,38 @@ void difftest_step(uint32_t eip) {
     rtlreg_t qemu_r = r.array[reg];
     rtlreg_t nemu_r = reg_l(reg);
     if (qemu_r != nemu_r) {
-      Log("diff-test: %s differs  qemu: 0x%08x nemu: 0x%08x",
-          regsl[reg], qemu_r, nemu_r);
+#define OP_STR_SIZE 40
+
+typedef struct {
+  uint32_t type;
+  int width;
+  union {
+    uint32_t reg;
+    rtlreg_t addr;
+    uint32_t imm;
+    int32_t simm;
+  };
+  rtlreg_t val;
+  char str[OP_STR_SIZE];
+} Operand;
+
+typedef struct {
+  uint32_t opcode;
+  vaddr_t seq_eip;  // sequential eip
+  bool is_operand_size_16;
+  uint8_t ext_opcode;
+  bool is_jmp;
+  vaddr_t jmp_eip;
+  Operand src, dest, src2;
+#ifdef DEBUG
+  char assembly[80];
+  char asm_buf[128];
+  char *p;
+#endif
+} DecodeInfo;
+      extern DecodeInfo decoding;
+      Log("diff-test: instr: %s %s differs  qemu: 0x%08x nemu: 0x%08x",
+          decoding.asm_buf, regsl[reg], qemu_r, nemu_r);
       //diff = true;
     }
   }
